@@ -1,0 +1,6325 @@
+{
+    "badlands_treasure": {
+        "common": [
+            {
+                "type": "gold_ingot"
+            },
+            {
+                "type": "gold_nugget"
+            },
+            {
+                "type": "raw_copper"
+            },
+            {
+                "type": "rail"
+            },
+            {
+                "type": "repeater"
+            },
+            {
+                "type": "cobweb"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "golden_hoe",
+                "enchantments": [
+                    {
+                        "type": "efficiency",
+                        "min": 1,
+                        "max": 4
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 5,
+                        "max": 10
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "gold_block"
+            },
+            {
+                "type": "copper_block"
+            },
+            {
+                "type": "firework_rocket"
+            }
+        ],
+        "epic": [
+            {
+                "type": "netherite_scrap"
+            },
+            {
+                "type": "gold_block"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "firework_rocket"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "tnt"
+            }
+        ],
+        "legendary": [
+            {
+                "type": "crossbow",
+                "attributes": [
+                    {
+                        "name": "generic.movement_speed",
+                        "type": "multiply_total",
+                        "min": 0.05,
+                        "max": 0.05
+                    },
+                    {
+                        "name": "generic.movement_speed",
+                        "type": "multiply_total",
+                        "min": 0.05,
+                        "max": 0.05
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "piercing",
+                        "min": 5,
+                        "max": 10
+                    },
+                    {
+                        "type": "quick_charge",
+                        "min": 1,
+                        "max": 1
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "multishot",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "splash_potion"
+            },
+            {
+                "type": "firework_rocket"
+            },
+            {
+                "type": "orange_shulker_box"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "diamond_block"
+            },
+            {
+                "type": "gold_block"
+            },
+            {
+                "type": "netherite_scrap"
+            },
+            {
+                "type": "shulker_shell"
+            },
+            {
+                "type": "netherite_hoe",
+                "attributes": [
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 15,
+                        "max": 15
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "sharpness",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 10
+                    },
+                    {
+                        "type": "efficiency",
+                        "min": 0,
+                        "max": 10
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "leather_helmet",
+                "name": "Badlands Helmet",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "Crossbow arrows have a 150% increase",
+                    "in damage and will always do crit damage.",
+                    "Fireworks are silent and go further."
+                ],
+                "unbreakable": true,
+                "attributes": [
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 2,
+                        "max": 6
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 2,
+                        "max": 8
+                    },
+                    {
+                        "type": "blast_protection",
+                        "min": 1,
+                        "max": 3
+                    },
+                    {
+                        "type": "respiration",
+                        "min": 1,
+                        "max": 5
+                    },
+                    {
+                        "type": "aqua_affinity",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "name_tag"
+            },
+            {
+                "type": "book"
+            },
+            {
+                "type": "iron_pickaxe"
+            },
+            {
+                "type": "iron_ingot"
+            },
+            {
+                "type": "gold_ingot"
+            },
+            {
+                "type": "redstone"
+            },
+            {
+                "type": "lapis_lazuli"
+            },
+            {
+                "type": "diamond"
+            },
+            {
+                "type": "coal"
+            },
+            {
+                "type": "bread"
+            },
+            {
+                "type": "glow_berries"
+            },
+            {
+                "type": "melon_seeds"
+            },
+            {
+                "type": "pumpkin_seeds"
+            },
+            {
+                "type": "beetroot_seeds"
+            },
+            {
+                "type": "rail"
+            },
+            {
+                "type": "powered_rail"
+            },
+            {
+                "type": "detector_rail"
+            },
+            {
+                "type": "activator_rail"
+            },
+            {
+                "type": "torch"
+            }
+        ],
+        "rare": [
+            {
+                "type": "bone"
+            },
+            {
+                "type": "tipped_arrow"
+            },
+            {
+                "type": "skeleton_skull"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "tnt"
+            },
+            {
+                "type": "crossbow",
+                "enchantments": [
+                    {
+                        "type": "multishot",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "piercing",
+                        "min": 0,
+                        "max": 4
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "quick_charge",
+                        "min": 0,
+                        "max": 3
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "chest"
+            }
+        ]
+    },
+    "basalt_treasure": {
+        "common": [
+            {
+                "type": "basalt"
+            },
+            {
+                "type": "blackstone"
+            },
+            {
+                "type": "polished_blackstone"
+            },
+            {
+                "type": "chiseled_polished_blackstone"
+            },
+            {
+                "type": "magma_cream"
+            },
+            {
+                "type": "fire_charge"
+            },
+            {
+                "type": "magma_block"
+            },
+            {
+                "type": "porkchop"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "blaze_powder"
+            },
+            {
+                "type": "obsidian"
+            }
+        ],
+        "epic": [
+            {
+                "type": "smooth_basalt"
+            },
+            {
+                "type": "gilded_blackstone"
+            },
+            {
+                "type": "gold_block"
+            },
+            {
+                "type": "chiseled_polished_blackstone"
+            },
+            {
+                "type": "magma_cream"
+            },
+            {
+                "type": "potion"
+            },
+            {
+                "type": "cooked_porkchop"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "goat_horn"
+            },
+            {
+                "type": "obsidian"
+            }
+        ],
+        "legendary": [
+            {
+                "type": "diamond"
+            },
+            {
+                "type": "gold_block"
+            },
+            {
+                "type": "goat_horn"
+            },
+            {
+                "type": "netherite_ingot"
+            },
+            {
+                "type": "bedrock"
+            },
+            {
+                "type": "potion"
+            },
+            {
+                "type": "cooked_porkchop"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "leather_boots",
+                "name": "Basalt Deltas Boots",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "When hit there is a 15% chance to grant ",
+                    "the wearer Resistance II for 2 seconds"
+                ],
+                "unbreakable": true,
+                "attributes": [
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 3,
+                        "max": 5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 3,
+                        "max": 6
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 1,
+                        "max": 3
+                    },
+                    {
+                        "type": "blast_protection",
+                        "min": 10,
+                        "max": 10
+                    }
+                ]
+            }
+        ],
+        "rare": [
+            {
+                "type": "smooth_basalt"
+            },
+            {
+                "type": "blackstone"
+            },
+            {
+                "type": "polished_blackstone"
+            },
+            {
+                "type": "chiseled_polished_blackstone"
+            },
+            {
+                "type": "magma_cream"
+            },
+            {
+                "type": "potion"
+            },
+            {
+                "type": "cooked_porkchop"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "blaze_rod"
+            },
+            {
+                "type": "obsidian"
+            }
+        ]
+    },
+    "dark_forest_treasure": {
+        "legendary": [
+            {
+                "type": "golden_axe",
+                "name": "Barbaric Axe",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "When hitting an enemy there is a",
+                    "25% chance to create an explosion",
+                    "dealing AoE damage."
+                ],
+                "unbreakable": true,
+                "attributes": [
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -4,
+                        "max": -4
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": 0.75,
+                        "max": 1.2
+                    },
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 29,
+                        "max": 37
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "sharpness",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "bane_of_arthropods",
+                        "min": 1,
+                        "max": 3
+                    },
+                    {
+                        "type": "smite",
+                        "min": 1,
+                        "max": 3
+                    },
+                    {
+                        "type": "knockback",
+                        "min": 1,
+                        "max": 2
+                    }
+                ]
+            },
+            {
+                "type": "potion"
+            },
+            {
+                "type": "diamond_block"
+            },
+            {
+                "type": "wither_skeleton_skull"
+            },
+            {
+                "type": "dark_oak_log"
+            },
+            {
+                "type": "totem_of_undying"
+            },
+            {
+                "type": "goat_horn"
+            },
+            {
+                "type": "black_shulker_box"
+            },
+            {
+                "type": "leather_chestplate",
+                "name": "Dark Forest Chestplate",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "Axes deal 25% more damage."
+                ],
+                "unbreakable": true,
+                "attributes": [
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 3,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 8,
+                        "max": 10
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "multiply_base",
+                        "min": -0.15,
+                        "max": -0.15
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "blast_protection",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "fire_protection",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 0,
+                        "max": 3
+                    },
+                    {
+                        "type": "protection",
+                        "min": 2,
+                        "max": 7
+                    }
+                ]
+            }
+        ],
+        "common": [
+            {
+                "type": "dark_oak_log"
+            },
+            {
+                "type": "red_mushroom_block"
+            },
+            {
+                "type": "iron_pickaxe"
+            },
+            {
+                "type": "gold_nugget"
+            },
+            {
+                "type": "brown_mushroom_block"
+            },
+            {
+                "type": "iron_nugget"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "dark_oak_leaves"
+            },
+            {
+                "type": "dark_oak_sapling"
+            },
+            {
+                "type": "item_frame"
+            }
+        ],
+        "epic": [
+            {
+                "type": "potion"
+            },
+            {
+                "type": "ender_pearl"
+            },
+            {
+                "type": "iron_block"
+            },
+            {
+                "type": "golden_carrot"
+            },
+            {
+                "type": "goat_horn"
+            },
+            {
+                "type": "totem_of_undying"
+            }
+        ],
+        "rare": [
+            {
+                "type": "arrow"
+            },
+            {
+                "type": "iron_pickaxe"
+            },
+            {
+                "type": "potion"
+            },
+            {
+                "type": "gold_ingot"
+            },
+            {
+                "type": "emerald"
+            },
+            {
+                "type": "iron_ingot"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "goat_horn"
+            },
+            {
+                "type": "dark_oak_log"
+            },
+            {
+                "type": "item_frame"
+            }
+        ]
+    },
+    "deep_dark_treasure": {
+        "common": [
+            {
+                "type": "echo_shard"
+            },
+            {
+                "type": "gray_wool"
+            },
+            {
+                "type": "candle"
+            },
+            {
+                "type": "sculk_sensor"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "diamond_pickaxe",
+                "enchantments": [
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "efficiency",
+                        "min": 0,
+                        "max": 3
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "sharpness",
+                        "min": 0,
+                        "max": 5
+                    }
+                ]
+            },
+            {
+                "type": "amethyst_shard"
+            },
+            {
+                "type": "sculk"
+            },
+            {
+                "type": "stone_hoe",
+                "attributes": [
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "efficiency",
+                        "min": 0,
+                        "max": 6
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 4
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "sharpness",
+                        "min": 0,
+                        "max": 6
+                    }
+                ]
+            },
+            {
+                "type": "sculk_vein"
+            }
+        ],
+        "epic": [
+            {
+                "type": "reinforced_deepslate"
+            },
+            {
+                "type": "sculk_shrieker"
+            },
+            {
+                "type": "flint_and_steel",
+                "enchantments": [
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 7
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "dried_kelp"
+            },
+            {
+                "type": "deepslate_diamond_ore"
+            },
+            {
+                "type": "sculk_sensor"
+            },
+            {
+                "type": "wither_skeleton_skull"
+            },
+            {
+                "type": "sculk_catalyst"
+            },
+            {
+                "type": "budding_amethyst"
+            },
+            {
+                "type": "soul_lantern"
+            },
+            {
+                "type": "netherite_pickaxe",
+                "attributes": [
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": 1.4,
+                        "max": 1.4
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -4,
+                        "max": -4
+                    },
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 14,
+                        "max": 14
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "efficiency",
+                        "min": 0,
+                        "max": 8
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 8
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "sharpness",
+                        "min": 0,
+                        "max": 8
+                    }
+                ]
+            },
+            {
+                "type": "recovery_compass"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            }
+        ],
+        "legendary": [
+            {
+                "type": "reinforced_deepslate"
+            },
+            {
+                "type": "obsidian"
+            },
+            {
+                "type": "crying_obsidian"
+            },
+            {
+                "type": "sculk_shrieker"
+            },
+            {
+                "type": "flint_and_steel",
+                "enchantments": [
+                    {
+                        "type": "unbreaking",
+                        "min": 3,
+                        "max": 10
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "dried_kelp"
+            },
+            {
+                "type": "diamond_block"
+            },
+            {
+                "type": "lapis_block"
+            },
+            {
+                "type": "sculk_sensor"
+            },
+            {
+                "type": "nether_star"
+            },
+            {
+                "type": "netherite_block"
+            },
+            {
+                "type": "budding_amethyst"
+            },
+            {
+                "type": "netherite_pickaxe",
+                "attributes": [
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": 1.4,
+                        "max": 1.4
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -4,
+                        "max": -4
+                    },
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 21,
+                        "max": 21
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "efficiency",
+                        "min": 4,
+                        "max": 10
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 4,
+                        "max": 10
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "sharpness",
+                        "min": 0,
+                        "max": 8
+                    }
+                ]
+            },
+            {
+                "type": "black_shulker_box"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "leather_leggings",
+                "unbreakable": true,
+                "attributes": [
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 5.5,
+                        "max": 8
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "blast_protection",
+                        "min": 2,
+                        "max": 6
+                    },
+                    {
+                        "type": "swift_sneak",
+                        "min": 3,
+                        "max": 6
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "fire_protection",
+                        "min": 1,
+                        "max": 10
+                    }
+                ]
+            },
+            {
+                "type": "netherite_axe",
+                "unbreakable": true,
+                "attributes": [
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -4,
+                        "max": -4
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": 0.75,
+                        "max": 1.2
+                    },
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 29,
+                        "max": 37
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "sharpness",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "efficiency",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "looting",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "knockback",
+                        "min": 1,
+                        "max": 2
+                    }
+                ]
+            }
+        ],
+        "rare": [
+            {
+                "type": "echo_shard"
+            },
+            {
+                "type": "sculk_shrieker"
+            },
+            {
+                "type": "flint_and_steel"
+            },
+            {
+                "type": "deepslate_diamond_ore"
+            },
+            {
+                "type": "sculk_sensor"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "sculk_catalyst"
+            },
+            {
+                "type": "amethyst_cluster"
+            },
+            {
+                "type": "soul_lantern"
+            },
+            {
+                "type": "netherite_pickaxe",
+                "attributes": [
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": 1.2,
+                        "max": 1.2
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -4,
+                        "max": -4
+                    },
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 8,
+                        "max": 8
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "efficiency",
+                        "min": 0,
+                        "max": 6
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 4
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "sharpness",
+                        "min": 0,
+                        "max": 6
+                    }
+                ]
+            },
+            {
+                "type": "recovery_compass"
+            },
+            {
+                "type": "golden_apple"
+            }
+        ]
+    },
+    "default_treasure": {
+        "common": [
+            {
+                "type": "bread"
+            },
+            {
+                "type": "string"
+            },
+            {
+                "type": "oak_planks"
+            },
+            {
+                "type": "iron_nugget"
+            },
+            {
+                "type": "coal"
+            },
+            {
+                "type": "gold_nugget"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "leather_helmet"
+            },
+            {
+                "type": "leather_chestplate"
+            },
+            {
+                "type": "leather_leggings"
+            },
+            {
+                "type": "leather_boots"
+            },
+            {
+                "type": "wooden_pickaxe"
+            },
+            {
+                "type": "ender_pearl"
+            }
+        ],
+        "epic": [
+            {
+                "type": "diamond"
+            },
+            {
+                "type": "gold_block"
+            },
+            {
+                "type": "iron_block"
+            },
+            {
+                "type": "lapis_block"
+            },
+            {
+                "type": "coal_block"
+            },
+            {
+                "type": "diamond_shovel"
+            },
+            {
+                "type": "diamond_pickaxe"
+            },
+            {
+                "type": "diamond_axe"
+            },
+            {
+                "type": "tnt"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "diamond_helmet"
+            },
+            {
+                "type": "diamond_chestplate"
+            },
+            {
+                "type": "diamond_leggings"
+            },
+            {
+                "type": "diamond_boots"
+            },
+            {
+                "type": "shulker_shell"
+            }
+        ],
+        "legendary": [
+            {
+                "type": "diamond_block"
+            },
+            {
+                "type": "gold_block"
+            },
+            {
+                "type": "iron_block"
+            },
+            {
+                "type": "netherite_ingot"
+            },
+            {
+                "type": "ender_pearl"
+            },
+            {
+                "type": "end_crystal"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "shulker_shell"
+            },
+            {
+                "type": "netherite_sword",
+                "attributes": [
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -2.5,
+                        "max": -1
+                    },
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 19,
+                        "max": 29
+                    }
+                ]
+            },
+            {
+                "type": "netherite_boots",
+                "name": "Refined Netherite Boots",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "When a full set of Refined Netherite",
+                    "Armor is worn, the user gains permanent",
+                    "Resistance I and 25% more health."
+                ],
+                "attributes": [
+                    {
+                        "name": "generic.knockback_resistance",
+                        "type": "addition",
+                        "min": 0.1,
+                        "max": 0.1
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 4.5
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 4.5
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 1,
+                        "max": 10
+                    }
+                ]
+            },
+            {
+                "type": "netherite_chestplate",
+                "name": "Refined Netherite Chestplate",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "When a full set of Refined Netherite",
+                    "Armor is worn, the user gains permanent",
+                    "Resistance I and 25% more health."
+                ],
+                "attributes": [
+                    {
+                        "name": "generic.knockback_resistance",
+                        "type": "addition",
+                        "min": 0.1,
+                        "max": 0.1
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 4.5
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 7.5,
+                        "max": 9.5
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 1,
+                        "max": 10
+                    }
+                ]
+            },
+            {
+                "type": "netherite_helmet",
+                "name": "Refined Netherite Helmet",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "When a full set of Refined Netherite",
+                    "Armor is worn, the user gains permanent",
+                    "Resistance I and 25% more health."
+                ],
+                "attributes": [
+                    {
+                        "name": "generic.knockback_resistance",
+                        "type": "addition",
+                        "min": 0.1,
+                        "max": 0.1
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 4.5
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 4.5
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 1,
+                        "max": 10
+                    }
+                ]
+            },
+            {
+                "type": "netherite_leggings",
+                "name": "Refined Netherite Leggings",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "When a full set of Refined Netherite",
+                    "Armor is worn, the user gains permanent",
+                    "Resistance I and 25% more health."
+                ],
+                "attributes": [
+                    {
+                        "name": "generic.knockback_resistance",
+                        "type": "addition",
+                        "min": 0.1,
+                        "max": 0.1
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 4.5
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 5.5,
+                        "max": 7.5
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 1,
+                        "max": 10
+                    }
+                ]
+            }
+        ],
+        "rare": [
+            {
+                "type": "gold_ingot"
+            },
+            {
+                "type": "coal"
+            },
+            {
+                "type": "iron_ingot"
+            },
+            {
+                "type": "emerald"
+            },
+            {
+                "type": "cobweb"
+            },
+            {
+                "type": "redstone"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "iron_helmet"
+            },
+            {
+                "type": "iron_chestplate"
+            },
+            {
+                "type": "iron_leggings"
+            },
+            {
+                "type": "iron_boots"
+            },
+            {
+                "type": "diamond"
+            },
+            {
+                "type": "iron_axe"
+            },
+            {
+                "type": "iron_pickaxe"
+            }
+        ]
+    },
+    "desert_treasure": {
+        "legendary": [
+            {
+                "type": "golden_sword",
+                "name": "Assassin's Blade",
+                "lore": [
+                    "",
+                    "Ability:",
+                    "Early strikes deal 75% more damage",
+                    "for 5 seconds. Cooldown of 25 seconds."
+                ],
+                "unbreakable": true,
+                "attributes": [
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -2.25,
+                        "max": -0.75
+                    },
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 20,
+                        "max": 30
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "sharpness",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "bane_of_arthropods",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "smite",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "looting",
+                        "min": 1,
+                        "max": 10
+                    }
+                ]
+            },
+            {
+                "type": "tnt"
+            },
+            {
+                "type": "yellow_shulker_box"
+            },
+            {
+                "type": "diamond"
+            },
+            {
+                "type": "chest"
+            },
+            {
+                "type": "golden_carrot"
+            },
+            {
+                "type": "golden_boots",
+                "enchantments": [
+                    {
+                        "type": "fire_protection",
+                        "min": 0,
+                        "max": 20
+                    }
+                ]
+            },
+            {
+                "type": "golden_leggings",
+                "enchantments": [
+                    {
+                        "type": "blast_protection",
+                        "min": 0,
+                        "max": 20
+                    }
+                ]
+            },
+            {
+                "type": "golden_chestplate",
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 0,
+                        "max": 20
+                    }
+                ]
+            },
+            {
+                "type": "totem_of_undying",
+                "attributes": [
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "multiply_total",
+                        "min": 0.075,
+                        "max": 0.075
+                    }
+                ]
+            },
+            {
+                "type": "golden_helmet",
+                "enchantments": [
+                    {
+                        "type": "projectile_protection",
+                        "min": 0,
+                        "max": 20
+                    }
+                ]
+            },
+            {
+                "type": "leather_chestplate",
+                "name": "Desert Chestplate",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "Wearer gains 4 health after killing a mob.",
+                    "Gains additional 4 health and Strength II",
+                    "for 10 seconds after a player kill."
+                ],
+                "unbreakable": true,
+                "attributes": [
+                    {
+                        "name": "generic.knockback_resistance",
+                        "type": "addition",
+                        "min": 0.1,
+                        "max": 0.1
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "multiply_base",
+                        "min": 0.1,
+                        "max": 0.1
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 3,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 7,
+                        "max": 10
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 2,
+                        "max": 6
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 3,
+                        "max": 9
+                    },
+                    {
+                        "type": "blast_protection",
+                        "min": 5,
+                        "max": 10
+                    },
+                    {
+                        "type": "fire_protection",
+                        "min": 1,
+                        "max": 10
+                    }
+                ]
+            },
+            {
+                "type": "gold_ingot"
+            },
+            {
+                "type": "emerald"
+            },
+            {
+                "type": "bone"
+            },
+            {
+                "type": "rotten_flesh"
+            },
+            {
+                "type": "iron_horse_armor"
+            },
+            {
+                "type": "golden_horse_armor"
+            },
+            {
+                "type": "diamond_horse_armor"
+            },
+            {
+                "type": "book"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "string"
+            },
+            {
+                "type": "sand"
+            }
+        ],
+        "common": [
+            {
+                "type": "sand"
+            },
+            {
+                "type": "gold_nugget"
+            },
+            {
+                "type": "raw_iron"
+            },
+            {
+                "type": "cactus"
+            },
+            {
+                "type": "rotten_flesh"
+            },
+            {
+                "type": "bone"
+            },
+            {
+                "type": "string"
+            },
+            {
+                "type": "dried_kelp"
+            },
+            {
+                "type": "cobweb"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "golden_shovel",
+                "enchantments": [
+                    {
+                        "type": "efficiency",
+                        "min": 1,
+                        "max": 4
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 5,
+                        "max": 10
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "emerald_block"
+            },
+            {
+                "type": "diamond_block"
+            },
+            {
+                "type": "glass"
+            }
+        ],
+        "epic": [
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "tnt"
+            },
+            {
+                "type": "diamond"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "chest"
+            },
+            {
+                "type": "tinted_glass"
+            },
+            {
+                "type": "golden_carrot"
+            },
+            {
+                "type": "cobweb"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "emerald_block"
+            },
+            {
+                "type": "diamond_block"
+            },
+            {
+                "type": "golden_boots",
+                "enchantments": [
+                    {
+                        "type": "fire_protection",
+                        "min": 0,
+                        "max": 20
+                    }
+                ]
+            },
+            {
+                "type": "golden_leggings",
+                "enchantments": [
+                    {
+                        "type": "blast_protection",
+                        "min": 0,
+                        "max": 20
+                    }
+                ]
+            },
+            {
+                "type": "golden_chestplate",
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 0,
+                        "max": 20
+                    }
+                ]
+            },
+            {
+                "type": "totem_of_undying",
+                "attributes": [
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "multiply_total",
+                        "min": 0.075,
+                        "max": 0.075
+                    }
+                ]
+            },
+            {
+                "type": "golden_helmet",
+                "enchantments": [
+                    {
+                        "type": "projectile_protection",
+                        "min": 0,
+                        "max": 20
+                    }
+                ]
+            }
+        ],
+        "rare": [
+            {
+                "type": "orange_stained_glass"
+            },
+            {
+                "type": "blue_stained_glass"
+            },
+            {
+                "type": "light_blue_stained_glass"
+            },
+            {
+                "type": "green_stained_glass"
+            },
+            {
+                "type": "lime_stained_glass"
+            },
+            {
+                "type": "red_stained_glass"
+            },
+            {
+                "type": "black_stained_glass"
+            },
+            {
+                "type": "magenta_stained_glass"
+            },
+            {
+                "type": "brown_stained_glass"
+            },
+            {
+                "type": "cyan_stained_glass"
+            },
+            {
+                "type": "gray_stained_glass"
+            },
+            {
+                "type": "light_gray_stained_glass"
+            },
+            {
+                "type": "lava_bucket"
+            }
+        ]
+    },
+    "dripstone_treasure": {
+        "common": [
+            {
+                "type": "pointed_dripstone"
+            },
+            {
+                "type": "dripstone_block"
+            },
+            {
+                "type": "stone"
+            },
+            {
+                "type": "raw_copper"
+            },
+            {
+                "type": "water_bucket"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "iron_chestplate"
+            },
+            {
+                "type": "iron_boots"
+            },
+            {
+                "type": "iron_sword"
+            },
+            {
+                "type": "iron_shovel"
+            },
+            {
+                "type": "deepslate"
+            },
+            {
+                "type": "netherite_ingot"
+            }
+        ],
+        "epic": [
+            {
+                "type": "firework_star"
+            },
+            {
+                "type": "oxidized_copper"
+            },
+            {
+                "type": "copper_block"
+            },
+            {
+                "type": "diamond_block"
+            },
+            {
+                "type": "leather_boots"
+            },
+            {
+                "type": "diamond_chestplate"
+            },
+            {
+                "type": "diamond_boots"
+            },
+            {
+                "type": "diamond_sword"
+            },
+            {
+                "type": "diamond_shovel"
+            },
+            {
+                "type": "nautilus_shell"
+            },
+            {
+                "type": "pointed_dripstone"
+            },
+            {
+                "type": "netherite_scrap"
+            }
+        ],
+        "legendary": [
+            {
+                "type": "pointed_dripstone"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "gold_block"
+            },
+            {
+                "type": "copper_block"
+            },
+            {
+                "type": "diamond"
+            },
+            {
+                "type": "netherite_scrap"
+            },
+            {
+                "type": "leather_boots"
+            },
+            {
+                "type": "iron_block"
+            },
+            {
+                "type": "stone_pickaxe",
+                "enchantments": [
+                    {
+                        "type": "efficiency",
+                        "min": 7,
+                        "max": 9
+                    }
+                ]
+            },
+            {
+                "type": "netherite_ingot"
+            },
+            {
+                "type": "leather_helmet",
+                "attributes": [
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 2,
+                        "max": 6
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "aqua_affinity",
+                        "min": 1,
+                        "max": 1
+                    },
+                    {
+                        "type": "respiration",
+                        "min": 1,
+                        "max": 10
+                    }
+                ]
+            }
+        ],
+        "rare": [
+            {
+                "type": "pointed_dripstone"
+            },
+            {
+                "type": "dripstone_block"
+            },
+            {
+                "type": "gold_ingot"
+            },
+            {
+                "type": "diamond"
+            },
+            {
+                "type": "water_bucket"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "iron_chestplate"
+            },
+            {
+                "type": "iron_boots"
+            },
+            {
+                "type": "iron_sword"
+            },
+            {
+                "type": "iron_shovel"
+            },
+            {
+                "type": "lightning_rod"
+            },
+            {
+                "type": "spyglass"
+            }
+        ]
+    },
+    "end_treasure": {
+        "common": [
+            {
+                "type": "end_stone"
+            },
+            {
+                "type": "goat_horn"
+            },
+            {
+                "type": "chorus_fruit"
+            },
+            {
+                "type": "end_rod"
+            },
+            {
+                "type": "shulker_shell"
+            },
+            {
+                "type": "dragon_breath"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "ender_pearl"
+            },
+            {
+                "type": "phantom_membrane"
+            }
+        ],
+        "epic": [
+            {
+                "type": "netherite_scrap"
+            },
+            {
+                "type": "goat_horn"
+            },
+            {
+                "type": "chorus_fruit",
+                "name": "Enchanted Chorus Fruit"
+            },
+            {
+                "type": "shulker_shell"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "ender_pearl"
+            },
+            {
+                "type": "ender_chest"
+            },
+            {
+                "type": "elytra",
+                "enchantments": [
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 3,
+                        "max": 7
+                    }
+                ]
+            },
+            {
+                "type": "firework_rocket"
+            }
+        ],
+        "legendary": [
+            {
+                "type": "firework_rocket",
+                "name": "Ultimate Flight Rocket"
+            },
+            {
+                "type": "netherite_ingot"
+            },
+            {
+                "type": "chorus_fruit",
+                "name": "Enchanted Chorus Fruit"
+            },
+            {
+                "type": "shulker_box"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "ender_chest"
+            },
+            {
+                "type": "goat_horn"
+            },
+            {
+                "type": "elytra"
+            },
+            {
+                "type": "leather_boots",
+                "attributes": [
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.knockback_resistance",
+                        "type": "addition",
+                        "min": 0.05,
+                        "max": 0.05
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 1,
+                        "max": 5
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 2,
+                        "max": 10
+                    },
+                    {
+                        "type": "blast_protection",
+                        "min": 1,
+                        "max": 4
+                    },
+                    {
+                        "type": "frost_walker",
+                        "min": 0,
+                        "max": 2
+                    },
+                    {
+                        "type": "feather_falling",
+                        "min": 1,
+                        "max": 7
+                    }
+                ]
+            }
+        ],
+        "rare": [
+            {
+                "type": "end_stone_bricks"
+            },
+            {
+                "type": "goat_horn"
+            },
+            {
+                "type": "chorus_fruit"
+            },
+            {
+                "type": "end_crystal"
+            },
+            {
+                "type": "shulker_shell"
+            },
+            {
+                "type": "dragon_breath"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "ender_pearl"
+            },
+            {
+                "type": "phantom_membrane"
+            },
+            {
+                "type": "elytra",
+                "enchantments": [
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 4
+                    }
+                ]
+            },
+            {
+                "type": "firework_rocket"
+            }
+        ]
+    },
+    "flower_treasure": {
+        "common": [
+            {
+                "type": "tall_grass"
+            },
+            {
+                "type": "poppy"
+            },
+            {
+                "type": "dandelion"
+            },
+            {
+                "type": "red_tulip"
+            },
+            {
+                "type": "orange_tulip"
+            },
+            {
+                "type": "white_tulip"
+            },
+            {
+                "type": "pink_tulip"
+            },
+            {
+                "type": "beetroot"
+            },
+            {
+                "type": "honey_bottle"
+            },
+            {
+                "type": "hanging_roots"
+            },
+            {
+                "type": "wooden_hoe",
+                "attributes": [
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 2,
+                        "max": 2
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "sharpness",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 3
+                    },
+                    {
+                        "type": "efficiency",
+                        "min": 0,
+                        "max": 6
+                    }
+                ]
+            },
+            {
+                "type": "dirt"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "suspicious_stew"
+            }
+        ],
+        "epic": [
+            {
+                "type": "wither_rose"
+            },
+            {
+                "type": "chorus_flower"
+            },
+            {
+                "type": "pumpkin_pie"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "chorus_fruit"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "iron_axe",
+                "attributes": [
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": 1,
+                        "max": 1
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -4,
+                        "max": -4
+                    },
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 15,
+                        "max": 15
+                    }
+                ]
+            },
+            {
+                "type": "iron_shovel",
+                "attributes": [
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": 1.2,
+                        "max": 1.2
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -4,
+                        "max": -4
+                    },
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 11,
+                        "max": 11
+                    }
+                ]
+            },
+            {
+                "type": "iron_hoe",
+                "attributes": [
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 9,
+                        "max": 9
+                    }
+                ]
+            },
+            {
+                "type": "book"
+            }
+        ],
+        "legendary": [
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "pumpkin_pie"
+            },
+            {
+                "type": "chorus_flower"
+            },
+            {
+                "type": "lime_shulker_box"
+            },
+            {
+                "type": "green_shulker_box"
+            },
+            {
+                "type": "nether_wart"
+            },
+            {
+                "type": "honey_bottle"
+            },
+            {
+                "type": "diamond_axe",
+                "attributes": [
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": 2.6,
+                        "max": 2.6
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -4,
+                        "max": -4
+                    },
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 19,
+                        "max": 19
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "sharpness",
+                        "min": 1,
+                        "max": 10
+                    }
+                ]
+            },
+            {
+                "type": "diamond_shovel",
+                "attributes": [
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": 1.6,
+                        "max": 1.6
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -4,
+                        "max": -4
+                    },
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 14,
+                        "max": 14
+                    }
+                ]
+            },
+            {
+                "type": "diamond_hoe",
+                "attributes": [
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 14,
+                        "max": 14
+                    }
+                ]
+            },
+            {
+                "type": "book"
+            },
+            {
+                "type": "leather_helmet",
+                "name": "Flower Helmet",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "When the wearer falls below",
+                    "8 hearts a flower veil surrounds the player ",
+                    "Granting immunity to every negative effect."
+                ],
+                "unbreakable": true,
+                "attributes": [
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 2,
+                        "max": 6
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 2,
+                        "max": 8
+                    },
+                    {
+                        "type": "blast_protection",
+                        "min": 1,
+                        "max": 3
+                    },
+                    {
+                        "type": "respiration",
+                        "min": 1,
+                        "max": 5
+                    },
+                    {
+                        "type": "aqua_affinity",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            }
+        ],
+        "rare": [
+            {
+                "type": "blue_orchid"
+            },
+            {
+                "type": "allium"
+            },
+            {
+                "type": "azure_bluet"
+            },
+            {
+                "type": "oxeye_daisy"
+            },
+            {
+                "type": "cornflower"
+            },
+            {
+                "type": "lily_of_the_valley"
+            },
+            {
+                "type": "sunflower"
+            },
+            {
+                "type": "lilac"
+            },
+            {
+                "type": "rose_bush"
+            },
+            {
+                "type": "peony"
+            },
+            {
+                "type": "pumpkin_pie"
+            },
+            {
+                "type": "hanging_roots"
+            },
+            {
+                "type": "coarse_dirt"
+            },
+            {
+                "type": "stone_hoe",
+                "attributes": [
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 4,
+                        "max": 4
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "sharpness",
+                        "min": 0,
+                        "max": 6
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "efficiency",
+                        "min": 0,
+                        "max": 10
+                    }
+                ]
+            },
+            {
+                "type": "chorus_fruit"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "book"
+            }
+        ]
+    },
+    "ice_treasure": {
+        "common": [
+            {
+                "type": "packed_ice"
+            },
+            {
+                "type": "ice"
+            },
+            {
+                "type": "snowball"
+            },
+            {
+                "type": "snow_block"
+            },
+            {
+                "type": "light_blue_stained_glass"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "wooden_pickaxe",
+                "enchantments": [
+                    {
+                        "type": "efficiency",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 1,
+                        "max": 4
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "wooden_axe",
+                "enchantments": [
+                    {
+                        "type": "efficiency",
+                        "min": 1,
+                        "max": 7
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 1,
+                        "max": 4
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "blue_ice"
+            },
+            {
+                "type": "diamond_block"
+            },
+            {
+                "type": "tipped_arrow"
+            }
+        ],
+        "epic": [
+            {
+                "type": "lodestone"
+            },
+            {
+                "type": "diamond_boots",
+                "enchantments": [
+                    {
+                        "type": "depth_strider",
+                        "min": 0,
+                        "max": 3
+                    }
+                ]
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "tipped_arrow"
+            },
+            {
+                "type": "dragon_breath"
+            },
+            {
+                "type": "blue_ice"
+            }
+        ],
+        "legendary": [
+            {
+                "type": "bow",
+                "unbreakable": true,
+                "enchantments": [
+                    {
+                        "type": "power",
+                        "min": 14,
+                        "max": 24
+                    },
+                    {
+                        "type": "infinity",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "punch",
+                        "min": 1,
+                        "max": 5
+                    }
+                ]
+            },
+            {
+                "type": "totem_of_undying",
+                "attributes": [
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 1,
+                        "max": 1
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 1,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "blue_ice"
+            },
+            {
+                "type": "light_blue_shulker_box"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "tipped_arrow",
+                "name": "Arrow of Frostbite"
+            },
+            {
+                "type": "leather_boots",
+                "attributes": [
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 3,
+                        "max": 5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 1,
+                        "max": 5
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 2,
+                        "max": 10
+                    },
+                    {
+                        "type": "blast_protection",
+                        "min": 1,
+                        "max": 4
+                    },
+                    {
+                        "type": "frost_walker",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "feather_falling",
+                        "min": 1,
+                        "max": 5
+                    }
+                ]
+            },
+            {
+                "type": "diamond_sword",
+                "attributes": [
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -2.25,
+                        "max": -0.75
+                    },
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 18,
+                        "max": 28
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "sharpness",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "smite",
+                        "min": 1,
+                        "max": 5
+                    },
+                    {
+                        "type": "knockback",
+                        "min": 1,
+                        "max": 3
+                    },
+                    {
+                        "type": "looting",
+                        "min": 1,
+                        "max": 10
+                    }
+                ]
+            }
+        ],
+        "rare": [
+            {
+                "type": "blue_ice"
+            },
+            {
+                "type": "packed_ice"
+            },
+            {
+                "type": "snow_block"
+            },
+            {
+                "type": "cooked_salmon"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "iron_ingot"
+            },
+            {
+                "type": "salmon"
+            },
+            {
+                "type": "flint"
+            },
+            {
+                "type": "campfire"
+            },
+            {
+                "type": "diamond_shovel",
+                "enchantments": [
+                    {
+                        "type": "efficiency",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 1,
+                        "max": 5
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "powder_snow_bucket"
+            },
+            {
+                "type": "lingering_potion"
+            }
+        ]
+    },
+    "jungle_treasure": {
+        "legendary": [
+            {
+                "type": "arrow"
+            },
+            {
+                "type": "netherite_axe",
+                "attributes": [
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": 0.75,
+                        "max": 1.05
+                    },
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 27,
+                        "max": 33
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -4,
+                        "max": -4
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "mending",
+                        "min": 1,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "totem_of_undying",
+                "attributes": [
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 2,
+                        "max": 2
+                    }
+                ]
+            },
+            {
+                "type": "diamond_block"
+            },
+            {
+                "type": "netherite_ingot"
+            },
+            {
+                "type": "sculk_sensor"
+            },
+            {
+                "type": "green_shulker_box"
+            },
+            {
+                "type": "leather_boots",
+                "name": "Jungle Shoes",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "When worn the user gains permanent",
+                    "Jump Boost II. Strength II in jungles. "
+                ],
+                "unbreakable": true,
+                "attributes": [
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.movement_speed",
+                        "type": "multiply_base",
+                        "min": 0.3,
+                        "max": 0.3
+                    },
+                    {
+                        "name": "generic.movement_speed",
+                        "type": "multiply_base",
+                        "min": 0.3,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 1,
+                        "max": 7
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 2,
+                        "max": 10
+                    },
+                    {
+                        "type": "blast_protection",
+                        "min": 1,
+                        "max": 7
+                    },
+                    {
+                        "type": "fire_protection",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "feather_falling",
+                        "min": 1,
+                        "max": 7
+                    },
+                    {
+                        "type": "depth_strider",
+                        "min": 1,
+                        "max": 3
+                    },
+                    {
+                        "type": "soul_speed",
+                        "min": 1,
+                        "max": 3
+                    }
+                ]
+            }
+        ],
+        "common": [
+            {
+                "type": "bamboo"
+            },
+            {
+                "type": "sugar_cane"
+            },
+            {
+                "type": "gold_ingot"
+            },
+            {
+                "type": "melon"
+            },
+            {
+                "type": "cocoa_beans"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "tipped_arrow"
+            },
+            {
+                "type": "stone_axe",
+                "attributes": [
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 10,
+                        "max": 10
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -4,
+                        "max": -4
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": 0.6,
+                        "max": 0.6
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "sharpness",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "efficiency",
+                        "min": 1,
+                        "max": 5
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 1,
+                        "max": 4
+                    }
+                ]
+            },
+            {
+                "type": "jungle_sapling"
+            }
+        ],
+        "epic": [
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "diamond_block"
+            },
+            {
+                "type": "emerald_block"
+            },
+            {
+                "type": "sculk_sensor"
+            },
+            {
+                "type": "turtle_egg"
+            },
+            {
+                "type": "wither_skeleton_skull",
+                "attributes": [
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 3.5,
+                        "max": 3.5
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 3.5,
+                        "max": 3.5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "blast_protection",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "fire_protection",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "protection",
+                        "min": 0,
+                        "max": 5
+                    }
+                ]
+            },
+            {
+                "type": "tipped_arrow",
+                "name": "Poison Arrow"
+            }
+        ],
+        "rare": [
+            {
+                "type": "piston"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "diamond"
+            },
+            {
+                "type": "emerald"
+            },
+            {
+                "type": "dispenser"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "creeper_head",
+                "attributes": [
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 2,
+                        "max": 2
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 1,
+                        "max": 1
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "blast_protection",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "fire_protection",
+                        "min": 0,
+                        "max": 3
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 0,
+                        "max": 3
+                    },
+                    {
+                        "type": "protection",
+                        "min": 0,
+                        "max": 3
+                    }
+                ]
+            },
+            {
+                "type": "skeleton_skull",
+                "attributes": [
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 2,
+                        "max": 2
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 1,
+                        "max": 1
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "blast_protection",
+                        "min": 0,
+                        "max": 3
+                    },
+                    {
+                        "type": "fire_protection",
+                        "min": 0,
+                        "max": 3
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "protection",
+                        "min": 0,
+                        "max": 3
+                    }
+                ]
+            },
+            {
+                "type": "saddle"
+            },
+            {
+                "type": "tipped_arrow",
+                "name": "Poison Arrow"
+            },
+            {
+                "type": "chest"
+            }
+        ]
+    },
+    "lush_caves_treasure": {
+        "common": [
+            {
+                "type": "flowering_azalea"
+            },
+            {
+                "type": "clay"
+            },
+            {
+                "type": "big_dripleaf"
+            },
+            {
+                "type": "water_bucket"
+            },
+            {
+                "type": "glow_berries"
+            },
+            {
+                "type": "cobweb"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "golden_shovel",
+                "enchantments": [
+                    {
+                        "type": "efficiency",
+                        "min": 1,
+                        "max": 4
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 5,
+                        "max": 10
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "flowering_azalea_leaves"
+            },
+            {
+                "type": "spore_blossom"
+            },
+            {
+                "type": "potion"
+            }
+        ],
+        "epic": [
+            {
+                "type": "end_stone"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "bee_nest"
+            },
+            {
+                "type": "shears",
+                "enchantments": [
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 10
+                    },
+                    {
+                        "type": "efficiency",
+                        "min": 0,
+                        "max": 10
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "chorus_fruit"
+            },
+            {
+                "type": "tipped_arrow"
+            },
+            {
+                "type": "chorus_plant"
+            }
+        ],
+        "legendary": [
+            {
+                "type": "potion"
+            },
+            {
+                "type": "lime_shulker_box"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "glow_ink_sac"
+            },
+            {
+                "type": "glow_item_frame"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "tipped_arrow"
+            },
+            {
+                "type": "leather_leggings",
+                "name": "Lush Cave Pants",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "Upon hitting the user enemies have ",
+                    "a 25% chance of being struck by",
+                    "strong thorns dealing a massive",
+                    "18 damage in a 10 blocks radius."
+                ],
+                "unbreakable": true,
+                "attributes": [
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 5.5,
+                        "max": 8
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 1,
+                        "max": 5
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 1,
+                        "max": 5
+                    },
+                    {
+                        "type": "blast_protection",
+                        "min": 1,
+                        "max": 5
+                    },
+                    {
+                        "type": "thorns",
+                        "min": 4,
+                        "max": 10
+                    }
+                ]
+            }
+        ],
+        "rare": [
+            {
+                "type": "honey_bottle"
+            },
+            {
+                "type": "honey_block"
+            },
+            {
+                "type": "suspicious_stew"
+            },
+            {
+                "type": "sweet_berries"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "rose_bush"
+            },
+            {
+                "type": "tipped_arrow"
+            },
+            {
+                "type": "tall_grass"
+            },
+            {
+                "type": "small_dripleaf"
+            },
+            {
+                "type": "vine"
+            }
+        ]
+    },
+    "mountain_treasure": {
+        "legendary": [
+            {
+                "type": "chest"
+            },
+            {
+                "type": "netherite_block"
+            },
+            {
+                "type": "goat_horn"
+            },
+            {
+                "type": "anvil"
+            },
+            {
+                "type": "brown_shulker_box"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "obsidian"
+            },
+            {
+                "type": "emerald_block"
+            },
+            {
+                "type": "diamond_block"
+            },
+            {
+                "type": "gold_block"
+            },
+            {
+                "type": "netherite_ingot"
+            },
+            {
+                "type": "leather_leggings",
+                "unbreakable": true,
+                "attributes": [
+                    {
+                        "name": "generic.knockback_resistance",
+                        "type": "addition",
+                        "min": 0.15,
+                        "max": 0.15
+                    },
+                    {
+                        "name": "generic.movement_speed",
+                        "type": "multiply_total",
+                        "min": -0.125,
+                        "max": -0.125
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 3,
+                        "max": 5.5
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 5.5,
+                        "max": 8
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 3,
+                        "max": 7
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 3,
+                        "max": 7
+                    },
+                    {
+                        "type": "blast_protection",
+                        "min": 3,
+                        "max": 7
+                    },
+                    {
+                        "type": "fire_protection",
+                        "min": 3,
+                        "max": 7
+                    },
+                    {
+                        "type": "feather_falling",
+                        "min": 1,
+                        "max": 3
+                    }
+                ]
+            }
+        ],
+        "common": [
+            {
+                "type": "amethyst_shard"
+            },
+            {
+                "type": "raw_copper"
+            },
+            {
+                "type": "raw_gold"
+            },
+            {
+                "type": "raw_iron"
+            },
+            {
+                "type": "coal"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "iron_helmet"
+            },
+            {
+                "type": "iron_leggings"
+            },
+            {
+                "type": "iron_axe"
+            },
+            {
+                "type": "iron_pickaxe"
+            },
+            {
+                "type": "budding_amethyst"
+            },
+            {
+                "type": "diamond_block"
+            },
+            {
+                "type": "potion"
+            }
+        ],
+        "epic": [
+            {
+                "type": "diamond_block"
+            },
+            {
+                "type": "netherite_pickaxe",
+                "enchantments": [
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "netherite_ingot"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "gold_block"
+            },
+            {
+                "type": "iron_block"
+            },
+            {
+                "type": "copper_block"
+            },
+            {
+                "type": "lapis_block"
+            },
+            {
+                "type": "bundle"
+            }
+        ],
+        "rare": [
+            {
+                "type": "diamond"
+            },
+            {
+                "type": "iron_ingot"
+            },
+            {
+                "type": "tnt_minecart"
+            },
+            {
+                "type": "powered_rail"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "gold_ingot"
+            },
+            {
+                "type": "glow_berries"
+            },
+            {
+                "type": "gunpowder"
+            },
+            {
+                "type": "netherite_scrap"
+            },
+            {
+                "type": "diamond_pickaxe",
+                "enchantments": [
+                    {
+                        "type": "efficiency",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 1,
+                        "max": 5
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "netherite_ingot"
+            },
+            {
+                "type": "potion"
+            }
+        ]
+    },
+    "mushroom_treasure": {
+        "common": [
+            {
+                "type": "brown_mushroom_block"
+            },
+            {
+                "type": "red_mushroom_block"
+            },
+            {
+                "type": "mushroom_stem"
+            },
+            {
+                "type": "suspicious_stew"
+            },
+            {
+                "type": "red_mushroom"
+            },
+            {
+                "type": "brown_mushroom"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "mycelium"
+            },
+            {
+                "type": "shroomlight"
+            }
+        ],
+        "epic": [
+            {
+                "type": "mooshroom_spawn_egg"
+            },
+            {
+                "type": "bone_block"
+            },
+            {
+                "type": "fermented_spider_eye"
+            },
+            {
+                "type": "goat_horn"
+            },
+            {
+                "type": "warped_fungus"
+            },
+            {
+                "type": "suspicious_stew"
+            }
+        ],
+        "legendary": [
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "light_gray_shulker_box"
+            },
+            {
+                "type": "goat_horn"
+            },
+            {
+                "type": "redstone_block"
+            },
+            {
+                "type": "iron_block"
+            },
+            {
+                "type": "warped_fungus_on_a_stick",
+                "enchantments": [
+                    {
+                        "type": "unbreaking",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "fermented_spider_eye"
+            },
+            {
+                "type": "red_mushroom_block"
+            },
+            {
+                "type": "suspicious_stew"
+            },
+            {
+                "type": "leather_boots",
+                "name": "Mushroom Boots",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "During the nighttime in the overworld",
+                    "the wearer receives 50% more health."
+                ],
+                "unbreakable": true,
+                "attributes": [
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2,
+                        "max": 4
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 4.5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 2,
+                        "max": 6
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 2,
+                        "max": 8
+                    },
+                    {
+                        "type": "blast_protection",
+                        "min": 1,
+                        "max": 3
+                    },
+                    {
+                        "type": "feather_falling",
+                        "min": 2,
+                        "max": 7
+                    },
+                    {
+                        "type": "depth_strider",
+                        "min": 0,
+                        "max": 3
+                    }
+                ]
+            },
+            {
+                "type": "shield",
+                "name": "Mushroom Shield",
+                "lore": [
+                    "",
+                    "Ability:",
+                    "Gains Regeneration II for 5 ",
+                    "seconds while blocking damage. "
+                ],
+                "unbreakable": true,
+                "attributes": [
+                    {
+                        "name": "generic.movement_speed",
+                        "type": "multiply_total",
+                        "min": -0.1,
+                        "max": -0.05
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 1,
+                        "max": 2
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 1,
+                        "max": 2
+                    },
+                    {
+                        "name": "generic.movement_speed",
+                        "type": "multiply_total",
+                        "min": -0.1,
+                        "max": -0.05
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 1,
+                        "max": 2
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 1,
+                        "max": 2
+                    }
+                ]
+            }
+        ],
+        "rare": [
+            {
+                "type": "mooshroom_spawn_egg"
+            },
+            {
+                "type": "bone_block"
+            },
+            {
+                "type": "fermented_spider_eye"
+            },
+            {
+                "type": "suspicious_stew"
+            },
+            {
+                "type": "crimson_fungus"
+            },
+            {
+                "type": "warped_fungus"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "iron_axe",
+                "attributes": [
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 9,
+                        "max": 9
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -4,
+                        "max": -4
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": 0.8,
+                        "max": 0.8
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "sharpness",
+                        "min": 1,
+                        "max": 5
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 1,
+                        "max": 5
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "efficiency",
+                        "min": 1,
+                        "max": 5
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "nether_treasure": {
+        "common": [
+            {
+                "type": "quartz"
+            },
+            {
+                "type": "gold_nugget"
+            },
+            {
+                "type": "flint"
+            },
+            {
+                "type": "fire_charge"
+            },
+            {
+                "type": "rotten_flesh"
+            },
+            {
+                "type": "bone"
+            },
+            {
+                "type": "coal"
+            },
+            {
+                "type": "magma_block"
+            },
+            {
+                "type": "porkchop"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "blaze_rod"
+            },
+            {
+                "type": "ghast_tear"
+            },
+            {
+                "type": "magma_cream"
+            }
+        ],
+        "epic": [
+            {
+                "type": "blaze_powder"
+            },
+            {
+                "type": "nether_wart"
+            },
+            {
+                "type": "ghast_tear"
+            },
+            {
+                "type": "respawn_anchor"
+            },
+            {
+                "type": "glowstone"
+            },
+            {
+                "type": "bone_block"
+            },
+            {
+                "type": "ancient_debris"
+            },
+            {
+                "type": "netherite_scrap"
+            },
+            {
+                "type": "magma_cream"
+            },
+            {
+                "type": "wither_skeleton_skull"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "netherite_ingot"
+            },
+            {
+                "type": "nether_star"
+            },
+            {
+                "type": "stone_sword",
+                "attributes": [
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -4,
+                        "max": -4
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": 1.5,
+                        "max": 1.5
+                    },
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 13.5,
+                        "max": 13.5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "sharpness",
+                        "min": 2,
+                        "max": 6
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 2,
+                        "max": 5
+                    }
+                ]
+            },
+            {
+                "type": "potion"
+            }
+        ],
+        "legendary": [
+            {
+                "type": "blaze_powder"
+            },
+            {
+                "type": "nether_star"
+            },
+            {
+                "type": "wither_skeleton_skull"
+            },
+            {
+                "type": "ghast_tear"
+            },
+            {
+                "type": "respawn_anchor"
+            },
+            {
+                "type": "netherite_ingot"
+            },
+            {
+                "type": "netherite_scrap"
+            },
+            {
+                "type": "ender_pearl"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "dragon_egg"
+            },
+            {
+                "type": "potion"
+            },
+            {
+                "type": "leather_chestplate",
+                "attributes": [
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 3,
+                        "max": 5.5
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 7.5,
+                        "max": 10
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 1,
+                        "max": 4
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 1,
+                        "max": 3
+                    },
+                    {
+                        "type": "blast_protection",
+                        "min": 2,
+                        "max": 6
+                    }
+                ]
+            },
+            {
+                "type": "leather_leggings",
+                "name": "Nether Leggings",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "Deals 33% extra melee damage to",
+                    "enemies with the Resistance effect. "
+                ],
+                "unbreakable": true,
+                "attributes": [
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 5.5,
+                        "max": 8
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 1,
+                        "max": 3
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 1,
+                        "max": 3
+                    }
+                ]
+            }
+        ],
+        "rare": [
+            {
+                "type": "blaze_powder"
+            },
+            {
+                "type": "nether_wart"
+            },
+            {
+                "type": "ghast_tear"
+            },
+            {
+                "type": "fire_charge"
+            },
+            {
+                "type": "cooked_porkchop"
+            },
+            {
+                "type": "bone_block"
+            },
+            {
+                "type": "iron_ingot"
+            },
+            {
+                "type": "soul_sand"
+            },
+            {
+                "type": "magma_cream"
+            },
+            {
+                "type": "soul_lantern"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "ancient_debris"
+            },
+            {
+                "type": "wither_skeleton_skull"
+            },
+            {
+                "type": "lava_bucket"
+            }
+        ]
+    },
+    "ocean_treasure": {
+        "common": [
+            {
+                "type": "scute"
+            },
+            {
+                "type": "lapis_lazuli"
+            },
+            {
+                "type": "cod"
+            },
+            {
+                "type": "salmon"
+            },
+            {
+                "type": "coal"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "leather_helmet"
+            },
+            {
+                "type": "leather_leggings"
+            },
+            {
+                "type": "stone_axe"
+            },
+            {
+                "type": "stone_pickaxe"
+            },
+            {
+                "type": "prismarine_shard"
+            },
+            {
+                "type": "diamond_block"
+            }
+        ],
+        "epic": [
+            {
+                "type": "sponge"
+            },
+            {
+                "type": "trident",
+                "enchantments": [
+                    {
+                        "type": "riptide",
+                        "min": 0,
+                        "max": 5
+                    }
+                ]
+            },
+            {
+                "type": "tnt"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "cooked_salmon"
+            },
+            {
+                "type": "cooked_cod"
+            },
+            {
+                "type": "shulker_shell"
+            },
+            {
+                "type": "nautilus_shell"
+            }
+        ],
+        "legendary": [
+            {
+                "type": "fishing_rod",
+                "enchantments": [
+                    {
+                        "type": "luck_of_the_sea",
+                        "min": 1,
+                        "max": 10
+                    }
+                ]
+            },
+            {
+                "type": "splash_potion"
+            },
+            {
+                "type": "shield",
+                "attributes": [
+                    {
+                        "name": "generic.movement_speed",
+                        "type": "multiply_total",
+                        "min": 0.075,
+                        "max": 0.075
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": -1,
+                        "max": -1
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": -1,
+                        "max": -1
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "unbreaking",
+                        "min": 4,
+                        "max": 10
+                    },
+                    {
+                        "type": "mending",
+                        "min": 1,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "blue_shulker_box"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "totem_of_undying"
+            },
+            {
+                "type": "conduit"
+            },
+            {
+                "type": "sponge"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "dark_prismarine"
+            },
+            {
+                "type": "suspicious_stew",
+                "name": "Saturation Stew"
+            },
+            {
+                "type": "leather_chestplate",
+                "unbreakable": true,
+                "attributes": [
+                    {
+                        "name": "generic.knockback_resistance",
+                        "type": "addition",
+                        "min": 0.1,
+                        "max": 0.1
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 3,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 7,
+                        "max": 10
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 3,
+                        "max": 7
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 3,
+                        "max": 7
+                    },
+                    {
+                        "type": "blast_protection",
+                        "min": 3,
+                        "max": 7
+                    },
+                    {
+                        "type": "fire_protection",
+                        "min": 3,
+                        "max": 7
+                    },
+                    {
+                        "type": "feather_falling",
+                        "min": 1,
+                        "max": 3
+                    }
+                ]
+            },
+            {
+                "type": "trident",
+                "attributes": [
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 25,
+                        "max": 35
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -3.2,
+                        "max": -2.4
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "riptide",
+                        "min": 3,
+                        "max": 5
+                    }
+                ]
+            }
+        ],
+        "rare": [
+            {
+                "type": "diamond"
+            },
+            {
+                "type": "iron_ingot"
+            },
+            {
+                "type": "heart_of_the_sea"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "cooked_cod"
+            },
+            {
+                "type": "cooked_salmon"
+            },
+            {
+                "type": "pufferfish"
+            },
+            {
+                "type": "tropical_fish"
+            },
+            {
+                "type": "fishing_rod"
+            },
+            {
+                "type": "turtle_helmet"
+            },
+            {
+                "type": "netherite_ingot"
+            }
+        ]
+    },
+    "savanna_treasure": {
+        "common": [
+            {
+                "type": "tall_grass"
+            },
+            {
+                "type": "acacia_log"
+            },
+            {
+                "type": "acacia_leaves"
+            },
+            {
+                "type": "wheat"
+            },
+            {
+                "type": "stone"
+            },
+            {
+                "type": "apple"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "stone_pickaxe"
+            },
+            {
+                "type": "goat_horn"
+            }
+        ],
+        "epic": [
+            {
+                "type": "golden_carrot"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "carrot_on_a_stick",
+                "enchantments": [
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 10
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "lead"
+            },
+            {
+                "type": "hay_block"
+            },
+            {
+                "type": "goat_horn"
+            },
+            {
+                "type": "gold_block"
+            },
+            {
+                "type": "iron_block"
+            }
+        ],
+        "legendary": [
+            {
+                "type": "golden_carrot"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "goat_horn"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "carrot_on_a_stick"
+            },
+            {
+                "type": "lead"
+            },
+            {
+                "type": "hay_block"
+            },
+            {
+                "type": "pink_shulker_box"
+            },
+            {
+                "type": "golden_horse_armor",
+                "attributes": [
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2,
+                        "max": 4
+                    },
+                    {
+                        "name": "horse.jump_strength",
+                        "type": "multiply_base",
+                        "min": 0.25,
+                        "max": 0.75
+                    },
+                    {
+                        "name": "generic.movement_speed",
+                        "type": "multiply_base",
+                        "min": 0.5,
+                        "max": 1
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 2.25,
+                        "max": 4.5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "feather_falling",
+                        "min": 4,
+                        "max": 7
+                    },
+                    {
+                        "type": "fire_protection",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "protection",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "blast_protection",
+                        "min": 1,
+                        "max": 10
+                    }
+                ]
+            },
+            {
+                "type": "splash_potion"
+            },
+            {
+                "type": "leather_helmet",
+                "attributes": [
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "blast_protection",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "fire_protection",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 3,
+                        "max": 9
+                    },
+                    {
+                        "type": "protection",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "respiration",
+                        "min": 1,
+                        "max": 5
+                    },
+                    {
+                        "type": "aqua_affinity",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            }
+        ],
+        "rare": [
+            {
+                "type": "carrot"
+            },
+            {
+                "type": "golden_carrot"
+            },
+            {
+                "type": "goat_horn"
+            },
+            {
+                "type": "apple"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "dirt_path"
+            },
+            {
+                "type": "gold_ingot"
+            },
+            {
+                "type": "iron_pickaxe"
+            },
+            {
+                "type": "acacia_sapling"
+            },
+            {
+                "type": "hay_block"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "iron_block"
+            },
+            {
+                "type": "gold_block"
+            },
+            {
+                "type": "splash_potion"
+            }
+        ]
+    },
+    "soul_valley_treasure": {
+        "legendary": [
+            {
+                "type": "netherite_hoe",
+                "name": "Scythe of Souls",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "Has a 12.5% chance to regain 4 health",
+                    "upon hitting an enemy."
+                ],
+                "unbreakable": true,
+                "attributes": [
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -4,
+                        "max": -4
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": 2.75,
+                        "max": 3.5
+                    },
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 16.5,
+                        "max": 22
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "sharpness",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "bane_of_arthropods",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "looting",
+                        "min": 10,
+                        "max": 10
+                    }
+                ]
+            },
+            {
+                "type": "ghast_tear"
+            },
+            {
+                "type": "end_crystal"
+            },
+            {
+                "type": "crying_obsidian"
+            },
+            {
+                "type": "obsidian"
+            },
+            {
+                "type": "ender_pearl"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "netherite_ingot"
+            },
+            {
+                "type": "dragon_egg"
+            },
+            {
+                "type": "potion"
+            },
+            {
+                "type": "leather_helmet",
+                "name": "Soul Valley Helmet",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "Gains Resistance II when the",
+                    "wearer has 10 health or below. "
+                ],
+                "unbreakable": true,
+                "attributes": [
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 1,
+                        "max": 5
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "fire_protection",
+                        "min": 1,
+                        "max": 4
+                    },
+                    {
+                        "type": "blast_protection",
+                        "min": 1,
+                        "max": 3
+                    }
+                ]
+            }
+        ],
+        "common": [
+            {
+                "type": "bone"
+            },
+            {
+                "type": "gold_nugget"
+            },
+            {
+                "type": "bone_block"
+            },
+            {
+                "type": "fire_charge"
+            },
+            {
+                "type": "soul_torch"
+            },
+            {
+                "type": "soul_soil"
+            },
+            {
+                "type": "porkchop"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "skeleton_skull"
+            },
+            {
+                "type": "ghast_tear"
+            },
+            {
+                "type": "soul_campfire"
+            }
+        ],
+        "epic": [
+            {
+                "type": "nether_wart_block"
+            },
+            {
+                "type": "nether_wart"
+            },
+            {
+                "type": "ghast_tear"
+            },
+            {
+                "type": "end_crystal"
+            },
+            {
+                "type": "potion"
+            },
+            {
+                "type": "crying_obsidian"
+            },
+            {
+                "type": "ancient_debris"
+            },
+            {
+                "type": "netherite_scrap"
+            },
+            {
+                "type": "magma_cream"
+            },
+            {
+                "type": "wither_skeleton_skull"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "netherite_ingot"
+            },
+            {
+                "type": "nether_star"
+            }
+        ],
+        "rare": [
+            {
+                "type": "bone_block"
+            },
+            {
+                "type": "nether_wart"
+            },
+            {
+                "type": "ghast_tear"
+            },
+            {
+                "type": "skeleton_skull"
+            },
+            {
+                "type": "fire_charge"
+            },
+            {
+                "type": "cooked_porkchop"
+            },
+            {
+                "type": "arrow"
+            },
+            {
+                "type": "gunpowder"
+            },
+            {
+                "type": "soul_sand"
+            },
+            {
+                "type": "soul_soil"
+            },
+            {
+                "type": "soul_campfire"
+            },
+            {
+                "type": "soul_lantern"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "wither_skeleton_skull"
+            },
+            {
+                "type": "diamond_shovel"
+            }
+        ]
+    },
+    "swamp_treasure": {
+        "common": [
+            {
+                "type": "lily_pad"
+            },
+            {
+                "type": "glow_lichen"
+            },
+            {
+                "type": "poisonous_potato"
+            },
+            {
+                "type": "seagrass"
+            },
+            {
+                "type": "slime_ball"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "book"
+            },
+            {
+                "type": "slime_block"
+            },
+            {
+                "type": "clay"
+            }
+        ],
+        "epic": [
+            {
+                "type": "glowstone"
+            },
+            {
+                "type": "blaze_rod"
+            },
+            {
+                "type": "redstone_block"
+            },
+            {
+                "type": "gunpowder"
+            },
+            {
+                "type": "splash_potion"
+            },
+            {
+                "type": "potion"
+            }
+        ],
+        "legendary": [
+            {
+                "type": "splash_potion"
+            },
+            {
+                "type": "ender_chest"
+            },
+            {
+                "type": "turtle_helmet"
+            },
+            {
+                "type": "glistering_melon_slice"
+            },
+            {
+                "type": "golden_carrot"
+            },
+            {
+                "type": "bone_block"
+            },
+            {
+                "type": "mangrove_log"
+            },
+            {
+                "type": "skeleton_skull"
+            },
+            {
+                "type": "phantom_membrane"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "green_shulker_box"
+            },
+            {
+                "type": "brewing_stand",
+                "name": "Old Brewing Stand"
+            },
+            {
+                "type": "potion"
+            },
+            {
+                "type": "leather_chestplate",
+                "attributes": [
+                    {
+                        "name": "generic.knockback_resistance",
+                        "type": "addition",
+                        "min": 0.05,
+                        "max": 0.05
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 3,
+                        "max": 5.5
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 7.5,
+                        "max": 10
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 1,
+                        "max": 3
+                    },
+                    {
+                        "type": "fire_protection",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "blast_protection",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "respiration",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "aqua_affinity",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            }
+        ],
+        "rare": [
+            {
+                "type": "dried_kelp_block"
+            },
+            {
+                "type": "dried_kelp"
+            },
+            {
+                "type": "kelp"
+            },
+            {
+                "type": "moss_block"
+            },
+            {
+                "type": "string"
+            },
+            {
+                "type": "spider_eye"
+            },
+            {
+                "type": "emerald"
+            },
+            {
+                "type": "slime_block"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "book"
+            },
+            {
+                "type": "leather_boots",
+                "attributes": [
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 1,
+                        "max": 1
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 1,
+                        "max": 1
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "feather_falling",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "protection",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "depth_strider",
+                        "min": 0,
+                        "max": 3
+                    }
+                ]
+            },
+            {
+                "type": "cauldron"
+            },
+            {
+                "type": "splash_potion"
+            }
+        ]
+    },
+    "taiga_treasure": {
+        "common": [
+            {
+                "type": "mossy_cobblestone"
+            },
+            {
+                "type": "spruce_log"
+            },
+            {
+                "type": "fern"
+            },
+            {
+                "type": "podzol"
+            },
+            {
+                "type": "water_bucket"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "spruce_leaves"
+            },
+            {
+                "type": "sweet_berries"
+            },
+            {
+                "type": "blast_furnace"
+            },
+            {
+                "type": "stone_shovel",
+                "enchantments": [
+                    {
+                        "type": "efficiency",
+                        "min": 0,
+                        "max": 4
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 4
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            }
+        ],
+        "epic": [
+            {
+                "type": "gold_block"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "ender_pearl"
+            },
+            {
+                "type": "diamond_block"
+            },
+            {
+                "type": "emerald_block"
+            },
+            {
+                "type": "wither_rose"
+            },
+            {
+                "type": "netherite_shovel",
+                "attributes": [
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": 1.25,
+                        "max": 1.25
+                    },
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 15,
+                        "max": 15
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -4,
+                        "max": -4
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "efficiency",
+                        "min": 3,
+                        "max": 7
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 3,
+                        "max": 7
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            }
+        ],
+        "legendary": [
+            {
+                "type": "gold_block"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "ender_chest"
+            },
+            {
+                "type": "diamond_block"
+            },
+            {
+                "type": "bookshelf"
+            },
+            {
+                "type": "enchanting_table"
+            },
+            {
+                "type": "totem_of_undying"
+            },
+            {
+                "type": "magenta_shulker_box"
+            },
+            {
+                "type": "netherite_shovel",
+                "attributes": [
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": 1.5,
+                        "max": 1.5
+                    },
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 25,
+                        "max": 25
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -4,
+                        "max": -4
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "efficiency",
+                        "min": 0,
+                        "max": 10
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 10
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "fortune",
+                        "min": 0,
+                        "max": 5
+                    }
+                ]
+            },
+            {
+                "type": "leather_leggings",
+                "attributes": [
+                    {
+                        "name": "generic.movement_speed",
+                        "type": "multiply_base",
+                        "min": 0.3,
+                        "max": 0.3
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 5
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 5.5,
+                        "max": 8
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "blast_protection",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "feather_falling",
+                        "min": 1,
+                        "max": 5
+                    },
+                    {
+                        "type": "fire_protection",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "thorns",
+                        "min": 0,
+                        "max": 2
+                    },
+                    {
+                        "type": "depth_strider",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            }
+        ],
+        "rare": [
+            {
+                "type": "string"
+            },
+            {
+                "type": "bone"
+            },
+            {
+                "type": "leather"
+            },
+            {
+                "type": "pumpkin_seeds"
+            },
+            {
+                "type": "rabbit_foot"
+            },
+            {
+                "type": "flint_and_steel",
+                "enchantments": [
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 10
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "cooked_rabbit"
+            },
+            {
+                "type": "feather"
+            },
+            {
+                "type": "gunpowder"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "iron_ingot"
+            },
+            {
+                "type": "redstone"
+            },
+            {
+                "type": "compass"
+            },
+            {
+                "type": "iron_pickaxe",
+                "enchantments": [
+                    {
+                        "type": "efficiency",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "iron_axe",
+                "enchantments": [
+                    {
+                        "type": "efficiency",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "wind_treasure": {
+        "legendary": [
+            {
+                "type": "iron_sword",
+                "attributes": [
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -2.25,
+                        "max": -0.75
+                    },
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 18,
+                        "max": 28
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "sharpness",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "sweeping",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "knockback",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "looting",
+                        "min": 1,
+                        "max": 10
+                    }
+                ]
+            },
+            {
+                "type": "white_shulker_box"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "tipped_arrow"
+            },
+            {
+                "type": "diamond_block"
+            },
+            {
+                "type": "netherite_ingot"
+            },
+            {
+                "type": "feather"
+            },
+            {
+                "type": "totem_of_undying",
+                "attributes": [
+                    {
+                        "name": "generic.movement_speed",
+                        "type": "multiply_base",
+                        "min": 0.05,
+                        "max": 0.05
+                    }
+                ]
+            },
+            {
+                "type": "leather_chestplate",
+                "attributes": [
+                    {
+                        "name": "generic.movement_speed",
+                        "type": "multiply_base",
+                        "min": 0.05,
+                        "max": 0.05
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 3,
+                        "max": 5.5
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 7.5,
+                        "max": 10
+                    },
+                    {
+                        "name": "generic.max_health",
+                        "type": "addition",
+                        "min": 5,
+                        "max": 5
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 1,
+                        "max": 6
+                    },
+                    {
+                        "type": "projectile_protection",
+                        "min": 1,
+                        "max": 3
+                    },
+                    {
+                        "type": "fire_protection",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "blast_protection",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "respiration",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "aqua_affinity",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            }
+        ],
+        "common": [
+            {
+                "type": "feather"
+            },
+            {
+                "type": "stick"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "egg"
+            },
+            {
+                "type": "gravel"
+            },
+            {
+                "type": "phantom_membrane"
+            },
+            {
+                "type": "lead"
+            },
+            {
+                "type": "iron_nugget"
+            },
+            {
+                "type": "name_tag"
+            },
+            {
+                "type": "paper"
+            },
+            {
+                "type": "arrow"
+            },
+            {
+                "type": "golden_pickaxe",
+                "enchantments": [
+                    {
+                        "type": "efficiency",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            }
+        ],
+        "epic": [
+            {
+                "type": "tipped_arrow"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "golden_pickaxe",
+                "enchantments": [
+                    {
+                        "type": "efficiency",
+                        "min": 4,
+                        "max": 9
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 7,
+                        "max": 20
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "player_head",
+                "attributes": [
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 3.5,
+                        "max": 3.5
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2,
+                        "max": 2
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "protection",
+                        "min": 0,
+                        "max": 4
+                    },
+                    {
+                        "type": "feather_falling",
+                        "min": 2,
+                        "max": 7
+                    }
+                ]
+            },
+            {
+                "type": "ender_pearl"
+            },
+            {
+                "type": "diamond_block"
+            },
+            {
+                "type": "emerald_block"
+            },
+            {
+                "type": "arrow"
+            },
+            {
+                "type": "bow",
+                "enchantments": [
+                    {
+                        "type": "power",
+                        "min": 3,
+                        "max": 10
+                    },
+                    {
+                        "type": "punch",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "infinity",
+                        "min": 1,
+                        "max": 1
+                    }
+                ]
+            }
+        ],
+        "rare": [
+            {
+                "type": "feather"
+            },
+            {
+                "type": "bone_block"
+            },
+            {
+                "type": "leather"
+            },
+            {
+                "type": "flint"
+            },
+            {
+                "type": "rabbit_foot"
+            },
+            {
+                "type": "potion"
+            },
+            {
+                "type": "cooked_chicken"
+            },
+            {
+                "type": "gunpowder"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "iron_ingot"
+            },
+            {
+                "type": "rabbit_hide"
+            },
+            {
+                "type": "golden_pickaxe",
+                "enchantments": [
+                    {
+                        "type": "efficiency",
+                        "min": 3,
+                        "max": 6
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 3,
+                        "max": 6
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "golden_axe",
+                "enchantments": [
+                    {
+                        "type": "efficiency",
+                        "min": 3,
+                        "max": 6
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 3,
+                        "max": 6
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "golden_shovel",
+                "enchantments": [
+                    {
+                        "type": "efficiency",
+                        "min": 3,
+                        "max": 6
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 3,
+                        "max": 6
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

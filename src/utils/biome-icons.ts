@@ -1,0 +1,23 @@
+export const biomeIcons = {
+    "badlands_treasure": "chiseled_red_sandstone",
+    "basalt_treasure": "basalt",
+    "dark_forest_treasure": "dark_oak_log",
+    "deep_dark_treasure": "blackstone",
+    "default_treasure": "oak_log",
+    "desert_treasure": "sand",
+    "dripstone_treasure": "pointed_dripstone",
+    "end_treasure": "end_stone",
+    "flower_treasure": "poppy",
+    "ice_treasure": "blue_ice",
+    "jungle_treasure": "jungle_log",
+    "lush_caves_treasure": "big_dripleaf",
+    "mountain_treasure": "stone",
+    "mushroom_treasure": "red_mushroom_block",
+    "nether_treasure": "netherrack",
+    "ocean_treasure": "prismarine",
+    "savanna_treasure": "acacia_log",
+    "soul_valley_treasure": "bone_block",
+    "swamp_treasure": "lily_pad",
+    "taiga_treasure": "spruce_log",
+    "wind_treasure": "goat_horn"
+}
