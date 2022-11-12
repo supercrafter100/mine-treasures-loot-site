@@ -8,7 +8,7 @@ const ChanceSection = ({ ore, chance }: { ore: string, chance: MT_CHANCE }) => {
 
     return (
         <div>
-            <header>
+            <header className="text-center">
                 <Image src={"/items/" + rarityIcons[ore] + ".png"} width={36} height={36} alt={ore} className="inline-block"></Image>
                 <p className="font-mono text-3xl md:inline-block md:ml-5 align-middle">{ore.replace(/_/g, ' ')}</p>
             </header>

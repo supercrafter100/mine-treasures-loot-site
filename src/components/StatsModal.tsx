@@ -19,22 +19,22 @@ const StatsModal = ({ item, setModal }: { item: MT_ITEM, setModal: Function }) =
                     {/* Grid */}
                     <div className="w-full h-full grid grid-cols-3 gap-3">
                         <section className="text-center">
-                            <h1 className="text-4xl font-bold mb-5">{item.name ?? item.type.replace(/_/g, ' ')}</h1>
-                            <Image className="inline-block" src={"/items/" + item.type + ".png"} alt={item.type} height={200} width={200} />
+                            <h1 className="text-xl md:text-4xl font-bold md:mb-5">{item.name ?? item.type.replace(/_/g, ' ')}</h1>
+                            <Image className="md:inline-block hidden md:visible " src={"/items/" + item.type + ".png"} alt={item.type} height={200} width={200} />
                             <section>
                                 {/* Lore */}
                                 {item.lore && item.lore.map(line => <p>{line}</p>)}
                             </section>
                         </section>
                         <section className="text-center">
-                            <h1 className="text-4xl font-bold mb-5"><FontAwesomeIcon icon={faTag} /> Attributes</h1>
+                            <h1 className="text-xl md:text-4xl font-bold mb-5"><FontAwesomeIcon icon={faTag} /> Attributes</h1>
                             <div className="grid grid-cols-1 gap-3">
                                 {item.attributes && item.attributes.map((attribute) => <Attribute attribute={attribute}></Attribute>)}
                             </div>
 
                         </section>
                         <section className="text-center">
-                            <h1 className="text-4xl font-bold mb-5"><FontAwesomeIcon icon={faBook} /> Enchantments</h1>
+                            <h1 className="text-xl md:text-4xl font-bold mb-5"><FontAwesomeIcon icon={faBook} /> Enchantments</h1>
                             <div className="grid grid-cols-1 gap-3">
                                 {item.enchantments && item.enchantments.map((enchantment) => <Enchantment enchantment={enchantment}></Enchantment>)}
                             </div>
@@ -49,9 +49,9 @@ const StatsModal = ({ item, setModal }: { item: MT_ITEM, setModal: Function }) =
 const Attribute = ({ attribute }: { attribute: MT_ATTRIBUTE }) => {
     return (
         <div className="rounded-lg bg-gray-300">
-            <p className="text-xl">{attribute.name}</p>
-            <p className="text-lg">Min: {attribute.min}</p>
-            <p className="text-lg">Max: {attribute.max}</p>
+            <p className="text-lg md:text-xl">{attribute.name}</p>
+            <p className="text-sm md:text-lg">Min: {attribute.min}</p>
+            <p className="text-sm md:text-lg">Max: {attribute.max}</p>
         </div>
     )
 }
@@ -59,9 +59,9 @@ const Attribute = ({ attribute }: { attribute: MT_ATTRIBUTE }) => {
 const Enchantment = ({ enchantment }: { enchantment: MT_ENCHANTMENT }) => {
     return (
         <div className="rounded-lg bg-gray-300">
-            <p className="text-xl">{enchantment.type.replace(/_/g, ' ')}</p>
-            <p className="text-lg">Min: {enchantment.min}</p>
-            <p className="text-lg">Max: {enchantment.max}</p>
+            <p className="text-lg md:text-xl">{enchantment.type.replace(/_/g, ' ')}</p>
+            <p className="text-sm md:text-lg">Min: {enchantment.min}</p>
+            <p className="text-sm md:text-lg">Max: {enchantment.max}</p>
         </div>
     )
 }
