@@ -10,7 +10,7 @@ const IndexPage = () => {
   const [data, loaded] = useRequest('/api/treasureData');
 
   return (
-    <div className="bg-white px-24 py-12">
+    <div className="bg-white px-6 lg:px-24 py-12">
       <Card background={"#00a6ed"}><p className='text-4xl font-mono text-center font-bold'>Mine Treasures</p></Card>
       {loaded && Object.keys(data).map((biome, idx) => {
         return (
