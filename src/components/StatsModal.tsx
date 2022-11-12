@@ -3,6 +3,8 @@ import { MT_ATTRIBUTE, MT_ENCHANTMENT, MT_ITEM } from '../interfaces'
 import Image from 'next/image';
 import { faTag, faBook, faXmark } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { attributeNames } from '../utils/attribute-names';
+
 const StatsModal = ({ item, setModal }: { item: MT_ITEM, setModal: Function }) => {
 
     const handleModalClick = (e) => {
@@ -47,21 +49,42 @@ const StatsModal = ({ item, setModal }: { item: MT_ITEM, setModal: Function }) =
 }
 
 const Attribute = ({ attribute }: { attribute: MT_ATTRIBUTE }) => {
+    const attributeData = attributeNames[attribute.name] || { name: attribute.name, type: "value" };
+
     return (
-        <div className="rounded-lg bg-gray-300">
-            <p className="text-lg md:text-xl">{attribute.name}</p>
-            <p className="text-sm md:text-lg">Min: {attribute.min}</p>
-            <p className="text-sm md:text-lg">Max: {attribute.max}</p>
+        <div className="text-left">
+            <Image src="/items/armor_stand.png" alt="armor_stand" width={24} height={24} className="inline-block"></Image>
+            <p className="text-lg md:text-xl inline-block align-middle pl-3">
+                {attribute.min !== attribute.max && (
+                    <>
+                        <samp className='bg-gray-300 rounded-md p-1'>{attribute.min > 0 ? "+" : "-"}
+                            {attributeData.type == "percent" ? `${attribute.min * 100}%` : attribute.min}</samp>
+                        {" "}to{" "}
+                        <samp className='bg-gray-300 rounded-md p-1'>{attribute.max > 0 ? "+" : "-"}
+                            {attributeData.type == "percent" ? `${attribute.max * 100}%` : attribute.max}</samp>
+                    </>
+                )}
+                {attribute.min === attribute.max && (
+                    <>
+                        <samp className='bg-gray-300 rounded-md p-1'>{attribute.min > 0 ? "+" : "-"}
+                            {attributeData.type == "percent" ? `${attribute.min * 100}%` : attribute.min}</samp>
+                    </>
+                )}
+                {" "}
+                {attributeNames[attribute.name]?.name ?? attribute.name}
+                {attribute.slot && (
+                    <>{" "}in {attribute.slot}</>
+                )}
+            </p>
         </div>
     )
 }
 
 const Enchantment = ({ enchantment }: { enchantment: MT_ENCHANTMENT }) => {
     return (
-        <div className="rounded-lg bg-gray-300">
-            <p className="text-lg md:text-xl">{enchantment.type.replace(/_/g, ' ')}</p>
-            <p className="text-sm md:text-lg">Min: {enchantment.min}</p>
-            <p className="text-sm md:text-lg">Max: {enchantment.max}</p>
+        <div className="text-left">
+            <Image src="/items/enchanted_book.png" alt="enchanted_book" width={24} height={24} className="inline-block"></Image>
+            <p className="text-lg md:text-xl inline-block align-middle pl-3"><b>{enchantment.type.replace(/_/g, ' ')}</b> {enchantment.min}-{enchantment.max}</p>
         </div>
     )
 }

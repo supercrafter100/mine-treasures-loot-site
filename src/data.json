@@ -83,13 +83,15 @@
                         "name": "generic.movement_speed",
                         "type": "multiply_total",
                         "min": 0.05,
-                        "max": 0.05
+                        "max": 0.05,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.movement_speed",
                         "type": "multiply_total",
                         "min": 0.05,
-                        "max": 0.05
+                        "max": 0.05,
+                        "slot": "offhand"
                     }
                 ],
                 "enchantments": [
@@ -153,7 +155,8 @@
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 15,
-                        "max": 15
+                        "max": 15,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -207,19 +210,22 @@
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "head"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "head"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "head"
                     }
                 ],
                 "enchantments": [
@@ -483,19 +489,22 @@
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "feet"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "feet"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 3,
-                        "max": 5
+                        "max": 5,
+                        "slot": "feet"
                     }
                 ],
                 "enchantments": [
@@ -567,19 +576,22 @@
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -4,
-                        "max": -4
+                        "max": -4,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": 0.75,
-                        "max": 1.2
+                        "max": 1.2,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 29,
-                        "max": 37
+                        "max": 37,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -651,25 +663,29 @@
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 3,
-                        "max": 5
+                        "max": 5,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 8,
-                        "max": 10
+                        "max": 10,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "multiply_base",
                         "min": -0.15,
-                        "max": -0.15
+                        "max": -0.15,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "chest"
                     }
                 ],
                 "enchantments": [
@@ -865,7 +881,8 @@
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -966,19 +983,22 @@
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": 1.4,
-                        "max": 1.4
+                        "max": 1.4,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -4,
-                        "max": -4
+                        "max": -4,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 14,
-                        "max": 14
+                        "max": 14,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -1091,19 +1111,22 @@
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": 1.4,
-                        "max": 1.4
+                        "max": 1.4,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -4,
-                        "max": -4
+                        "max": -4,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 21,
-                        "max": 21
+                        "max": 21,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -1158,19 +1181,22 @@
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "legs"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "legs"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 5.5,
-                        "max": 8
+                        "max": 8,
+                        "slot": "legs"
                     }
                 ],
                 "enchantments": [
@@ -1218,19 +1244,22 @@
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -4,
-                        "max": -4
+                        "max": -4,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": 0.75,
-                        "max": 1.2
+                        "max": 1.2,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 29,
-                        "max": 37
+                        "max": 37,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -1313,19 +1342,22 @@
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": 1.2,
-                        "max": 1.2
+                        "max": 1.2,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -4,
-                        "max": -4
+                        "max": -4,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 8,
-                        "max": 8
+                        "max": 8,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -1498,13 +1530,15 @@
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -2.5,
-                        "max": -1
+                        "max": -1,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 19,
-                        "max": 29
+                        "max": 29,
+                        "slot": "mainhand"
                     }
                 ],
                 "name": "Refined Netherite Sword",
@@ -1530,25 +1564,29 @@
                         "name": "generic.knockback_resistance",
                         "type": "addition",
                         "min": 0.1,
-                        "max": 0.1
+                        "max": 0.1,
+                        "slot": "feet"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 4.5
+                        "max": 4.5,
+                        "slot": "feet"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 4.5
+                        "max": 4.5,
+                        "slot": "feet"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "feet"
                     }
                 ],
                 "enchantments": [
@@ -1584,25 +1622,29 @@
                         "name": "generic.knockback_resistance",
                         "type": "addition",
                         "min": 0.1,
-                        "max": 0.1
+                        "max": 0.1,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 4.5
+                        "max": 4.5,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 7.5,
-                        "max": 9.5
+                        "max": 9.5,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "chest"
                     }
                 ],
                 "enchantments": [
@@ -1638,25 +1680,29 @@
                         "name": "generic.knockback_resistance",
                         "type": "addition",
                         "min": 0.1,
-                        "max": 0.1
+                        "max": 0.1,
+                        "slot": "head"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 4.5
+                        "max": 4.5,
+                        "slot": "head"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 4.5
+                        "max": 4.5,
+                        "slot": "head"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "head"
                     }
                 ],
                 "enchantments": [
@@ -1692,25 +1738,29 @@
                         "name": "generic.knockback_resistance",
                         "type": "addition",
                         "min": 0.1,
-                        "max": 0.1
+                        "max": 0.1,
+                        "slot": "legs"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 4.5
+                        "max": 4.5,
+                        "slot": "legs"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 5.5,
-                        "max": 7.5
+                        "max": 7.5,
+                        "slot": "legs"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "legs"
                     }
                 ],
                 "enchantments": [
@@ -1794,13 +1844,15 @@
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -2.25,
-                        "max": -0.75
+                        "max": -0.75,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 20,
-                        "max": 30
+                        "max": 30,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -1879,7 +1931,8 @@
                         "name": "generic.attack_damage",
                         "type": "multiply_total",
                         "min": 0.075,
-                        "max": 0.075
+                        "max": 0.075,
+                        "slot": "offhand"
                     }
                 ],
                 "name": "Totem of Assassination",
@@ -1914,31 +1967,36 @@
                         "name": "generic.knockback_resistance",
                         "type": "addition",
                         "min": 0.1,
-                        "max": 0.1
+                        "max": 0.1,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "multiply_base",
                         "min": 0.1,
-                        "max": 0.1
+                        "max": 0.1,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 3,
-                        "max": 5
+                        "max": 5,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 7,
-                        "max": 10
+                        "max": 10,
+                        "slot": "chest"
                     }
                 ],
                 "enchantments": [
@@ -2132,7 +2190,8 @@
                         "name": "generic.attack_damage",
                         "type": "multiply_total",
                         "min": 0.075,
-                        "max": 0.075
+                        "max": 0.075,
+                        "slot": "offhand"
                     }
                 ],
                 "name": "Totem of Assassination",
@@ -2356,19 +2415,22 @@
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "head"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "head"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "head"
                     }
                 ],
                 "enchantments": [
@@ -2574,25 +2636,29 @@
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "feet"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "feet"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "feet"
                     },
                     {
                         "name": "generic.knockback_resistance",
                         "type": "addition",
                         "min": 0.05,
-                        "max": 0.05
+                        "max": 0.05,
+                        "slot": "feet"
                     }
                 ],
                 "enchantments": [
@@ -2719,7 +2785,8 @@
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 2,
-                        "max": 2
+                        "max": 2,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -2789,19 +2856,22 @@
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": 1,
-                        "max": 1
+                        "max": 1,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -4,
-                        "max": -4
+                        "max": -4,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 15,
-                        "max": 15
+                        "max": 15,
+                        "slot": "mainhand"
                     }
                 ],
                 "name": "Refined Iron Axe",
@@ -2819,19 +2889,22 @@
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": 1.2,
-                        "max": 1.2
+                        "max": 1.2,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -4,
-                        "max": -4
+                        "max": -4,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 11,
-                        "max": 11
+                        "max": 11,
+                        "slot": "mainhand"
                     }
                 ],
                 "name": "Refined Iron Shovel",
@@ -2849,7 +2922,8 @@
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 9,
-                        "max": 9
+                        "max": 9,
+                        "slot": "mainhand"
                     }
                 ],
                 "name": "Refined Iron Hoe",
@@ -2895,19 +2969,22 @@
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": 2.6,
-                        "max": 2.6
+                        "max": 2.6,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -4,
-                        "max": -4
+                        "max": -4,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 19,
-                        "max": 19
+                        "max": 19,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -2932,19 +3009,22 @@
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": 1.6,
-                        "max": 1.6
+                        "max": 1.6,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -4,
-                        "max": -4
+                        "max": -4,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 14,
-                        "max": 14
+                        "max": 14,
+                        "slot": "mainhand"
                     }
                 ],
                 "name": "Refined Diamond Shovel",
@@ -2962,7 +3042,8 @@
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 14,
-                        "max": 14
+                        "max": 14,
+                        "slot": "mainhand"
                     }
                 ],
                 "name": "Refined Diamond Hoe",
@@ -2992,19 +3073,22 @@
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "head"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "head"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "head"
                     }
                 ],
                 "enchantments": [
@@ -3084,7 +3168,8 @@
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 4,
-                        "max": 4
+                        "max": 4,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -3261,13 +3346,15 @@
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 1,
-                        "max": 1
+                        "max": 1,
+                        "slot": "offhand"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 1,
-                        "max": 1
+                        "max": 1,
+                        "slot": "offhand"
                     }
                 ]
             },
@@ -3303,19 +3390,22 @@
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "feet"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "feet"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 3,
-                        "max": 5
+                        "max": 5,
+                        "slot": "feet"
                     }
                 ],
                 "enchantments": [
@@ -3361,13 +3451,15 @@
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -2.25,
-                        "max": -0.75
+                        "max": -0.75,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 18,
-                        "max": 28
+                        "max": 28,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -3468,19 +3560,22 @@
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": 0.75,
-                        "max": 1.05
+                        "max": 1.05,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 27,
-                        "max": 33
+                        "max": 33,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -4,
-                        "max": -4
+                        "max": -4,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -3508,7 +3603,8 @@
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 2,
-                        "max": 2
+                        "max": 2,
+                        "slot": "offhand"
                     }
                 ]
             },
@@ -3539,31 +3635,36 @@
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "feet"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "feet"
                     },
                     {
                         "name": "generic.movement_speed",
                         "type": "multiply_base",
                         "min": 0.3,
-                        "max": 0.3
+                        "max": 0.3,
+                        "slot": "feet"
                     },
                     {
                         "name": "generic.movement_speed",
                         "type": "multiply_base",
                         "min": 0.3,
-                        "max": 5
+                        "max": 5,
+                        "slot": "feet"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "feet"
                     }
                 ],
                 "enchantments": [
@@ -3634,19 +3735,22 @@
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 10,
-                        "max": 10
+                        "max": 10,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -4,
-                        "max": -4
+                        "max": -4,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": 0.6,
-                        "max": 0.6
+                        "max": 0.6,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -3704,13 +3808,15 @@
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 3.5,
-                        "max": 3.5
+                        "max": 3.5,
+                        "slot": "head"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 3.5,
-                        "max": 3.5
+                        "max": 3.5,
+                        "slot": "head"
                     }
                 ],
                 "enchantments": [
@@ -3768,13 +3874,15 @@
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 2,
-                        "max": 2
+                        "max": 2,
+                        "slot": "head"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 1,
-                        "max": 1
+                        "max": 1,
+                        "slot": "head"
                     }
                 ],
                 "enchantments": [
@@ -3808,13 +3916,15 @@
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 2,
-                        "max": 2
+                        "max": 2,
+                        "slot": "head"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 1,
-                        "max": 1
+                        "max": 1,
+                        "slot": "head"
                     }
                 ],
                 "enchantments": [
@@ -3996,19 +4106,22 @@
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "legs"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "legs"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 5.5,
-                        "max": 8
+                        "max": 8,
+                        "slot": "legs"
                     }
                 ],
                 "enchantments": [
@@ -4133,31 +4246,36 @@
                         "name": "generic.knockback_resistance",
                         "type": "addition",
                         "min": 0.15,
-                        "max": 0.15
+                        "max": 0.15,
+                        "slot": "legs"
                     },
                     {
                         "name": "generic.movement_speed",
                         "type": "multiply_total",
                         "min": -0.125,
-                        "max": -0.125
+                        "max": -0.125,
+                        "slot": "legs"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 3,
-                        "max": 5.5
+                        "max": 5.5,
+                        "slot": "legs"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 5.5,
-                        "max": 8
+                        "max": 8,
+                        "slot": "legs"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "legs"
                     }
                 ],
                 "enchantments": [
@@ -4456,19 +4574,22 @@
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "feet"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2,
-                        "max": 4
+                        "max": 4,
+                        "slot": "feet"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 4.5
+                        "max": 4.5,
+                        "slot": "feet"
                     }
                 ],
                 "enchantments": [
@@ -4516,37 +4637,43 @@
                         "name": "generic.movement_speed",
                         "type": "multiply_total",
                         "min": -0.1,
-                        "max": -0.05
+                        "max": -0.05,
+                        "slot": "offhand"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 1,
-                        "max": 2
+                        "max": 2,
+                        "slot": "offhand"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 1,
-                        "max": 2
+                        "max": 2,
+                        "slot": "offhand"
                     },
                     {
                         "name": "generic.movement_speed",
                         "type": "multiply_total",
                         "min": -0.1,
-                        "max": -0.05
+                        "max": -0.05,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 1,
-                        "max": 2
+                        "max": 2,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 1,
-                        "max": 2
+                        "max": 2,
+                        "slot": "mainhand"
                     }
                 ]
             }
@@ -4581,19 +4708,22 @@
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 9,
-                        "max": 9
+                        "max": 9,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -4,
-                        "max": -4
+                        "max": -4,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": 0.8,
-                        "max": 0.8
+                        "max": 0.8,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -4730,19 +4860,22 @@
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -4,
-                        "max": -4
+                        "max": -4,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": 1.5,
-                        "max": 1.5
+                        "max": 1.5,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 13.5,
-                        "max": 13.5
+                        "max": 13.5,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -4814,19 +4947,22 @@
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 3,
-                        "max": 5.5
+                        "max": 5.5,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 7.5,
-                        "max": 10
+                        "max": 10,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "chest"
                     }
                 ],
                 "enchantments": [
@@ -4862,19 +4998,22 @@
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "legs"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "legs"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 5.5,
-                        "max": 8
+                        "max": 8,
+                        "slot": "legs"
                     }
                 ],
                 "enchantments": [
@@ -5032,19 +5171,22 @@
                         "name": "generic.movement_speed",
                         "type": "multiply_total",
                         "min": 0.075,
-                        "max": 0.075
+                        "max": 0.075,
+                        "slot": "offhand"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": -1,
-                        "max": -1
+                        "max": -1,
+                        "slot": "offhand"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": -1,
-                        "max": -1
+                        "max": -1,
+                        "slot": "offhand"
                     }
                 ],
                 "enchantments": [
@@ -5100,25 +5242,29 @@
                         "name": "generic.knockback_resistance",
                         "type": "addition",
                         "min": 0.1,
-                        "max": 0.1
+                        "max": 0.1,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 3,
-                        "max": 5
+                        "max": 5,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 7,
-                        "max": 10
+                        "max": 10,
+                        "slot": "chest"
                     }
                 ],
                 "enchantments": [
@@ -5156,13 +5302,15 @@
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 25,
-                        "max": 35
+                        "max": 35,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -3.2,
-                        "max": -2.4
+                        "max": -2.4,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -5335,25 +5483,29 @@
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2,
-                        "max": 4
+                        "max": 4,
+                        "slot": "chest"
                     },
                     {
                         "name": "horse.jump_strength",
                         "type": "multiply_base",
                         "min": 0.25,
-                        "max": 0.75
+                        "max": 0.75,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.movement_speed",
                         "type": "multiply_base",
                         "min": 0.5,
-                        "max": 1
+                        "max": 1,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 2.25,
-                        "max": 4.5
+                        "max": 4.5,
+                        "slot": "chest"
                     }
                 ],
                 "enchantments": [
@@ -5399,19 +5551,22 @@
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "head"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "head"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "head"
                     }
                 ],
                 "enchantments": [
@@ -5515,19 +5670,22 @@
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -4,
-                        "max": -4
+                        "max": -4,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": 2.75,
-                        "max": 3.5
+                        "max": 3.5,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 16.5,
-                        "max": 22
+                        "max": 22,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -5591,19 +5749,22 @@
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "head"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "head"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "head"
                     }
                 ],
                 "enchantments": [
@@ -5868,25 +6029,29 @@
                         "name": "generic.knockback_resistance",
                         "type": "addition",
                         "min": 0.05,
-                        "max": 0.05
+                        "max": 0.05,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 3,
-                        "max": 5.5
+                        "max": 5.5,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 7.5,
-                        "max": 10
+                        "max": 10,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "chest"
                     }
                 ],
                 "enchantments": [
@@ -5961,13 +6126,15 @@
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 1,
-                        "max": 1
+                        "max": 1,
+                        "slot": "feet"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 1,
-                        "max": 1
+                        "max": 1,
+                        "slot": "feet"
                     }
                 ],
                 "enchantments": [
@@ -6096,19 +6263,22 @@
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": 1.25,
-                        "max": 1.25
+                        "max": 1.25,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 15,
-                        "max": 15
+                        "max": 15,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -4,
-                        "max": -4
+                        "max": -4,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -6179,19 +6349,22 @@
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": 1.5,
-                        "max": 1.5
+                        "max": 1.5,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 25,
-                        "max": 25
+                        "max": 25,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -4,
-                        "max": -4
+                        "max": -4,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -6243,25 +6416,29 @@
                         "name": "generic.movement_speed",
                         "type": "multiply_base",
                         "min": 0.3,
-                        "max": 0.3
+                        "max": 0.3,
+                        "slot": "legs"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2.5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "legs"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 5.5,
-                        "max": 8
+                        "max": 8,
+                        "slot": "legs"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "legs"
                     }
                 ],
                 "enchantments": [
@@ -6424,13 +6601,15 @@
                         "name": "generic.attack_speed",
                         "type": "addition",
                         "min": -2.25,
-                        "max": -0.75
+                        "max": -0.75,
+                        "slot": "mainhand"
                     },
                     {
                         "name": "generic.attack_damage",
                         "type": "addition",
                         "min": 18,
-                        "max": 28
+                        "max": 28,
+                        "slot": "mainhand"
                     }
                 ],
                 "enchantments": [
@@ -6485,7 +6664,8 @@
                         "name": "generic.movement_speed",
                         "type": "multiply_base",
                         "min": 0.05,
-                        "max": 0.05
+                        "max": 0.05,
+                        "slot": "offhand"
                     }
                 ]
             },
@@ -6506,25 +6686,29 @@
                         "name": "generic.movement_speed",
                         "type": "multiply_base",
                         "min": 0.05,
-                        "max": 0.05
+                        "max": 0.05,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 3,
-                        "max": 5.5
+                        "max": 5.5,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 7.5,
-                        "max": 10
+                        "max": 10,
+                        "slot": "chest"
                     },
                     {
                         "name": "generic.max_health",
                         "type": "addition",
                         "min": 5,
-                        "max": 5
+                        "max": 5,
+                        "slot": "chest"
                     }
                 ],
                 "enchantments": [
@@ -6660,13 +6844,15 @@
                         "name": "generic.armor",
                         "type": "addition",
                         "min": 3.5,
-                        "max": 3.5
+                        "max": 3.5,
+                        "slot": "head"
                     },
                     {
                         "name": "generic.armor_toughness",
                         "type": "addition",
                         "min": 2,
-                        "max": 2
+                        "max": 2,
+                        "slot": "head"
                     }
                 ],
                 "enchantments": [

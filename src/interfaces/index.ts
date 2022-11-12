@@ -18,6 +18,7 @@ export type MT_ATTRIBUTE = {
   type: string;
   min: number;
   max: number;
+  slot?: string;
 }
 
 export type MT_ENCHANTMENT = {
