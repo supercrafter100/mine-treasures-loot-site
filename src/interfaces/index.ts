@@ -9,15 +9,19 @@ export type MT_ITEM = {
   name?: string;
   unbreakable?: boolean;
   lore?: string[];
-  enchantments?: {
-    type: string;
-    min: number;
-    max: number;
-  }[];
-  attributes?: {
-    name: string;
-    type: string;
-    min: number;
-    max: number;
-  }[]
+  enchantments?: MT_ENCHANTMENT[];
+  attributes?: MT_ATTRIBUTE[]
+}
+
+export type MT_ATTRIBUTE = {
+  name: string;
+  type: string;
+  min: number;
+  max: number;
+}
+
+export type MT_ENCHANTMENT = {
+  type: string;
+  min: number;
+  max: number;
 }
