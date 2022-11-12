@@ -40,7 +40,8 @@
                         "min": 0,
                         "max": 1
                     }
-                ]
+                ],
+                "name": "Rare Golden Hoe"
             },
             {
                 "type": "gold_block"
@@ -63,13 +64,15 @@
                 "type": "enchanted_golden_apple"
             },
             {
-                "type": "firework_rocket"
+                "type": "firework_rocket",
+                "name": "Blight Rocket"
             },
             {
                 "type": "golden_apple"
             },
             {
-                "type": "tnt"
+                "type": "tnt",
+                "name": "Unstable TNT"
             }
         ],
         "legendary": [
@@ -118,10 +121,12 @@
                 ]
             },
             {
-                "type": "splash_potion"
+                "type": "splash_potion",
+                "name": "Grenade"
             },
             {
-                "type": "firework_rocket"
+                "type": "firework_rocket",
+                "name": "Desolation Rocket"
             },
             {
                 "type": "orange_shulker_box"
@@ -177,6 +182,13 @@
                         "min": 0,
                         "max": 1
                     }
+                ],
+                "name": "Forged Netherite Hoe",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 16 Attack Damage",
+                    " 4 Attack Speed"
                 ]
             },
             {
@@ -301,7 +313,8 @@
                 "type": "bone"
             },
             {
-                "type": "tipped_arrow"
+                "type": "tipped_arrow",
+                "name": "Arrow of Decay"
             },
             {
                 "type": "skeleton_skull"
@@ -343,7 +356,8 @@
                 ]
             },
             {
-                "type": "chest"
+                "type": "chest",
+                "name": "Mineshaft Loot Chest"
             }
         ]
     },
@@ -409,7 +423,14 @@
                 "type": "experience_bottle"
             },
             {
-                "type": "goat_horn"
+                "type": "goat_horn",
+                "name": "Ruined Portal Horn",
+                "lore": [
+                    "  ",
+                    "Calls upon the great builder to instantly ",
+                    "build a ruined portal right in front of you. ",
+                    "Use with caution. "
+                ]
             },
             {
                 "type": "obsidian"
@@ -423,7 +444,14 @@
                 "type": "gold_block"
             },
             {
-                "type": "goat_horn"
+                "type": "goat_horn",
+                "name": "Ruined Portal Horn",
+                "lore": [
+                    "  ",
+                    "Calls upon the great builder to instantly ",
+                    "build a ruined portal right in front of you. ",
+                    "Use with caution. "
+                ]
             },
             {
                 "type": "netherite_ingot"
@@ -528,11 +556,10 @@
                 "type": "golden_axe",
                 "name": "Barbaric Axe",
                 "lore": [
-                    " ",
-                    "Ability:",
-                    "When hitting an enemy there is a",
-                    "25% chance to create an explosion",
-                    "dealing AoE damage."
+                    "  ",
+                    "When in Main Hand:",
+                    " 32 Attack Damage",
+                    " 0.75 Attack Speed"
                 ],
                 "unbreakable": true,
                 "attributes": [
@@ -579,7 +606,11 @@
                 ]
             },
             {
-                "type": "potion"
+                "type": "potion",
+                "name": "Level IV Raid Potion",
+                "lore": [
+                    "Drink in a Village"
+                ]
             },
             {
                 "type": "diamond_block"
@@ -594,7 +625,14 @@
                 "type": "totem_of_undying"
             },
             {
-                "type": "goat_horn"
+                "type": "goat_horn",
+                "name": "Portal Room Horn",
+                "lore": [
+                    "  ",
+                    "Calls upon the great builder to",
+                    "instantly build the portal room right ",
+                    "in front of you. Use with caution. "
+                ]
             },
             {
                 "type": "black_shulker_box"
@@ -687,12 +725,17 @@
                 "type": "dark_oak_sapling"
             },
             {
-                "type": "item_frame"
+                "type": "item_frame",
+                "name": "Invisible Item Frame"
             }
         ],
         "epic": [
             {
-                "type": "potion"
+                "type": "potion",
+                "name": "Level IV Raid Potion",
+                "lore": [
+                    "Drink in a Village"
+                ]
             },
             {
                 "type": "ender_pearl"
@@ -704,7 +747,14 @@
                 "type": "golden_carrot"
             },
             {
-                "type": "goat_horn"
+                "type": "goat_horn",
+                "name": "Weaponsmith Village Horn",
+                "lore": [
+                    "  ",
+                    "Calls upon the great builder to",
+                    "instantly build a weaponsmith right ",
+                    "in front of you. Use with caution. "
+                ]
             },
             {
                 "type": "totem_of_undying"
@@ -718,7 +768,11 @@
                 "type": "iron_pickaxe"
             },
             {
-                "type": "potion"
+                "type": "potion",
+                "name": "Level II Raid Potion",
+                "lore": [
+                    "Drink in a Village"
+                ]
             },
             {
                 "type": "gold_ingot"
@@ -733,13 +787,21 @@
                 "type": "experience_bottle"
             },
             {
-                "type": "goat_horn"
+                "type": "goat_horn",
+                "name": "Weaponsmith Village Horn",
+                "lore": [
+                    "  ",
+                    "Calls upon the great builder to",
+                    "instantly build a weaponsmith right ",
+                    "in front of you. Use with caution. "
+                ]
             },
             {
                 "type": "dark_oak_log"
             },
             {
-                "type": "item_frame"
+                "type": "item_frame",
+                "name": "Invisible Item Frame"
             }
         ]
     },
@@ -832,6 +894,13 @@
                         "min": 0,
                         "max": 6
                     }
+                ],
+                "name": "Dark Stone Hoe",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 6 Attack Damage",
+                    " 4 Attack Speed"
                 ]
             },
             {
@@ -843,7 +912,8 @@
                 "type": "reinforced_deepslate"
             },
             {
-                "type": "sculk_shrieker"
+                "type": "sculk_shrieker",
+                "name": "Warden Shrieker"
             },
             {
                 "type": "flint_and_steel",
@@ -858,10 +928,18 @@
                         "min": 0,
                         "max": 1
                     }
+                ],
+                "name": "Soul Flint and Steel",
+                "lore": [
+                    "",
+                    "Ability:",
+                    "Right Click on sculk-related blocks to",
+                    "clear a large area of them in an instant."
                 ]
             },
             {
-                "type": "dried_kelp"
+                "type": "dried_kelp",
+                "name": "Dark Meat"
             },
             {
                 "type": "deepslate_diamond_ore"
@@ -929,6 +1007,13 @@
                         "min": 0,
                         "max": 8
                     }
+                ],
+                "name": "Deep Netherite Pickaxe",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 15 Attack Damage",
+                    " 1.4 Attack Speed"
                 ]
             },
             {
@@ -952,7 +1037,8 @@
                 "type": "crying_obsidian"
             },
             {
-                "type": "sculk_shrieker"
+                "type": "sculk_shrieker",
+                "name": "Warden Shrieker"
             },
             {
                 "type": "flint_and_steel",
@@ -967,10 +1053,18 @@
                         "min": 0,
                         "max": 1
                     }
+                ],
+                "name": "Soul Flint and Steel",
+                "lore": [
+                    "",
+                    "Ability:",
+                    "Right Click on sculk-related blocks to",
+                    "clear a large area of them in an instant."
                 ]
             },
             {
-                "type": "dried_kelp"
+                "type": "dried_kelp",
+                "name": "Dark Meat"
             },
             {
                 "type": "diamond_block"
@@ -1038,6 +1132,13 @@
                         "min": 0,
                         "max": 8
                     }
+                ],
+                "name": "Deep Dark Netherite Pickaxe",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 22 Attack Damage",
+                    " 1.4 Attack Speed"
                 ]
             },
             {
@@ -1098,6 +1199,15 @@
                         "min": 1,
                         "max": 10
                     }
+                ],
+                "name": "Deep Dark Leggings",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "While sneaking the user drains",
+                    "hunger to increase their attack",
+                    "damage and speed by 25%. Hunger",
+                    "drains extremely fast in this mode. "
                 ]
             },
             {
@@ -1149,6 +1259,14 @@
                         "min": 1,
                         "max": 2
                     }
+                ],
+                "name": "Rift Battle Axe",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "Hitting the opponent has a 7.5% chance",
+                    "to crumble their spirit, reducing their",
+                    "maximum health by 20% for 15 seconds."
                 ]
             }
         ],
@@ -1157,10 +1275,18 @@
                 "type": "echo_shard"
             },
             {
-                "type": "sculk_shrieker"
+                "type": "sculk_shrieker",
+                "name": "Warden Shrieker"
             },
             {
-                "type": "flint_and_steel"
+                "type": "flint_and_steel",
+                "name": "Soul Flint and Steel",
+                "lore": [
+                    "",
+                    "Ability:",
+                    "Right Click on sculk-related blocks to",
+                    "clear a large area of them in an instant."
+                ]
             },
             {
                 "type": "deepslate_diamond_ore"
@@ -1228,6 +1354,13 @@
                         "min": 0,
                         "max": 6
                     }
+                ],
+                "name": "Dark Netherite Pickaxe",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 9 Attack Damage",
+                    " 1.2 Attack Speed"
                 ]
             },
             {
@@ -1373,6 +1506,13 @@
                         "min": 19,
                         "max": 29
                     }
+                ],
+                "name": "Refined Netherite Sword",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 20 Attack Damage",
+                    " 2 Attack Speed"
                 ]
             },
             {
@@ -1643,10 +1783,10 @@
                 "type": "golden_sword",
                 "name": "Assassin's Blade",
                 "lore": [
-                    "",
-                    "Ability:",
-                    "Early strikes deal 75% more damage",
-                    "for 5 seconds. Cooldown of 25 seconds."
+                    "  ",
+                    "When in Main Hand:",
+                    " 21 Attack Damage",
+                    " 1.75 Attack Speed"
                 ],
                 "unbreakable": true,
                 "attributes": [
@@ -1696,7 +1836,8 @@
                 "type": "diamond"
             },
             {
-                "type": "chest"
+                "type": "chest",
+                "name": "Epic Desert Treasure Loot"
             },
             {
                 "type": "golden_carrot"
@@ -1740,6 +1881,11 @@
                         "min": 0.075,
                         "max": 0.075
                     }
+                ],
+                "name": "Totem of Assassination",
+                "lore": [
+                    "When activated teleports to the closest enemy ",
+                    "gaining Strength IV and blinding all enemies. "
                 ]
             },
             {
@@ -1901,7 +2047,8 @@
                         "min": 0,
                         "max": 1
                     }
-                ]
+                ],
+                "name": "Rare Golden Shovel"
             },
             {
                 "type": "emerald_block"
@@ -1927,7 +2074,8 @@
                 "type": "enchanted_golden_apple"
             },
             {
-                "type": "chest"
+                "type": "chest",
+                "name": "Desert Temple Loot"
             },
             {
                 "type": "tinted_glass"
@@ -1986,6 +2134,11 @@
                         "min": 0.075,
                         "max": 0.075
                     }
+                ],
+                "name": "Totem of Assassination",
+                "lore": [
+                    "When activated teleports to the closest enemy ",
+                    "gaining Strength IV and blinding all enemies. "
                 ]
             },
             {
@@ -2094,7 +2247,17 @@
                 "type": "diamond_block"
             },
             {
-                "type": "leather_boots"
+                "type": "leather_boots",
+                "name": "Pointed Boots",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "Falling a distance which exceeds ",
+                    "10 blocks or higher will convert",
+                    "the fall damage into damage in a",
+                    "small area. One use only."
+                ],
+                "unbreakable": true
             },
             {
                 "type": "diamond_chestplate"
@@ -2141,13 +2304,31 @@
                 "type": "netherite_scrap"
             },
             {
-                "type": "leather_boots"
+                "type": "leather_boots",
+                "name": "Pointed Boots",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "Falling a distance which exceeds ",
+                    "10 blocks or higher will convert",
+                    "the fall damage into damage in a",
+                    "small area. One use only."
+                ],
+                "unbreakable": true
             },
             {
                 "type": "iron_block"
             },
             {
                 "type": "stone_pickaxe",
+                "name": "Stone Driller",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "Mining Stone, Andesite, Granite and Diorite",
+                    "has a chance to grant 2 experience points."
+                ],
+                "unbreakable": true,
                 "enchantments": [
                     {
                         "type": "efficiency",
@@ -2161,6 +2342,15 @@
             },
             {
                 "type": "leather_helmet",
+                "name": "Dripstone Helmet",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "Mining dripstone blocks increases ",
+                    "hit speed by 1% for every 10 000",
+                    "blocks mined. Caps at 250 000."
+                ],
+                "unbreakable": true,
                 "attributes": [
                     {
                         "name": "generic.armor",
@@ -2250,7 +2440,14 @@
                 "type": "end_stone"
             },
             {
-                "type": "goat_horn"
+                "type": "goat_horn",
+                "name": "Overworld Horn",
+                "lore": [
+                    "  ",
+                    "Calls upon the realms of the overworld ",
+                    "teleporting you back to the overworld. ",
+                    "Use with caution. "
+                ]
             },
             {
                 "type": "chorus_fruit"
@@ -2279,7 +2476,14 @@
                 "type": "netherite_scrap"
             },
             {
-                "type": "goat_horn"
+                "type": "goat_horn",
+                "name": "Overworld Horn",
+                "lore": [
+                    "  ",
+                    "Calls upon the realms of the overworld ",
+                    "teleporting you back to the overworld. ",
+                    "Use with caution. "
+                ]
             },
             {
                 "type": "chorus_fruit",
@@ -2313,7 +2517,8 @@
                 ]
             },
             {
-                "type": "firework_rocket"
+                "type": "firework_rocket",
+                "name": "Flight Rocket"
             }
         ],
         "legendary": [
@@ -2338,13 +2543,32 @@
                 "type": "ender_chest"
             },
             {
-                "type": "goat_horn"
+                "type": "goat_horn",
+                "name": "Overworld Horn",
+                "lore": [
+                    "  ",
+                    "Calls upon the realms of the overworld ",
+                    "teleporting you back to the overworld. ",
+                    "Use with caution. "
+                ]
             },
             {
-                "type": "elytra"
+                "type": "elytra",
+                "name": "Indestructia",
+                "unbreakable": true
             },
             {
                 "type": "leather_boots",
+                "name": "End Boots",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "When a thrown Ender Pearl lands",
+                    "enemies in a 4x4 area takes ",
+                    "6 hearts of magic damage. While",
+                    "slowing the enemies as well. "
+                ],
+                "unbreakable": true,
                 "attributes": [
                     {
                         "name": "generic.armor",
@@ -2405,7 +2629,14 @@
                 "type": "end_stone_bricks"
             },
             {
-                "type": "goat_horn"
+                "type": "goat_horn",
+                "name": "Overworld Horn",
+                "lore": [
+                    "  ",
+                    "Calls upon the realms of the overworld ",
+                    "teleporting you back to the overworld. ",
+                    "Use with caution. "
+                ]
             },
             {
                 "type": "chorus_fruit"
@@ -2444,7 +2675,8 @@
                 ]
             },
             {
-                "type": "firework_rocket"
+                "type": "firework_rocket",
+                "name": "Flight Rocket"
             }
         ]
     },
@@ -2511,6 +2743,13 @@
                         "min": 0,
                         "max": 6
                     }
+                ],
+                "name": "Wooden Hoe",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 2 Attack Damage",
+                    " 4 Attack Speed"
                 ]
             },
             {
@@ -2531,7 +2770,8 @@
                 "type": "chorus_flower"
             },
             {
-                "type": "pumpkin_pie"
+                "type": "pumpkin_pie",
+                "name": "Flower Pie"
             },
             {
                 "type": "experience_bottle"
@@ -2563,6 +2803,13 @@
                         "min": 15,
                         "max": 15
                     }
+                ],
+                "name": "Refined Iron Axe",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 16 Attack Damage",
+                    " 1 Attack Speed"
                 ]
             },
             {
@@ -2586,6 +2833,13 @@
                         "min": 11,
                         "max": 11
                     }
+                ],
+                "name": "Refined Iron Shovel",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 12 Attack Damage",
+                    " 1.2 Attack Speed"
                 ]
             },
             {
@@ -2597,6 +2851,13 @@
                         "min": 9,
                         "max": 9
                     }
+                ],
+                "name": "Refined Iron Hoe",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 10 Attack Damage",
+                    " 4 Attack Speed"
                 ]
             },
             {
@@ -2608,7 +2869,8 @@
                 "type": "enchanted_golden_apple"
             },
             {
-                "type": "pumpkin_pie"
+                "type": "pumpkin_pie",
+                "name": "Flower Pie"
             },
             {
                 "type": "chorus_flower"
@@ -2623,7 +2885,8 @@
                 "type": "nether_wart"
             },
             {
-                "type": "honey_bottle"
+                "type": "honey_bottle",
+                "name": "Juicy Experience Drink"
             },
             {
                 "type": "diamond_axe",
@@ -2653,6 +2916,13 @@
                         "min": 1,
                         "max": 10
                     }
+                ],
+                "name": "Refined Diamond Axe",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 20 Attack Damage",
+                    " 2.6 Attack Speed"
                 ]
             },
             {
@@ -2676,6 +2946,13 @@
                         "min": 14,
                         "max": 14
                     }
+                ],
+                "name": "Refined Diamond Shovel",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 15 Attack Damage",
+                    " 1.6 Attack Speed"
                 ]
             },
             {
@@ -2687,6 +2964,13 @@
                         "min": 14,
                         "max": 14
                     }
+                ],
+                "name": "Refined Diamond Hoe",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 15 Attack Damage",
+                    " 4 Attack Speed"
                 ]
             },
             {
@@ -2784,7 +3068,8 @@
                 "type": "peony"
             },
             {
-                "type": "pumpkin_pie"
+                "type": "pumpkin_pie",
+                "name": "Flower Pie"
             },
             {
                 "type": "hanging_roots"
@@ -2823,6 +3108,13 @@
                         "min": 0,
                         "max": 10
                     }
+                ],
+                "name": "Stone Hoe",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 4 Attack Damage",
+                    " 4 Attack Speed"
                 ]
             },
             {
@@ -2874,7 +3166,8 @@
                         "min": 0,
                         "max": 1
                     }
-                ]
+                ],
+                "name": "Old Wooden Pickaxe"
             },
             {
                 "type": "wooden_axe",
@@ -2894,7 +3187,8 @@
                         "min": 0,
                         "max": 1
                     }
-                ]
+                ],
+                "name": "Old Wooden Axe"
             },
             {
                 "type": "blue_ice"
@@ -2903,7 +3197,8 @@
                 "type": "diamond_block"
             },
             {
-                "type": "tipped_arrow"
+                "type": "tipped_arrow",
+                "name": "Arrow of Freeze"
             }
         ],
         "epic": [
@@ -2927,7 +3222,8 @@
                 "type": "golden_apple"
             },
             {
-                "type": "tipped_arrow"
+                "type": "tipped_arrow",
+                "name": "Arrow of Frostbite"
             },
             {
                 "type": "dragon_breath"
@@ -2993,6 +3289,15 @@
             },
             {
                 "type": "leather_boots",
+                "name": "Ice Shoes",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "When hit there is a 10% chance to reduce",
+                    "the armor values of the enemy by 25% for",
+                    "5 seconds. Also reduces speed by 25%."
+                ],
+                "unbreakable": true,
                 "attributes": [
                     {
                         "name": "generic.armor",
@@ -3043,6 +3348,14 @@
             },
             {
                 "type": "diamond_sword",
+                "name": "Ice Sword",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 19 Attack Damage",
+                    " 2.25 Attack Speed"
+                ],
+                "unbreakable": true,
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -3138,7 +3451,8 @@
                 "type": "powder_snow_bucket"
             },
             {
-                "type": "lingering_potion"
+                "type": "lingering_potion",
+                "name": "Potion of Freeze"
             }
         ]
     },
@@ -3175,6 +3489,13 @@
                         "min": 1,
                         "max": 1
                     }
+                ],
+                "name": "Forged Netherite Axe",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 28 Attack Damage",
+                    " 0.75 Attack Speed"
                 ]
             },
             {
@@ -3344,6 +3665,13 @@
                         "min": 1,
                         "max": 4
                     }
+                ],
+                "name": "Rumble Stone Axe",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 11 Attack Damage",
+                    " 0.6 Attack Speed"
                 ]
             },
             {
@@ -3406,7 +3734,8 @@
                         "min": 0,
                         "max": 5
                     }
-                ]
+                ],
+                "name": "Wither Helmet"
             },
             {
                 "type": "tipped_arrow",
@@ -3469,7 +3798,8 @@
                         "min": 0,
                         "max": 3
                     }
-                ]
+                ],
+                "name": "Creeper Helmet"
             },
             {
                 "type": "skeleton_skull",
@@ -3508,7 +3838,8 @@
                         "min": 0,
                         "max": 3
                     }
-                ]
+                ],
+                "name": "Skeleton Helmet"
             },
             {
                 "type": "saddle"
@@ -3518,7 +3849,8 @@
                 "name": "Poison Arrow"
             },
             {
-                "type": "chest"
+                "type": "chest",
+                "name": "Rare Treasure"
             }
         ]
     },
@@ -3563,7 +3895,8 @@
                         "min": 0,
                         "max": 1
                     }
-                ]
+                ],
+                "name": "Rare Golden Shovel"
             },
             {
                 "type": "flowering_azalea_leaves"
@@ -3572,7 +3905,8 @@
                 "type": "spore_blossom"
             },
             {
-                "type": "potion"
+                "type": "potion",
+                "name": "Lush Potion"
             }
         ],
         "epic": [
@@ -3583,7 +3917,8 @@
                 "type": "golden_apple"
             },
             {
-                "type": "bee_nest"
+                "type": "bee_nest",
+                "name": "Three Bee Nest"
             },
             {
                 "type": "shears",
@@ -3612,7 +3947,8 @@
                 "type": "chorus_fruit"
             },
             {
-                "type": "tipped_arrow"
+                "type": "tipped_arrow",
+                "name": "Lush Arrow"
             },
             {
                 "type": "chorus_plant"
@@ -3620,7 +3956,8 @@
         ],
         "legendary": [
             {
-                "type": "potion"
+                "type": "potion",
+                "name": "Potion of The Lush Caves"
             },
             {
                 "type": "lime_shulker_box"
@@ -3632,13 +3969,15 @@
                 "type": "glow_ink_sac"
             },
             {
-                "type": "glow_item_frame"
+                "type": "glow_item_frame",
+                "name": "Invisible Glow Item Frame"
             },
             {
                 "type": "enchanted_golden_apple"
             },
             {
-                "type": "tipped_arrow"
+                "type": "tipped_arrow",
+                "name": "Lush Arrow"
             },
             {
                 "type": "leather_leggings",
@@ -3704,7 +4043,8 @@
                 "type": "honey_block"
             },
             {
-                "type": "suspicious_stew"
+                "type": "suspicious_stew",
+                "name": "Sweet Glow Berry Soup"
             },
             {
                 "type": "sweet_berries"
@@ -3716,7 +4056,8 @@
                 "type": "rose_bush"
             },
             {
-                "type": "tipped_arrow"
+                "type": "tipped_arrow",
+                "name": "Glowy Arrow"
             },
             {
                 "type": "tall_grass"
@@ -3732,13 +4073,23 @@
     "mountain_treasure": {
         "legendary": [
             {
-                "type": "chest"
+                "type": "chest",
+                "name": "Blessing of the Mountain"
             },
             {
                 "type": "netherite_block"
             },
             {
-                "type": "goat_horn"
+                "type": "goat_horn",
+                "name": "Horn of the Mountain",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "Blowing in the horn frightens",
+                    "in a 30 block radius applying",
+                    "Weakness, Speed and Glowing",
+                    "to opponents for 4 seconds. "
+                ]
             },
             {
                 "type": "anvil"
@@ -3769,6 +4120,13 @@
             },
             {
                 "type": "leather_leggings",
+                "name": "Mountain Leggings",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "When worn the user gains permanent ",
+                    "Resistance I and Fire Resistance I."
+                ],
                 "unbreakable": true,
                 "attributes": [
                     {
@@ -3869,7 +4227,8 @@
                 "type": "diamond_block"
             },
             {
-                "type": "potion"
+                "type": "potion",
+                "name": "Potion of Haste"
             }
         ],
         "epic": [
@@ -3884,7 +4243,8 @@
                         "min": 0,
                         "max": 1
                     }
-                ]
+                ],
+                "name": "Mountain Netherite Pickaxe"
             },
             {
                 "type": "netherite_ingot"
@@ -3908,7 +4268,8 @@
                 "type": "lapis_block"
             },
             {
-                "type": "bundle"
+                "type": "bundle",
+                "name": "Mountain Bundle"
             }
         ],
         "rare": [
@@ -3968,7 +4329,8 @@
                 "type": "netherite_ingot"
             },
             {
-                "type": "potion"
+                "type": "potion",
+                "name": "Potion of Mountain Climb"
             }
         ]
     },
@@ -3984,7 +4346,8 @@
                 "type": "mushroom_stem"
             },
             {
-                "type": "suspicious_stew"
+                "type": "suspicious_stew",
+                "name": "Regeneration Stew"
             },
             {
                 "type": "red_mushroom"
@@ -4013,13 +4376,21 @@
                 "type": "fermented_spider_eye"
             },
             {
-                "type": "goat_horn"
+                "type": "goat_horn",
+                "name": "Slow Falling Cow Horn",
+                "lore": [
+                    "  ",
+                    "Calls the Slow Falling cow",
+                    "which one can milk with bowls ",
+                    "for stew of Slow Falling."
+                ]
             },
             {
                 "type": "warped_fungus"
             },
             {
-                "type": "suspicious_stew"
+                "type": "suspicious_stew",
+                "name": "Strength Stew"
             }
         ],
         "legendary": [
@@ -4030,7 +4401,14 @@
                 "type": "light_gray_shulker_box"
             },
             {
-                "type": "goat_horn"
+                "type": "goat_horn",
+                "name": "Lucky Cow Horn",
+                "lore": [
+                    "  ",
+                    "Calls the Lucky cow which one can ",
+                    "milk with bowls for stew of Luck ",
+                    "Luck gives better treasure loot. "
+                ]
             },
             {
                 "type": "redstone_block"
@@ -4060,7 +4438,8 @@
                 "type": "red_mushroom_block"
             },
             {
-                "type": "suspicious_stew"
+                "type": "suspicious_stew",
+                "name": "Health Boost Stew"
             },
             {
                 "type": "leather_boots",
@@ -4124,10 +4503,12 @@
                 "type": "shield",
                 "name": "Mushroom Shield",
                 "lore": [
-                    "",
-                    "Ability:",
-                    "Gains Regeneration II for 5 ",
-                    "seconds while blocking damage. "
+                    " ",
+                    "When in Main Hand / Off Hand:",
+                    "+1.5 Armor",
+                    "+1.5 Armor Toughness",
+                    "-7.5% Speed",
+                    "Unbreakable"
                 ],
                 "unbreakable": true,
                 "attributes": [
@@ -4181,7 +4562,8 @@
                 "type": "fermented_spider_eye"
             },
             {
-                "type": "suspicious_stew"
+                "type": "suspicious_stew",
+                "name": "Resistance Stew"
             },
             {
                 "type": "crimson_fungus"
@@ -4240,6 +4622,13 @@
                         "min": 0,
                         "max": 1
                     }
+                ],
+                "name": "Forged Iron Axe",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 10 Attack Damage",
+                    " 0.8 Attack Speed"
                 ]
             }
         ]
@@ -4297,7 +4686,8 @@
                 "type": "ghast_tear"
             },
             {
-                "type": "respawn_anchor"
+                "type": "respawn_anchor",
+                "name": "Full Respawn Anchor"
             },
             {
                 "type": "glowstone"
@@ -4328,6 +4718,13 @@
             },
             {
                 "type": "stone_sword",
+                "name": "Wither Sword",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 14.5 Attack Damage",
+                    " 1.5 Attack Speed"
+                ],
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -4362,7 +4759,8 @@
                 ]
             },
             {
-                "type": "potion"
+                "type": "potion",
+                "name": "Nether Potion"
             }
         ],
         "legendary": [
@@ -4379,7 +4777,8 @@
                 "type": "ghast_tear"
             },
             {
-                "type": "respawn_anchor"
+                "type": "respawn_anchor",
+                "name": "Full Respawn Anchor"
             },
             {
                 "type": "netherite_ingot"
@@ -4397,10 +4796,19 @@
                 "type": "dragon_egg"
             },
             {
-                "type": "potion"
+                "type": "potion",
+                "name": "Demon Potion"
             },
             {
                 "type": "leather_chestplate",
+                "name": "Nether Chestplate",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "Gains Strength II while on fire.",
+                    "Permanent Strength II in Nether. "
+                ],
+                "unbreakable": true,
                 "attributes": [
                     {
                         "name": "generic.armor_toughness",
@@ -4650,7 +5058,8 @@
                         "min": 1,
                         "max": 1
                     }
-                ]
+                ],
+                "name": "Lightweight Shield"
             },
             {
                 "type": "blue_shulker_box"
@@ -4674,11 +5083,17 @@
                 "type": "dark_prismarine"
             },
             {
-                "type": "suspicious_stew",
-                "name": "Saturation Stew"
+                "type": "suspicious_stew"
             },
             {
                 "type": "leather_chestplate",
+                "name": "Ocean Chestplate",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "When worn the user gains permanent",
+                    "Dolphin's Grace and Conduit Power II."
+                ],
                 "unbreakable": true,
                 "attributes": [
                     {
@@ -4756,6 +5171,12 @@
                         "min": 3,
                         "max": 5
                     }
+                ],
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 28.5 Attack Damage",
+                    " 1 Attack Speed"
                 ]
             }
         ],
@@ -4822,7 +5243,12 @@
                 "type": "stone_pickaxe"
             },
             {
-                "type": "goat_horn"
+                "type": "goat_horn",
+                "name": "Horse Horn",
+                "lore": [
+                    "  ",
+                    "Calls upon a decent horse. "
+                ]
             }
         ],
         "epic": [
@@ -4857,7 +5283,12 @@
                 "type": "hay_block"
             },
             {
-                "type": "goat_horn"
+                "type": "goat_horn",
+                "name": "Dirty Roller Horn",
+                "lore": [
+                    "  ",
+                    "Calls upon a really fast pig. "
+                ]
             },
             {
                 "type": "gold_block"
@@ -4874,13 +5305,19 @@
                 "type": "golden_apple"
             },
             {
-                "type": "goat_horn"
+                "type": "goat_horn",
+                "name": "Pegasus Call Horn",
+                "lore": [
+                    "  ",
+                    "Calls upon the mighty Pegasus. "
+                ]
             },
             {
                 "type": "enchanted_golden_apple"
             },
             {
-                "type": "carrot_on_a_stick"
+                "type": "carrot_on_a_stick",
+                "unbreakable": true
             },
             {
                 "type": "lead"
@@ -4940,13 +5377,23 @@
                         "min": 1,
                         "max": 10
                     }
-                ]
+                ],
+                "name": "Legendary Horse Armor"
             },
             {
-                "type": "splash_potion"
+                "type": "splash_potion",
+                "name": "Horse Drugs"
             },
             {
                 "type": "leather_helmet",
+                "name": "Savanna Helmet",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "Golden edibles give extra buffs ",
+                    "after consuming them."
+                ],
+                "unbreakable": true,
                 "attributes": [
                     {
                         "name": "generic.armor",
@@ -5009,7 +5456,12 @@
                 "type": "golden_carrot"
             },
             {
-                "type": "goat_horn"
+                "type": "goat_horn",
+                "name": "Horse Horn",
+                "lore": [
+                    "  ",
+                    "Calls upon a decent horse. "
+                ]
             },
             {
                 "type": "apple"
@@ -5052,10 +5504,10 @@
                 "type": "netherite_hoe",
                 "name": "Scythe of Souls",
                 "lore": [
-                    " ",
-                    "Ability:",
-                    "Has a 12.5% chance to regain 4 health",
-                    "upon hitting an enemy."
+                    "  ",
+                    "When in Main Hand:",
+                    " 20 Attack Damage",
+                    " 2.75 Attack Speed"
                 ],
                 "unbreakable": true,
                 "attributes": [
@@ -5121,7 +5573,8 @@
                 "type": "dragon_egg"
             },
             {
-                "type": "potion"
+                "type": "potion",
+                "name": "Pure Soul Potion"
             },
             {
                 "type": "leather_helmet",
@@ -5226,7 +5679,8 @@
                 "type": "end_crystal"
             },
             {
-                "type": "potion"
+                "type": "potion",
+                "name": "Soul Potion"
             },
             {
                 "type": "crying_obsidian"
@@ -5345,10 +5799,12 @@
                 "type": "gunpowder"
             },
             {
-                "type": "splash_potion"
+                "type": "splash_potion",
+                "name": "Ultra Splash Slowness"
             },
             {
-                "type": "potion"
+                "type": "potion",
+                "name": "Ultra Instant Heal"
             }
         ],
         "legendary": [
@@ -5397,6 +5853,16 @@
             },
             {
                 "type": "leather_chestplate",
+                "name": "Swamp Chestplate",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "Has a 25% chance to lose garbage  ",
+                    "upon being hit causing random debuffs ",
+                    "to all enemies. Also granting the user",
+                    "immunity to most negative effects. "
+                ],
+                "unbreakable": true,
                 "attributes": [
                     {
                         "name": "generic.knockback_resistance",
@@ -5541,7 +6007,8 @@
                 "type": "cauldron"
             },
             {
-                "type": "splash_potion"
+                "type": "splash_potion",
+                "name": "Stinky Splash Potion"
             }
         ]
     },
@@ -5665,6 +6132,13 @@
                         "min": 0,
                         "max": 1
                     }
+                ],
+                "name": "Mystery Netherite Shovel",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 15 Attack Damage",
+                    " 1.25 Attack Speed"
                 ]
             }
         ],
@@ -5688,7 +6162,12 @@
                 "type": "enchanting_table"
             },
             {
-                "type": "totem_of_undying"
+                "type": "totem_of_undying",
+                "name": "Totem of Death",
+                "lore": [
+                    "When activated launches a deadly",
+                    "explosive attack close to the user. "
+                ]
             },
             {
                 "type": "magenta_shulker_box"
@@ -5741,10 +6220,24 @@
                         "min": 0,
                         "max": 5
                     }
+                ],
+                "name": "Forged Netherite Shovel",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 26 Attack Damage",
+                    " 1.5 Attack Speed"
                 ]
             },
             {
                 "type": "leather_leggings",
+                "name": "Taiga Pants",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "Replenishes hunger as you walk."
+                ],
+                "unbreakable": true,
                 "attributes": [
                     {
                         "name": "generic.movement_speed",
@@ -5918,6 +6411,14 @@
         "legendary": [
             {
                 "type": "iron_sword",
+                "name": "Hurricane Sword",
+                "lore": [
+                    "  ",
+                    "When in Main Hand:",
+                    " 19 Attack Damage",
+                    " 1.75 Attack Speed"
+                ],
+                "unbreakable": true,
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -5965,7 +6466,8 @@
                 "type": "golden_apple"
             },
             {
-                "type": "tipped_arrow"
+                "type": "tipped_arrow",
+                "name": "Upwind Arrow"
             },
             {
                 "type": "diamond_block"
@@ -5989,6 +6491,16 @@
             },
             {
                 "type": "leather_chestplate",
+                "name": "Wind Chestplate",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "When worn weapons with the knockback ",
+                    "enchantment increases damage of that",
+                    "weapon by 8% per knockback level.",
+                    "Caps at 80%."
+                ],
+                "unbreakable": true,
                 "attributes": [
                     {
                         "name": "generic.movement_speed",
@@ -6111,7 +6623,8 @@
         ],
         "epic": [
             {
-                "type": "tipped_arrow"
+                "type": "tipped_arrow",
+                "name": "Upwind Arrow"
             },
             {
                 "type": "golden_apple"
@@ -6141,6 +6654,7 @@
             },
             {
                 "type": "player_head",
+                "name": "Chicken Helmet",
                 "attributes": [
                     {
                         "name": "generic.armor",
@@ -6228,7 +6742,8 @@
                 "type": "rabbit_foot"
             },
             {
-                "type": "potion"
+                "type": "potion",
+                "name": "Updraft Potion"
             },
             {
                 "type": "cooked_chicken"
