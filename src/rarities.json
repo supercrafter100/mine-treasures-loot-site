@@ -1,0 +1,47 @@
+{
+    "other": {
+        "common": 0.4,
+        "epic": 0.0125,
+        "legendary": 0.005,
+        "rare": 0.1
+    },
+    "andesite": {
+        "common": 0.3,
+        "epic": 0.01,
+        "rare": 0.175
+    },
+    "deepslate": {
+        "common": 0.5,
+        "epic": 0.015,
+        "legendary": 0.0075,
+        "rare": 0.175
+    },
+    "diamond_ore": {
+        "common": 2,
+        "epic": 0.05,
+        "legendary": 0.015,
+        "rare": 0.8
+    },
+    "diorite": {
+        "common": 0.8,
+        "epic": 0.01,
+        "rare": 0.075
+    },
+    "dslate_ores": {
+        "common": 0.75,
+        "epic": 0.02,
+        "legendary": 0.01,
+        "rare": 0.4
+    },
+    "granite": {
+        "common": 0.3,
+        "epic": 0.0175,
+        "rare": 0.075
+    },
+    "ores": {
+        "common": 0.5,
+        "epic": 0.015,
+        "legendary": 0.0075,
+        "rare": 0.175
+    }
+}

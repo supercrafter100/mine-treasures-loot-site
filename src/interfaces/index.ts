@@ -25,3 +25,14 @@ export type MT_ENCHANTMENT = {
   min: number;
   max: number;
 }
+
+export type MT_CHANCE = {
+  common: number;
+  rare: number;
+  epic: number;
+  legendary: number;
+}
+
+export type MT_CHANCES = {
+  [key: string]: MT_CHANCE
+}
