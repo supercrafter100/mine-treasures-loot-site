@@ -57,22 +57,22 @@ const Attribute = ({ attribute }: { attribute: MT_ATTRIBUTE }) => {
             <p className="text-lg md:text-xl inline-block align-middle pl-3">
                 {attribute.min !== attribute.max && (
                     <>
-                        <samp className='bg-gray-300 rounded-md p-1'>{attribute.min > 0 ? "+" : "-"}
+                        <samp className='bg-gray-300 rounded-md p-1'>{attribute.min > 0 ? "+" : ""}
                             {attributeData.type == "percent" ? `${attribute.min * 100}%` : attribute.min}</samp>
                         {" "}to{" "}
-                        <samp className='bg-gray-300 rounded-md p-1'>{attribute.max > 0 ? "+" : "-"}
+                        <samp className='bg-gray-300 rounded-md p-1'>{attribute.max > 0 ? "+" : ""}
                             {attributeData.type == "percent" ? `${attribute.max * 100}%` : attribute.max}</samp>
                     </>
                 )}
                 {attribute.min === attribute.max && (
                     <>
-                        <samp className='bg-gray-300 rounded-md p-1'>{attribute.min > 0 ? "+" : "-"}
+                        <samp className='bg-gray-300 rounded-md p-1'>{attribute.min > 0 ? "+" : ""}
                             {attributeData.type == "percent" ? `${attribute.min * 100}%` : attribute.min}</samp>
                     </>
                 )}
                 {" "}
                 {attributeNames[attribute.name]?.name ?? attribute.name}
-                {attribute.slot && (
+                {attribute.slot && !["feet", "legs", "chest", "head"].includes(attribute.slot) && (
                     <>{" "}in {attribute.slot}</>
                 )}
             </p>
