@@ -53,7 +53,7 @@ const IndexPage = () => {
           <input type="text" className="md:col-span-11 w-full rounded-xl p-2" onChange={(e) => filterData(e.target.value)}></input>
         </div>
       </Section>
-      {loadedLootData && loadedBiomeData && Object.keys(customData ?? lootData).map((biome, idx) => {
+      {loadedRarityData && loadedLootData && loadedBiomeData && Object.keys(customData ?? lootData).map((biome, idx) => {
         const commonData = (customData ?? lootData)[biome]["common"];
         const rareData = (customData ?? lootData)[biome]["rare"];
         const epicData = (customData ?? lootData)[biome]["epic"];
