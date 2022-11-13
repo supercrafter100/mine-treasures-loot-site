@@ -38,6 +38,7 @@ const StatsModal = ({ item, setModal }: { item: MT_ITEM, setModal: Function }) =
                         <section className="text-center">
                             <h1 className="text-xl md:text-4xl font-bold mb-5"><FontAwesomeIcon icon={faBook} /> Enchantments</h1>
                             <div className="grid grid-cols-1 gap-3">
+                                {item.unbreakable && <UnbreakableEnchantment />}
                                 {item.enchantments && item.enchantments.map((enchantment) => <Enchantment enchantment={enchantment}></Enchantment>)}
                             </div>
                         </section>
@@ -85,6 +86,15 @@ const Enchantment = ({ enchantment }: { enchantment: MT_ENCHANTMENT }) => {
         <div className="text-left">
             <Image src="/items/enchanted_book.png" alt="enchanted_book" width={24} height={24} className="inline-block"></Image>
             <p className="text-lg md:text-xl inline-block align-middle pl-3"><b>{enchantment.type.replace(/_/g, ' ')}</b> {enchantment.min}-{enchantment.max}</p>
+        </div>
+    )
+}
+
+const UnbreakableEnchantment = () => {
+    return (
+        <div className="text-left">
+            <Image src="/items/enchanted_book.png" alt="enchanted_book" width={24} height={24} className="inline-block"></Image>
+            <p className="text-lg md:text-xl inline-block align-middle pl-3"><b>Unbreakable</b></p>
         </div>
     )
 }

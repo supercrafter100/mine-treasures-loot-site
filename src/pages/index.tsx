@@ -7,9 +7,9 @@ import Grid from '../components/Grid'
 import ItemsCard from '../components/ItemsCard'
 import Section from '../components/Section'
 import useRequest from '../hooks/useRequest'
-import { compareTwoStrings } from 'string-similarity';
 import { MT_DATA } from '../interfaces'
 import Footer from '../components/Footer'
+import Locations from '../components/Locations'
 
 const IndexPage = () => {
 
@@ -17,6 +17,7 @@ const IndexPage = () => {
 
   const [rarityData, loadedRarityData] = useRequest('/api/rarityData');
   const [lootData, loadedLootData] = useRequest('/api/treasureData');
+  const [biomeData, loadedBiomeData] = useRequest('/api/biomeData');
 
   const filterData = (query) => {
     if (!loadedLootData) return;
@@ -52,7 +53,7 @@ const IndexPage = () => {
           <input type="text" className="md:col-span-11 w-full rounded-xl p-2" onChange={(e) => filterData(e.target.value)}></input>
         </div>
       </Section>
-      {loadedLootData && Object.keys(customData ?? lootData).map((biome, idx) => {
+      {loadedLootData && loadedBiomeData && Object.keys(customData ?? lootData).map((biome, idx) => {
         const commonData = (customData ?? lootData)[biome]["common"];
         const rareData = (customData ?? lootData)[biome]["rare"];
         const epicData = (customData ?? lootData)[biome]["epic"];
@@ -63,6 +64,7 @@ const IndexPage = () => {
         return (
           <Section key={idx}>
             <Biome name={biome}></Biome>
+            <Locations biomes={biomeData[biome]} />
             <Grid>
               <ItemsCard rarity={"common"} loot={(customData ?? lootData)[biome]["common"]} />
               <ItemsCard rarity={"rare"} loot={(customData ?? lootData)[biome]["rare"]} />
