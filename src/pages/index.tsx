@@ -43,7 +43,7 @@ const IndexPage = () => {
           <p className="font-mono text-3xl md:inline-block md:ml-5 align-middle">Rarities</p>
         </header>
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-2 mt-5">
-          {Object.keys(rarityData).map((ore, idx) => <ChanceSection ore={ore} chance={rarityData[ore]} />)}
+          {Object.keys(rarityData).map((ore, idx) => <ChanceSection key={idx} ore={ore} chance={rarityData[ore]} />)}
         </div>
       </Section>
       }

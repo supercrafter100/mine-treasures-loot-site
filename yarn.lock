@@ -1046,6 +1046,13 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
+react-hash-scroll@^1.4.7:
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/react-hash-scroll/-/react-hash-scroll-1.4.7.tgz#a6a29a9dc75aed9922cc630fff402b21167115e6"
+  integrity sha512-ysHhs92RhScjpQjG3r7QA8LHj6UANGBtIHrt424rEaZiSdlo7LLyJtAcWkuy7nqv2soTcdBGis5DVnUm5PLELQ==
+  dependencies:
+    tiny-warning "^1.0.3"
+
 react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -1150,6 +1157,11 @@ tailwindcss@^3.2.4:
     postcss-value-parser "^4.2.0"
     quick-lru "^5.1.1"
     resolve "^1.22.1"
+
+tiny-warning@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/tiny-warning/-/tiny-warning-1.0.3.tgz#94a30db453df4c643d0fd566060d60a875d84754"
+  integrity sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==
 
 to-regex-range@^5.0.1:
   version "5.0.1"
