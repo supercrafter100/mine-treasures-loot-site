@@ -6,5 +6,5 @@ export const rarityIcons = {
     "dslate_ores": "deepslate_gold_ore",
     "granite": "granite",
     "ores": "iron_ore",
-    "other": "stone"
+    "generic": "stone"
 }
