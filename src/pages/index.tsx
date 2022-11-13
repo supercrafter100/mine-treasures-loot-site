@@ -10,12 +10,14 @@ import useRequest from '../hooks/useRequest'
 import { MT_DATA } from '../interfaces'
 import Footer from '../components/Footer'
 import Locations from '../components/Locations'
+import Block from '../components/Block'
 
 const IndexPage = () => {
 
   const [customData, setCustomData] = useState<undefined | MT_DATA>();
 
   const [rarityData, loadedRarityData] = useRequest('/api/rarityData');
+  const [blockData, loadedBlockData] = useRequest('/api/blocksData');
   const [lootData, loadedLootData] = useRequest('/api/treasureData');
   const [biomeData, loadedBiomeData] = useRequest('/api/biomeData');
 
@@ -37,13 +39,21 @@ const IndexPage = () => {
     <div className="bg-white px-6 lg:px-24 py-12">
       <Card background={"#00a6ed"}><p className='text-4xl font-mono text-center font-bold'>Mine Treasures</p></Card>
 
-      {loadedRarityData && <Section>
+      {loadedRarityData && loadedBlockData && <Section>
         <header className="text-center">
           <Image src={"/items/diamond.png"} width={48} height={48} alt={"Diamond"} className="inline-block"></Image>
           <p className="font-mono text-3xl md:inline-block md:ml-5 align-middle">Rarities</p>
         </header>
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-2 mt-5">
           {Object.keys(rarityData).map((ore, idx) => <ChanceSection key={idx} ore={ore} chance={rarityData[ore]} />)}
+        </div>
+        <hr className="mt-10 mb-10"></hr>
+        <header className="text-center">
+          <Image src={"/items/cobblestone.png"} width={48} height={48} alt={"Diamond"} className="inline-block"></Image>
+          <p className="font-mono text-3xl md:inline-block md:ml-5 align-middle">Blocks</p>
+        </header>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-8 gap-2 mt-5">
+          {blockData.map((block, idx) => <Block key={idx} block={block} />)}
         </div>
       </Section>
       }

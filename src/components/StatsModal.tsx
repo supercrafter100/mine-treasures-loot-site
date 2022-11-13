@@ -25,21 +25,20 @@ const StatsModal = ({ item, setModal }: { item: MT_ITEM, setModal: Function }) =
                             <Image className="md:inline-block hidden md:visible " src={"/items/" + item.type + ".png"} alt={item.type} height={200} width={200} />
                             <section>
                                 {/* Lore */}
-                                {item.lore && item.lore.map(line => <p>{line}</p>)}
+                                {item.lore && item.lore.map((line, idx) => <p key={idx}>{line}</p>)}
                             </section>
                         </section>
                         <section className="text-center">
                             <h1 className="text-xl md:text-4xl font-bold mb-5"><FontAwesomeIcon icon={faTag} /> Attributes</h1>
                             <div className="grid grid-cols-1 gap-3">
-                                {item.attributes && item.attributes.map((attribute) => <Attribute attribute={attribute}></Attribute>)}
+                                {item.attributes && item.attributes.map((attribute, idx) => <Attribute key={idx} attribute={attribute}></Attribute>)}
                             </div>
-
                         </section>
                         <section className="text-center">
                             <h1 className="text-xl md:text-4xl font-bold mb-5"><FontAwesomeIcon icon={faBook} /> Enchantments</h1>
                             <div className="grid grid-cols-1 gap-3">
                                 {item.unbreakable && <UnbreakableEnchantment />}
-                                {item.enchantments && item.enchantments.map((enchantment) => <Enchantment enchantment={enchantment}></Enchantment>)}
+                                {item.enchantments && item.enchantments.map((enchantment, idx) => <Enchantment key={idx} enchantment={enchantment}></Enchantment>)}
                             </div>
                         </section>
                     </div>
