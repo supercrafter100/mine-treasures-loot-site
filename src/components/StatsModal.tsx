@@ -32,6 +32,7 @@ const StatsModal = ({ item, setModal }: { item: MT_ITEM, setModal: Function }) =
                             <h1 className="text-xl md:text-4xl font-bold mb-5"><FontAwesomeIcon icon={faTag} /> Attributes</h1>
                             <div className="grid grid-cols-1 gap-3">
                                 {item.attributes && item.attributes.map((attribute, idx) => <Attribute key={idx} attribute={attribute}></Attribute>)}
+                                {!item.attributes && <p className="text-center"><i>No attributes</i></p>}
                             </div>
                         </section>
                         <section className="text-center pb-5 md:pb-0">
@@ -39,6 +40,7 @@ const StatsModal = ({ item, setModal }: { item: MT_ITEM, setModal: Function }) =
                             <div className="grid grid-cols-1 gap-3">
                                 {item.unbreakable && <UnbreakableEnchantment />}
                                 {item.enchantments && item.enchantments.map((enchantment, idx) => <Enchantment key={idx} enchantment={enchantment}></Enchantment>)}
+                                {!item.unbreakable && !item.enchantments && <p className="text-center"><i>No enchantments</i></p>}
                             </div>
                         </section>
                     </div>
