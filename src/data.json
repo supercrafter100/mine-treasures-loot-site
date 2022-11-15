@@ -323,6 +323,9 @@
                 "name": "Arrow of Decay"
             },
             {
+                "type": "gold_block"
+            },
+            {
                 "type": "skeleton_skull"
             },
             {
@@ -332,38 +335,7 @@
                 "type": "tnt"
             },
             {
-                "type": "crossbow",
-                "enchantments": [
-                    {
-                        "type": "multishot",
-                        "min": 0,
-                        "max": 1
-                    },
-                    {
-                        "type": "piercing",
-                        "min": 0,
-                        "max": 4
-                    },
-                    {
-                        "type": "unbreaking",
-                        "min": 0,
-                        "max": 5
-                    },
-                    {
-                        "type": "quick_charge",
-                        "min": 0,
-                        "max": 3
-                    },
-                    {
-                        "type": "mending",
-                        "min": 0,
-                        "max": 1
-                    }
-                ]
-            },
-            {
-                "type": "chest",
-                "name": "Mineshaft Loot Chest"
+                "type": "tipped_arrow"
             }
         ]
     },
@@ -625,6 +597,12 @@
                 ]
             },
             {
+                "type": "golden_apple"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
                 "type": "diamond_block"
             },
             {
@@ -754,6 +732,16 @@
                 ]
             },
             {
+                "type": "potion",
+                "name": "Level III Raid Potion",
+                "lore": [
+                    "Drink in a Village"
+                ]
+            },
+            {
+                "type": "gold_block"
+            },
+            {
                 "type": "ender_pearl"
             },
             {
@@ -771,6 +759,19 @@
                     "instantly build a weaponsmith right ",
                     "in front of you. Use with caution. "
                 ]
+            },
+            {
+                "type": "goat_horn",
+                "name": "Pillager Outpost Horn",
+                "lore": [
+                    "  ",
+                    "Calls upon the great builder to instantly ",
+                    "build a pillager outpost right in front of ",
+                    "you. Use with caution. "
+                ]
+            },
+            {
+                "type": "emerald_block"
             },
             {
                 "type": "totem_of_undying"
@@ -4061,6 +4062,14 @@
                 "name": "Lush Arrow"
             },
             {
+                "type": "tipped_arrow",
+                "name": "Glowy Arrow"
+            },
+            {
+                "type": "glow_item_frame",
+                "name": "Invisible Glow Item Frame"
+            },
+            {
                 "type": "chorus_plant"
             }
         ],
@@ -4088,6 +4097,10 @@
             {
                 "type": "tipped_arrow",
                 "name": "Lush Arrow"
+            },
+            {
+                "type": "tipped_arrow",
+                "name": "Arrow of Lusting Hunger"
             },
             {
                 "type": "leather_leggings",
@@ -4504,11 +4517,34 @@
                 ]
             },
             {
+                "type": "crimson_fungus"
+            },
+            {
                 "type": "warped_fungus"
             },
             {
                 "type": "suspicious_stew",
                 "name": "Strength Stew"
+            },
+            {
+                "type": "goat_horn",
+                "name": "Levitation Cow Horn",
+                "lore": [
+                    "  ",
+                    "Calls the Levitation cow",
+                    "which one can milk with bowls ",
+                    "for stew of Levitation."
+                ]
+            },
+            {
+                "type": "goat_horn",
+                "name": "Health Boost Cow Horn",
+                "lore": [
+                    "  ",
+                    "Calls the Health Boost cow",
+                    "which one can milk with bowls ",
+                    "for stew of Health Boost."
+                ]
             }
         ],
         "legendary": [
@@ -4527,6 +4563,9 @@
                     "milk with bowls for stew of Luck ",
                     "Luck gives better treasure loot. "
                 ]
+            },
+            {
+                "type": "golden_apple"
             },
             {
                 "type": "redstone_block"
@@ -4558,6 +4597,16 @@
             {
                 "type": "suspicious_stew",
                 "name": "Health Boost Stew"
+            },
+            {
+                "type": "goat_horn",
+                "name": "Saturation Cow Horn",
+                "lore": [
+                    "  ",
+                    "Calls the Saturation cow ",
+                    "which one can milk with bowls ",
+                    "for stew of Saturation. "
+                ]
             },
             {
                 "type": "leather_boots",
@@ -5964,8 +6013,38 @@
                 "name": "Ultra Splash Slowness"
             },
             {
+                "type": "nether_wart"
+            },
+            {
                 "type": "potion",
                 "name": "Ultra Instant Heal"
+            },
+            {
+                "type": "splash_potion",
+                "name": "Ultra Splash Damage"
+            },
+            {
+                "type": "splash_potion",
+                "name": "Ultra Splash Poison"
+            },
+            {
+                "type": "potion",
+                "name": "Ultra Fire Resistance"
+            },
+            {
+                "type": "potion",
+                "name": "Ultra Water Breathing"
+            },
+            {
+                "type": "potion",
+                "name": "Ultra Swiftness"
+            },
+            {
+                "type": "cauldron"
+            },
+            {
+                "type": "splash_potion",
+                "name": "Ultra Splash Weakness"
             }
         ],
         "legendary": [
