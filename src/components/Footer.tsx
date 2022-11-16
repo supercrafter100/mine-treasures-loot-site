@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Footer = () => {
@@ -9,7 +10,10 @@ const Footer = () => {
                     <a href="https://www.planetminecraft.com/data-pack/mine-treasure/" className="mr-4 hover:underline md:mr-6">Datapack</a>
                 </li>
                 <li>
-                    <a href="https://github.com/supercrafter100/mine-treasures-loot-site" className="hover:underline">Github</a>
+                    <a href="https://github.com/supercrafter100/mine-treasures-loot-site" className="mr-4 md:mr-6">Github</a>
+                </li>
+                <li>
+                    <a href="https://www.buymeacoffee.com/supercrafter100" target="_blank"><Image src="/images/buymeacoffee.png" alt="Buy Me A Coffee" height={60} width={144.67} /></a>
                 </li>
             </ul>
         </footer>
