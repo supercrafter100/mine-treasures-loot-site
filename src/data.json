@@ -50,7 +50,21 @@
                 "type": "copper_block"
             },
             {
-                "type": "firework_rocket"
+                "type": "firework_rocket",
+                "nbt": {
+                    "Fireworks": {
+                        "Flight": "5b",
+                        "Explosions": [
+                            {
+                                "Type": 0,
+                                "Trail": "1b",
+                                "Colors": [
+                                    "I;14585366"
+                                ]
+                            }
+                        ]
+                    }
+                }
             }
         ],
         "epic": [
@@ -65,14 +79,91 @@
             },
             {
                 "type": "firework_rocket",
-                "name": "Blight Rocket"
+                "name": "Blight Rocket",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Blight Rocket\",\"color\":\"light_purple\",\"italic\":false}"
+                    },
+                    "weapon": "blight",
+                    "HideFlags": 127,
+                    "Fireworks": {
+                        "Flight": "1b",
+                        "Explosions": [
+                            {
+                                "Type": 4,
+                                "Colors": [
+                                    "I;16742674"
+                                ],
+                                "FadeColors": [
+                                    "I;16757826"
+                                ]
+                            },
+                            {
+                                "Type": 1,
+                                "Colors": [
+                                    "I;16758663"
+                                ],
+                                "FadeColors": [
+                                    "I;1511440"
+                                ]
+                            },
+                            {
+                                "Type": 2,
+                                "Colors": [
+                                    "I;8741705"
+                                ],
+                                "FadeColors": [
+                                    "I;16762900"
+                                ]
+                            },
+                            {
+                                "Type": 4,
+                                "Colors": [
+                                    "I;16729119"
+                                ],
+                                "FadeColors": [
+                                    "I;14054748"
+                                ]
+                            },
+                            {
+                                "Type": 1
+                            },
+                            {
+                                "Type": 1
+                            },
+                            {
+                                "Type": 1
+                            },
+                            {
+                                "Type": 1
+                            },
+                            {
+                                "Type": 1
+                            },
+                            {
+                                "Type": 1
+                            },
+                            {
+                                "Type": 1
+                            }
+                        ]
+                    }
+                }
             },
             {
                 "type": "golden_apple"
             },
             {
                 "type": "tnt",
-                "name": "Unstable TNT"
+                "name": "Unstable TNT",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Unstable TNT\",\"color\":\"aqua\",\"italic\":false}"
+                    },
+                    "BlockStateTag": {
+                        "unstable": "true"
+                    }
+                }
             }
         ],
         "legendary": [
@@ -124,11 +215,244 @@
             },
             {
                 "type": "splash_potion",
-                "name": "Grenade"
+                "name": "Grenade",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Grenade\",\"color\":\"gold\",\"italic\":false}"
+                    },
+                    "HideFlags": 127,
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "2b",
+                            "Amplifier": "2b",
+                            "Duration": 121
+                        },
+                        {
+                            "Id": "7b",
+                            "Amplifier": "3b",
+                            "Duration": 121,
+                            "ShowParticles": "0b"
+                        },
+                        {
+                            "Id": "15b",
+                            "Amplifier": "1b",
+                            "Duration": 121,
+                            "ShowParticles": "0b"
+                        }
+                    ],
+                    "CustomPotionColor": 0
+                }
             },
             {
                 "type": "firework_rocket",
-                "name": "Desolation Rocket"
+                "name": "Desolation Rocket",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Desolation Rocket\",\"color\":\"gold\",\"italic\":false}"
+                    },
+                    "weapon": "deso",
+                    "HideFlags": 127,
+                    "Fireworks": {
+                        "Flight": "1b",
+                        "Explosions": [
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            },
+                            {
+                                "Type": 0
+                            }
+                        ]
+                    }
+                }
             },
             {
                 "type": "orange_shulker_box"
@@ -150,6 +474,9 @@
             },
             {
                 "type": "netherite_hoe",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_damage",
@@ -205,6 +532,23 @@
                     "Fireworks are silent and go further."
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Badlands Helmet\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Crossbow arrows have a 150% increase\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"in damage and will always do crit damage.\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"Fireworks are silent and go further.\",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 15752199
+                    },
+                    "HideFlags": 64,
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "badlands_helmet"
+                },
                 "attributes": [
                     {
                         "name": "generic.armor",
@@ -320,7 +664,28 @@
             },
             {
                 "type": "tipped_arrow",
-                "name": "Arrow of Decay"
+                "name": "Arrow of Decay",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Arrow of Decay\",\"color\":\"#C75C0A\",\"italic\":false}"
+                    },
+                    "HideFlags": 127,
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "7b",
+                            "Amplifier": "0b",
+                            "Duration": 20,
+                            "ShowParticles": "0b"
+                        },
+                        {
+                            "Id": "19b",
+                            "Amplifier": "1b",
+                            "Duration": 60,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 14706980
+                }
             },
             {
                 "type": "gold_block"
@@ -402,6 +767,10 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "ruined"
+                },
                 "name": "Ruined Portal Horn",
                 "lore": [
                     "  ",
@@ -423,6 +792,10 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "ruined"
+                },
                 "name": "Ruined Portal Horn",
                 "lore": [
                     "  ",
@@ -456,6 +829,21 @@
                     "the wearer Resistance II for 2 seconds"
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Basalt Deltas Boots\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"When hit there is a 15% chance to grant \",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"the wearer Resistance II for 2 seconds\",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 2826786
+                    },
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "deltasboots"
+                },
                 "attributes": [
                     {
                         "name": "generic.armor",
@@ -543,6 +931,21 @@
                     " 0.75 Attack Speed"
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Barbaric Axe\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"When hitting an enemy there is a\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"25% chance to create an explosion\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"dealing AoE damage.\",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "weapon": "barbaric_axe"
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -594,7 +997,24 @@
                 "name": "Level IV Raid Potion",
                 "lore": [
                     "Drink in a Village"
-                ]
+                ],
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Level IV Raid Potion\",\"color\":\"light_purple\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\"Drink in a Village\",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "31b",
+                            "Amplifier": "3b",
+                            "Duration": 20,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 7565403
+                }
             },
             {
                 "type": "golden_apple"
@@ -616,6 +1036,10 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "portal_horn"
+                },
                 "name": "Portal Room Horn",
                 "lore": [
                     "  ",
@@ -636,6 +1060,21 @@
                     "Axes deal 25% more damage."
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Dark Forest Chestplate\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Axes deal 25% more damage.\",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 3161392
+                    },
+                    "HideFlags": 64,
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "dark_forest_chestplate"
+                },
                 "attributes": [
                     {
                         "name": "generic.armor_toughness",
@@ -720,7 +1159,16 @@
             },
             {
                 "type": "item_frame",
-                "name": "Invisible Item Frame"
+                "name": "Invisible Item Frame",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Invisible Item Frame\",\"color\":\"white\",\"italic\":false}"
+                    },
+                    "EntityTag": {
+                        "Invisible": "1b",
+                        "Fixed": "0b"
+                    }
+                }
             }
         ],
         "epic": [
@@ -729,14 +1177,48 @@
                 "name": "Level IV Raid Potion",
                 "lore": [
                     "Drink in a Village"
-                ]
+                ],
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Level IV Raid Potion\",\"color\":\"light_purple\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\"Drink in a Village\",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "31b",
+                            "Amplifier": "3b",
+                            "Duration": 20,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 7565403
+                }
             },
             {
                 "type": "potion",
                 "name": "Level III Raid Potion",
                 "lore": [
                     "Drink in a Village"
-                ]
+                ],
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Level III Raid Potion\",\"color\":\"light_purple\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\"Drink in a Village\",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "31b",
+                            "Amplifier": "2b",
+                            "Duration": 20,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 7565403
+                }
             },
             {
                 "type": "gold_block"
@@ -752,6 +1234,10 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "villagehorn"
+                },
                 "name": "Weaponsmith Village Horn",
                 "lore": [
                     "  ",
@@ -762,6 +1248,10 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "pillageroutpost"
+                },
                 "name": "Pillager Outpost Horn",
                 "lore": [
                     "  ",
@@ -789,7 +1279,24 @@
                 "name": "Level II Raid Potion",
                 "lore": [
                     "Drink in a Village"
-                ]
+                ],
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Level II Raid Potion\",\"color\":\"aqua\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\"Drink in a Village\",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "31b",
+                            "Amplifier": "1b",
+                            "Duration": 20,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 7565403
+                }
             },
             {
                 "type": "gold_ingot"
@@ -805,6 +1312,10 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "villagehorn"
+                },
                 "name": "Weaponsmith Village Horn",
                 "lore": [
                     "  ",
@@ -818,7 +1329,16 @@
             },
             {
                 "type": "item_frame",
-                "name": "Invisible Item Frame"
+                "name": "Invisible Item Frame",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Invisible Item Frame\",\"color\":\"white\",\"italic\":false}"
+                    },
+                    "EntityTag": {
+                        "Invisible": "1b",
+                        "Fixed": "0b"
+                    }
+                }
             }
         ]
     },
@@ -841,6 +1361,9 @@
             },
             {
                 "type": "diamond_pickaxe",
+                "nbt": {
+                    "tool": "cpick"
+                },
                 "enchantments": [
                     {
                         "type": "silk_touch",
@@ -877,6 +1400,9 @@
             },
             {
                 "type": "stone_hoe",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_damage",
@@ -931,10 +1457,18 @@
             },
             {
                 "type": "sculk_shrieker",
+                "nbt": {
+                    "BlockStateTag": {
+                        "can_summon": "true"
+                    }
+                },
                 "name": "Warden Shrieker"
             },
             {
                 "type": "flint_and_steel",
+                "nbt": {
+                    "weapon": "soul_steel"
+                },
                 "enchantments": [
                     {
                         "type": "unbreaking",
@@ -957,6 +1491,12 @@
             },
             {
                 "type": "dried_kelp",
+                "nbt": {
+                    "food": "dark_meat",
+                    "Enchantments": [
+                        {}
+                    ]
+                },
                 "name": "Dark Meat"
             },
             {
@@ -979,6 +1519,9 @@
             },
             {
                 "type": "netherite_pickaxe",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -1059,10 +1602,18 @@
             },
             {
                 "type": "sculk_shrieker",
+                "nbt": {
+                    "BlockStateTag": {
+                        "can_summon": "true"
+                    }
+                },
                 "name": "Warden Shrieker"
             },
             {
                 "type": "flint_and_steel",
+                "nbt": {
+                    "weapon": "soul_steel"
+                },
                 "enchantments": [
                     {
                         "type": "unbreaking",
@@ -1085,6 +1636,12 @@
             },
             {
                 "type": "dried_kelp",
+                "nbt": {
+                    "food": "dark_meat",
+                    "Enchantments": [
+                        {}
+                    ]
+                },
                 "name": "Dark Meat"
             },
             {
@@ -1107,6 +1664,9 @@
             },
             {
                 "type": "netherite_pickaxe",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -1177,6 +1737,15 @@
             {
                 "type": "leather_leggings",
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "color": 722516
+                    },
+                    "HideFlags": 64,
+                    "RepairCost": 9999,
+                    "Unbreakable": "1b",
+                    "armor": "deepdarklegs"
+                },
                 "attributes": [
                     {
                         "name": "generic.max_health",
@@ -1240,6 +1809,11 @@
             {
                 "type": "netherite_axe",
                 "unbreakable": true,
+                "nbt": {
+                    "RepairCost": 9999,
+                    "Unbreakable": "1b",
+                    "weapon": "riftaxe"
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -1306,10 +1880,18 @@
             },
             {
                 "type": "sculk_shrieker",
+                "nbt": {
+                    "BlockStateTag": {
+                        "can_summon": "true"
+                    }
+                },
                 "name": "Warden Shrieker"
             },
             {
                 "type": "flint_and_steel",
+                "nbt": {
+                    "weapon": "soul_steel"
+                },
                 "name": "Soul Flint and Steel",
                 "lore": [
                     "",
@@ -1338,6 +1920,9 @@
             },
             {
                 "type": "netherite_pickaxe",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -1526,6 +2111,9 @@
             },
             {
                 "type": "netherite_sword",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -1560,6 +2148,19 @@
                     "Armor is worn, the user gains permanent",
                     "Resistance I and 25% more health."
                 ],
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Refined Netherite Boots\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"When a full set of Refined Netherite\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"Armor is worn, the user gains permanent\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"Resistance I and 25% more health.\",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "armor": "rn_boots"
+                },
                 "attributes": [
                     {
                         "name": "generic.knockback_resistance",
@@ -1618,6 +2219,19 @@
                     "Armor is worn, the user gains permanent",
                     "Resistance I and 25% more health."
                 ],
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Refined Netherite Chestplate\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"When a full set of Refined Netherite\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"Armor is worn, the user gains permanent\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"Resistance I and 25% more health.\",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "armor": "rn_chest"
+                },
                 "attributes": [
                     {
                         "name": "generic.knockback_resistance",
@@ -1676,6 +2290,19 @@
                     "Armor is worn, the user gains permanent",
                     "Resistance I and 25% more health."
                 ],
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Refined Netherite Helmet\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"When a full set of Refined Netherite\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"Armor is worn, the user gains permanent\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"Resistance I and 25% more health.\",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "armor": "rn_helmet"
+                },
                 "attributes": [
                     {
                         "name": "generic.knockback_resistance",
@@ -1734,6 +2361,19 @@
                     "Armor is worn, the user gains permanent",
                     "Resistance I and 25% more health."
                 ],
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Refined Netherite Leggings\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"When a full set of Refined Netherite\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"Armor is worn, the user gains permanent\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"Resistance I and 25% more health.\",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "armor": "rn_legs"
+                },
                 "attributes": [
                     {
                         "name": "generic.knockback_resistance",
@@ -1840,6 +2480,20 @@
                     " 1.75 Attack Speed"
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Assassin's Blade\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\"\",\"color\":\"white\",\"italic\":false}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Early strikes deal 75% more damage\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"for 5 seconds. Cooldown of 25 seconds.\",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "RepairCost": 9999,
+                    "Unbreakable": "1b",
+                    "weapon": "assablade"
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -1927,6 +2581,12 @@
             },
             {
                 "type": "totem_of_undying",
+                "nbt": {
+                    "weapon": "totemassa",
+                    "Enchantments": [
+                        {}
+                    ]
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_damage",
@@ -1963,6 +2623,23 @@
                     "for 10 seconds after a player kill."
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Desert Chestplate\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Wearer gains 4 health after killing a mob.\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"Gains additional 4 health and Strength II\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"for 10 seconds after a player kill.\",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 16771415
+                    },
+                    "HideFlags": 64,
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "desert_chestplate"
+                },
                 "attributes": [
                     {
                         "name": "generic.knockback_resistance",
@@ -2186,6 +2863,12 @@
             },
             {
                 "type": "totem_of_undying",
+                "nbt": {
+                    "weapon": "totemassa",
+                    "Enchantments": [
+                        {}
+                    ]
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_damage",
@@ -2317,7 +3000,31 @@
                     "the fall damage into damage in a",
                     "small area. One use only."
                 ],
-                "unbreakable": true
+                "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Pointed Boots\",\"color\":\"light_purple\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Falling a distance which exceeds \",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"10 blocks or higher will convert\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"the fall damage into damage in a\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"small area. One use only.\",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 14388552
+                    },
+                    "HideFlags": 126,
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "weapon": "point",
+                    "Enchantments": [
+                        {
+                            "id": "minecraft:feather_falling",
+                            "lvl": "7s"
+                        }
+                    ]
+                }
             },
             {
                 "type": "diamond_chestplate"
@@ -2374,7 +3081,31 @@
                     "the fall damage into damage in a",
                     "small area. One use only."
                 ],
-                "unbreakable": true
+                "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Pointed Boots\",\"color\":\"light_purple\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Falling a distance which exceeds \",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"10 blocks or higher will convert\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"the fall damage into damage in a\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"small area. One use only.\",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 14388552
+                    },
+                    "HideFlags": 126,
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "weapon": "point",
+                    "Enchantments": [
+                        {
+                            "id": "minecraft:feather_falling",
+                            "lvl": "7s"
+                        }
+                    ]
+                }
             },
             {
                 "type": "iron_block"
@@ -2389,6 +3120,20 @@
                     "has a chance to grant 2 experience points."
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Stone Driller\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Mining Stone, Andesite, Granite and Diorite\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"has a chance to grant 2 experience points.\",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "tool": "stonedrill"
+                },
                 "enchantments": [
                     {
                         "type": "efficiency",
@@ -2411,6 +3156,23 @@
                     "blocks mined. Caps at 250 000."
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Dripstone Helmet\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Mining dripstone blocks increases \",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"hit speed by 1% for every 10 000\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"blocks mined. Caps at 250 000.\",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 8016693
+                    },
+                    "HideFlags": 64,
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "dripstone"
+                },
                 "attributes": [
                     {
                         "name": "generic.armor",
@@ -2504,6 +3266,10 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "tp"
+                },
                 "name": "Overworld Horn",
                 "lore": [
                     "  ",
@@ -2540,6 +3306,10 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "tp"
+                },
                 "name": "Overworld Horn",
                 "lore": [
                     "  ",
@@ -2550,7 +3320,16 @@
             },
             {
                 "type": "chorus_fruit",
-                "name": "Enchanted Chorus Fruit"
+                "name": "Enchanted Chorus Fruit",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Enchanted Chorus Fruit\",\"color\":\"light_purple\",\"italic\":false}"
+                    },
+                    "food": "enchanted_chorus_fruit",
+                    "Enchantments": [
+                        {}
+                    ]
+                }
             },
             {
                 "type": "shulker_shell"
@@ -2581,23 +3360,53 @@
             },
             {
                 "type": "firework_rocket",
-                "name": "Flight Rocket"
+                "name": "Flight Rocket",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Flight Rocket\",\"color\":\"aqua\",\"italic\":false}"
+                    },
+                    "Fireworks": {
+                        "Flight": "5b"
+                    }
+                }
             }
         ],
         "legendary": [
             {
                 "type": "firework_rocket",
-                "name": "Ultimate Flight Rocket"
+                "name": "Ultimate Flight Rocket",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Ultimate Flight Rocket\",\"color\":\"gold\",\"italic\":false}"
+                    },
+                    "Fireworks": {
+                        "Flight": "126b"
+                    }
+                }
             },
             {
                 "type": "netherite_ingot"
             },
             {
                 "type": "chorus_fruit",
-                "name": "Enchanted Chorus Fruit"
+                "name": "Enchanted Chorus Fruit",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Enchanted Chorus Fruit\",\"color\":\"light_purple\",\"italic\":false}"
+                    },
+                    "food": "enchanted_chorus_fruit",
+                    "Enchantments": [
+                        {}
+                    ]
+                }
             },
             {
-                "type": "shulker_box"
+                "type": "shulker_box",
+                "nbt": {
+                    "BlockEntityTag": {
+                        "LootTable": "minecraft:chests/end_treasure/shulker_shells"
+                    }
+                }
             },
             {
                 "type": "enchanted_golden_apple"
@@ -2607,6 +3416,10 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "tp"
+                },
                 "name": "Overworld Horn",
                 "lore": [
                     "  ",
@@ -2618,7 +3431,14 @@
             {
                 "type": "elytra",
                 "name": "Indestructia",
-                "unbreakable": true
+                "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Indestructia\",\"color\":\"gold\",\"italic\":false}"
+                    },
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b"
+                }
             },
             {
                 "type": "leather_boots",
@@ -2632,6 +3452,24 @@
                     "slowing the enemies as well. "
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"End Boots\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"When a thrown Ender Pearl lands\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"enemies in a 4x4 area takes \",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"6 hearts of magic damage. While\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"slowing the enemies as well. \",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 10639316
+                    },
+                    "HideFlags": 64,
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "end_boots"
+                },
                 "attributes": [
                     {
                         "name": "generic.armor",
@@ -2697,6 +3535,10 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "tp"
+                },
                 "name": "Overworld Horn",
                 "lore": [
                     "  ",
@@ -2743,7 +3585,15 @@
             },
             {
                 "type": "firework_rocket",
-                "name": "Flight Rocket"
+                "name": "Flight Rocket",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Flight Rocket\",\"color\":\"aqua\",\"italic\":false}"
+                    },
+                    "Fireworks": {
+                        "Flight": "5b"
+                    }
+                }
             }
         ]
     },
@@ -2781,6 +3631,9 @@
             },
             {
                 "type": "wooden_hoe",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_damage",
@@ -2839,7 +3692,16 @@
             },
             {
                 "type": "pumpkin_pie",
-                "name": "Flower Pie"
+                "name": "Flower Pie",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Flower Pie\",\"color\":\"aqua\",\"italic\":false}"
+                    },
+                    "food": "flowerpie",
+                    "Enchantments": [
+                        {}
+                    ]
+                }
             },
             {
                 "type": "experience_bottle"
@@ -2852,6 +3714,9 @@
             },
             {
                 "type": "iron_axe",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -2885,6 +3750,9 @@
             },
             {
                 "type": "iron_shovel",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -2918,6 +3786,9 @@
             },
             {
                 "type": "iron_hoe",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_damage",
@@ -2945,7 +3816,16 @@
             },
             {
                 "type": "pumpkin_pie",
-                "name": "Flower Pie"
+                "name": "Flower Pie",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Flower Pie\",\"color\":\"aqua\",\"italic\":false}"
+                    },
+                    "food": "flowerpie",
+                    "Enchantments": [
+                        {}
+                    ]
+                }
             },
             {
                 "type": "chorus_flower"
@@ -2961,10 +3841,22 @@
             },
             {
                 "type": "honey_bottle",
-                "name": "Juicy Experience Drink"
+                "name": "Juicy Experience Drink",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Juicy Experience Drink\",\"color\":\"gold\",\"italic\":false}"
+                    },
+                    "food": "xphoney",
+                    "Enchantments": [
+                        {}
+                    ]
+                }
             },
             {
                 "type": "diamond_axe",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -3005,6 +3897,9 @@
             },
             {
                 "type": "diamond_shovel",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -3038,6 +3933,9 @@
             },
             {
                 "type": "diamond_hoe",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_damage",
@@ -3069,6 +3967,23 @@
                     "Granting immunity to every negative effect."
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Flower Helmet\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"When the wearer falls below\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"8 hearts a flower veil surrounds the player \",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"Granting immunity to every negative effect.\",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 7206705
+                    },
+                    "HideFlags": 64,
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "flower_helmet"
+                },
                 "attributes": [
                     {
                         "name": "generic.armor",
@@ -3154,7 +4069,16 @@
             },
             {
                 "type": "pumpkin_pie",
-                "name": "Flower Pie"
+                "name": "Flower Pie",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Flower Pie\",\"color\":\"aqua\",\"italic\":false}"
+                    },
+                    "food": "flowerpie",
+                    "Enchantments": [
+                        {}
+                    ]
+                }
             },
             {
                 "type": "hanging_roots"
@@ -3164,6 +4088,9 @@
             },
             {
                 "type": "stone_hoe",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_damage",
@@ -3284,7 +4211,28 @@
             },
             {
                 "type": "tipped_arrow",
-                "name": "Arrow of Freeze"
+                "name": "Arrow of Freeze",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Arrow of Freeze\",\"color\":\"#42BCC9\",\"italic\":false}"
+                    },
+                    "HideFlags": 127,
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "2b",
+                            "Amplifier": "6b",
+                            "Duration": 100,
+                            "ShowParticles": "0b"
+                        },
+                        {
+                            "Id": "4b",
+                            "Amplifier": "3b",
+                            "Duration": 100,
+                            "ShowParticles": "0b"
+                        }
+                    ],
+                    "CustomPotionColor": 3071231
+                }
             }
         ],
         "epic": [
@@ -3309,7 +4257,35 @@
             },
             {
                 "type": "tipped_arrow",
-                "name": "Arrow of Frostbite"
+                "name": "Arrow of Frostbite",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Arrow of Frostbite\",\"color\":\"#3C6199\",\"italic\":false}"
+                    },
+                    "HideFlags": 127,
+                    "weapon": "frost",
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "7b",
+                            "Amplifier": "1b",
+                            "Duration": 20,
+                            "ShowParticles": "0b"
+                        },
+                        {
+                            "Id": "15b",
+                            "Amplifier": "1b",
+                            "Duration": 100,
+                            "ShowParticles": "0b"
+                        },
+                        {
+                            "Id": "20b",
+                            "Amplifier": "1b",
+                            "Duration": 100,
+                            "ShowParticles": "0b"
+                        }
+                    ],
+                    "CustomPotionColor": 3231405
+                }
             },
             {
                 "type": "dragon_breath"
@@ -3322,6 +4298,9 @@
             {
                 "type": "bow",
                 "unbreakable": true,
+                "nbt": {
+                    "Unbreakable": 1
+                },
                 "enchantments": [
                     {
                         "type": "power",
@@ -3373,7 +4352,35 @@
             },
             {
                 "type": "tipped_arrow",
-                "name": "Arrow of Frostbite"
+                "name": "Arrow of Frostbite",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Arrow of Frostbite\",\"color\":\"#3C6199\",\"italic\":false}"
+                    },
+                    "HideFlags": 127,
+                    "weapon": "frost",
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "7b",
+                            "Amplifier": "1b",
+                            "Duration": 20,
+                            "ShowParticles": "0b"
+                        },
+                        {
+                            "Id": "15b",
+                            "Amplifier": "1b",
+                            "Duration": 100,
+                            "ShowParticles": "0b"
+                        },
+                        {
+                            "Id": "20b",
+                            "Amplifier": "1b",
+                            "Duration": 100,
+                            "ShowParticles": "0b"
+                        }
+                    ],
+                    "CustomPotionColor": 3231405
+                }
             },
             {
                 "type": "leather_boots",
@@ -3386,6 +4393,23 @@
                     "5 seconds. Also reduces speed by 25%."
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Ice Shoes\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"When hit there is a 10% chance to reduce\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"the armor values of the enemy by 25% for\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"5 seconds. Also reduces speed by 25%.\",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 8705013
+                    },
+                    "HideFlags": 64,
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "ice_shoes"
+                },
                 "attributes": [
                     {
                         "name": "generic.armor",
@@ -3447,6 +4471,21 @@
                     " 2.25 Attack Speed"
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Ice Sword\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"When wearing Frost Walker-enchanted\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"boots, the sword deals 30% more damage as\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"well as slowing the opponent for 5 seconds. \",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "weapon": "ice_sword"
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -3545,7 +4584,34 @@
             },
             {
                 "type": "lingering_potion",
-                "name": "Potion of Freeze"
+                "name": "Potion of Freeze",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Potion of Freeze\",\"color\":\"aqua\",\"italic\":false}"
+                    },
+                    "HideFlags": 127,
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "2b",
+                            "Amplifier": "6b",
+                            "Duration": 400,
+                            "ShowParticles": "0b"
+                        },
+                        {
+                            "Id": "4b",
+                            "Amplifier": "3b",
+                            "Duration": 400,
+                            "ShowParticles": "0b"
+                        },
+                        {
+                            "Id": "15b",
+                            "Amplifier": "1b",
+                            "Duration": 400,
+                            "ShowParticles": "0b"
+                        }
+                    ],
+                    "CustomPotionColor": 3071231
+                }
             }
         ]
     },
@@ -3556,6 +4622,9 @@
             },
             {
                 "type": "netherite_axe",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -3631,6 +4700,22 @@
                     "Jump Boost II. Strength II in jungles. "
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Jungle Shoes\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"When worn the user gains permanent\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"Jump Boost II. Strength II in jungles. \",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 6553364
+                    },
+                    "HideFlags": 64,
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "jungle"
+                },
                 "attributes": [
                     {
                         "name": "generic.armor",
@@ -3731,6 +4816,9 @@
             },
             {
                 "type": "stone_axe",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_damage",
@@ -3804,6 +4892,9 @@
             },
             {
                 "type": "wither_skeleton_skull",
+                "nbt": {
+                    "armor": "wither"
+                },
                 "attributes": [
                     {
                         "name": "generic.armor",
@@ -3846,7 +4937,34 @@
             },
             {
                 "type": "tipped_arrow",
-                "name": "Poison Arrow"
+                "name": "Poison Arrow",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Poison Arrow\",\"color\":\"#46F057\",\"italic\":false}"
+                    },
+                    "HideFlags": 32,
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "19b",
+                            "Amplifier": "3b",
+                            "Duration": 140,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "2b",
+                            "Amplifier": "3b",
+                            "Duration": 140,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "15b",
+                            "Amplifier": "3b",
+                            "Duration": 140,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 4915005
+                }
             }
         ],
         "rare": [
@@ -3870,6 +4988,9 @@
             },
             {
                 "type": "creeper_head",
+                "nbt": {
+                    "armor": "creep"
+                },
                 "attributes": [
                     {
                         "name": "generic.armor",
@@ -3912,6 +5033,9 @@
             },
             {
                 "type": "skeleton_skull",
+                "nbt": {
+                    "armor": "skel"
+                },
                 "attributes": [
                     {
                         "name": "generic.armor",
@@ -3957,7 +5081,34 @@
             },
             {
                 "type": "tipped_arrow",
-                "name": "Poison Arrow"
+                "name": "Poison Arrow",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Poison Arrow\",\"color\":\"#46F057\",\"italic\":false}"
+                    },
+                    "HideFlags": 32,
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "19b",
+                            "Amplifier": "3b",
+                            "Duration": 140,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "2b",
+                            "Amplifier": "3b",
+                            "Duration": 140,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "15b",
+                            "Amplifier": "3b",
+                            "Duration": 140,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 4915005
+                }
             },
             {
                 "type": "chest",
@@ -4017,7 +5168,21 @@
             },
             {
                 "type": "potion",
-                "name": "Lush Potion"
+                "name": "Lush Potion",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Lush Potion\",\"color\":\"aqua\",\"italic\":false}"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "10b",
+                            "Amplifier": "2b",
+                            "Duration": 201,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 3135785
+                }
             }
         ],
         "epic": [
@@ -4029,6 +5194,28 @@
             },
             {
                 "type": "bee_nest",
+                "nbt": {
+                    "HideFlags": 127,
+                    "BlockEntityTag": {
+                        "Bees": [
+                            {
+                                "EntityData": {
+                                    "id": "minecraft:bee"
+                                }
+                            },
+                            {
+                                "EntityData": {
+                                    "id": "minecraft:bee"
+                                }
+                            },
+                            {
+                                "EntityData": {
+                                    "id": "minecraft:bee"
+                                }
+                            }
+                        ]
+                    }
+                },
                 "name": "Three Bee Nest"
             },
             {
@@ -4059,15 +5246,67 @@
             },
             {
                 "type": "tipped_arrow",
-                "name": "Lush Arrow"
+                "name": "Lush Arrow",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Lush Arrow\",\"color\":\"#2DD90B\",\"italic\":false}"
+                    },
+                    "HideFlags": 127,
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "18b",
+                            "Amplifier": "1b",
+                            "Duration": 140,
+                            "ShowParticles": "0b"
+                        },
+                        {
+                            "Id": "19b",
+                            "Amplifier": "2b",
+                            "Duration": 140,
+                            "ShowParticles": "0b"
+                        }
+                    ],
+                    "CustomPotionColor": 1441549
+                }
             },
             {
                 "type": "tipped_arrow",
-                "name": "Glowy Arrow"
+                "name": "Glowy Arrow",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Glowy Arrow\",\"color\":\"#F0B71A\",\"italic\":false}"
+                    },
+                    "HideFlags": 127,
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "17b",
+                            "Amplifier": "29b",
+                            "Duration": 100,
+                            "ShowParticles": "0b"
+                        },
+                        {
+                            "Id": "24b",
+                            "Amplifier": "1b",
+                            "Duration": 100,
+                            "ShowParticles": "0b"
+                        }
+                    ],
+                    "CustomPotionColor": 15775514
+                }
             },
             {
                 "type": "glow_item_frame",
-                "name": "Invisible Glow Item Frame"
+                "name": "Invisible Glow Item Frame",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Invisible Glow Item Frame\",\"color\":\"aqua\",\"italic\":false}"
+                    },
+                    "EntityTag": {
+                        "Invisible": "1b",
+                        "Fixed": "0b",
+                        "block": "invis"
+                    }
+                }
             },
             {
                 "type": "chorus_plant"
@@ -4076,7 +5315,44 @@
         "legendary": [
             {
                 "type": "potion",
-                "name": "Potion of The Lush Caves"
+                "name": "Potion of The Lush Caves",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Potion of The Lush Caves\",\"color\":\"gold\",\"italic\":false}"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "6b",
+                            "Amplifier": "1b",
+                            "Duration": 1
+                        },
+                        {
+                            "Id": "10b",
+                            "Amplifier": "3b",
+                            "Duration": 400,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "11b",
+                            "Amplifier": "1b",
+                            "Duration": 400,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "22b",
+                            "Amplifier": "1b",
+                            "Duration": 400,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "24b",
+                            "Amplifier": "1b",
+                            "Duration": 400,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 1572662
+                }
             },
             {
                 "type": "lime_shulker_box"
@@ -4089,18 +5365,76 @@
             },
             {
                 "type": "glow_item_frame",
-                "name": "Invisible Glow Item Frame"
+                "name": "Invisible Glow Item Frame",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Invisible Glow Item Frame\",\"color\":\"aqua\",\"italic\":false}"
+                    },
+                    "EntityTag": {
+                        "Invisible": "1b",
+                        "Fixed": "0b",
+                        "block": "invis"
+                    }
+                }
             },
             {
                 "type": "enchanted_golden_apple"
             },
             {
                 "type": "tipped_arrow",
-                "name": "Lush Arrow"
+                "name": "Lush Arrow",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Lush Arrow\",\"color\":\"#2DD90B\",\"italic\":false}"
+                    },
+                    "HideFlags": 127,
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "18b",
+                            "Amplifier": "1b",
+                            "Duration": 140,
+                            "ShowParticles": "0b"
+                        },
+                        {
+                            "Id": "19b",
+                            "Amplifier": "2b",
+                            "Duration": 140,
+                            "ShowParticles": "0b"
+                        }
+                    ],
+                    "CustomPotionColor": 1441549
+                }
             },
             {
                 "type": "tipped_arrow",
-                "name": "Arrow of Lusting Hunger"
+                "name": "Arrow of Lusting Hunger",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Arrow of Lusting Hunger\",\"color\":\"#998F5C\",\"italic\":false}"
+                    },
+                    "HideFlags": 127,
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "4b",
+                            "Amplifier": "1b",
+                            "Duration": 160,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "15b",
+                            "Amplifier": "1b",
+                            "Duration": 160,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "17b",
+                            "Amplifier": "120b",
+                            "Duration": 300,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 5003570
+                }
             },
             {
                 "type": "leather_leggings",
@@ -4114,6 +5448,24 @@
                     "18 damage in a 10 blocks radius."
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Lush Cave Pants\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Upon hitting the user enemies have \",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"a 25% chance of being struck by\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"strong thorns dealing a massive\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"18 damage in a 10 blocks radius.\",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 5566548
+                    },
+                    "HideFlags": 64,
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "lush_cave_leggings"
+                },
                 "attributes": [
                     {
                         "name": "generic.max_health",
@@ -4183,7 +5535,28 @@
             },
             {
                 "type": "tipped_arrow",
-                "name": "Glowy Arrow"
+                "name": "Glowy Arrow",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Glowy Arrow\",\"color\":\"#F0B71A\",\"italic\":false}"
+                    },
+                    "HideFlags": 127,
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "17b",
+                            "Amplifier": "29b",
+                            "Duration": 100,
+                            "ShowParticles": "0b"
+                        },
+                        {
+                            "Id": "24b",
+                            "Amplifier": "1b",
+                            "Duration": 100,
+                            "ShowParticles": "0b"
+                        }
+                    ],
+                    "CustomPotionColor": 15775514
+                }
             },
             {
                 "type": "tall_grass"
@@ -4207,6 +5580,13 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:yearn_goat_horn",
+                    "weapon": "mountainhorn",
+                    "Enchantments": [
+                        {}
+                    ]
+                },
                 "name": "Horn of the Mountain",
                 "lore": [
                     " ",
@@ -4254,6 +5634,22 @@
                     "Resistance I and Fire Resistance I."
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Mountain Leggings\",\"color\":\"gold\",\"bold\":false,\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"When worn the user gains permanent \",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"Resistance I and Fire Resistance I.\",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 5194298
+                    },
+                    "HideFlags": 64,
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "mountleggings"
+                },
                 "attributes": [
                     {
                         "name": "generic.knockback_resistance",
@@ -4359,6 +5755,17 @@
             },
             {
                 "type": "potion",
+                "nbt": {
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "3b",
+                            "Amplifier": "1b",
+                            "Duration": 3600,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 9285658
+                },
                 "name": "Potion of Haste"
             }
         ],
@@ -4368,6 +5775,9 @@
             },
             {
                 "type": "netherite_pickaxe",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "enchantments": [
                     {
                         "type": "silk_touch",
@@ -4400,6 +5810,9 @@
             },
             {
                 "type": "bundle",
+                "nbt": {
+                    "item": "bundle"
+                },
                 "name": "Mountain Bundle"
             }
         ],
@@ -4461,6 +5874,23 @@
             },
             {
                 "type": "potion",
+                "nbt": {
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "8b",
+                            "Amplifier": "3b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "11b",
+                            "Amplifier": "0b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 280333
+                },
                 "name": "Potion of Mountain Climb"
             }
         ]
@@ -4508,6 +5938,10 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "sfall_cow"
+                },
                 "name": "Slow Falling Cow Horn",
                 "lore": [
                     "  ",
@@ -4528,6 +5962,10 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "levi_cow"
+                },
                 "name": "Levitation Cow Horn",
                 "lore": [
                     "  ",
@@ -4538,6 +5976,10 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "health_cow"
+                },
                 "name": "Health Boost Cow Horn",
                 "lore": [
                     "  ",
@@ -4556,6 +5998,10 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "lucky_cow"
+                },
                 "name": "Lucky Cow Horn",
                 "lore": [
                     "  ",
@@ -4600,6 +6046,10 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "sat_cow"
+                },
                 "name": "Saturation Cow Horn",
                 "lore": [
                     "  ",
@@ -4618,6 +6068,22 @@
                     "the wearer receives 50% more health."
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Mushroom Boots\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"During the nighttime in the overworld\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"the wearer receives 50% more health.\",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 16723502
+                    },
+                    "HideFlags": 64,
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "mushroom_boots"
+                },
                 "attributes": [
                     {
                         "name": "generic.max_health",
@@ -4681,6 +6147,50 @@
                     "Unbreakable"
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Mushroom Shield\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\"\"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Gains Regeneration II for 5 \",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"seconds while blocking damage. \",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "HideFlags": 127,
+                    "RepairCost": 9999,
+                    "Unbreakable": "1b",
+                    "weapon": "mushroomshield",
+                    "BlockEntityTag": {
+                        "Base": 3,
+                        "Patterns": [
+                            {
+                                "Color": 0,
+                                "Pattern": "cr"
+                            },
+                            {
+                                "Color": 14,
+                                "Pattern": "hh"
+                            },
+                            {
+                                "Color": 3,
+                                "Pattern": "cbo"
+                            },
+                            {
+                                "Color": 3,
+                                "Pattern": "ts"
+                            },
+                            {
+                                "Color": 8,
+                                "Pattern": "bs"
+                            },
+                            {
+                                "Color": 12,
+                                "Pattern": "bts"
+                            }
+                        ]
+                    }
+                },
                 "attributes": [
                     {
                         "name": "generic.movement_speed",
@@ -4752,6 +6262,9 @@
             },
             {
                 "type": "iron_axe",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_damage",
@@ -4866,6 +6379,11 @@
             },
             {
                 "type": "respawn_anchor",
+                "nbt": {
+                    "BlockStateTag": {
+                        "charges": "4"
+                    }
+                },
                 "name": "Full Respawn Anchor"
             },
             {
@@ -4904,6 +6422,18 @@
                     " 14.5 Attack Damage",
                     " 1.5 Attack Speed"
                 ],
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Wither Sword\",\"color\":\"light_purple\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Has a 25% chance to apply Wither II\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"for 7 seconds upon hitting an enemy.  \",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "weapon": "wither_sword"
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -4942,7 +6472,39 @@
             },
             {
                 "type": "potion",
-                "name": "Nether Potion"
+                "name": "Nether Potion",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Nether Potion\",\"color\":\"light_purple\",\"italic\":false}"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "5b",
+                            "Amplifier": "1b",
+                            "Duration": 600,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "7b",
+                            "Amplifier": "1b",
+                            "Duration": 1,
+                            "ShowParticles": "0b"
+                        },
+                        {
+                            "Id": "11b",
+                            "Amplifier": "0b",
+                            "Duration": 600,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "12b",
+                            "Amplifier": "1b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 12393500
+                }
             }
         ],
         "legendary": [
@@ -4960,6 +6522,11 @@
             },
             {
                 "type": "respawn_anchor",
+                "nbt": {
+                    "BlockStateTag": {
+                        "charges": "4"
+                    }
+                },
                 "name": "Full Respawn Anchor"
             },
             {
@@ -4979,7 +6546,39 @@
             },
             {
                 "type": "potion",
-                "name": "Demon Potion"
+                "name": "Demon Potion",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Demon Potion\",\"color\":\"gold\",\"italic\":false}"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "5b",
+                            "Amplifier": "2b",
+                            "Duration": 600,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "7b",
+                            "Amplifier": "2b",
+                            "Duration": 1,
+                            "ShowParticles": "0b"
+                        },
+                        {
+                            "Id": "11b",
+                            "Amplifier": "1b",
+                            "Duration": 600,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "12b",
+                            "Amplifier": "1b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 12393500
+                }
             },
             {
                 "type": "leather_chestplate",
@@ -4991,6 +6590,21 @@
                     "Permanent Strength II in Nether. "
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Nether Chestplate\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Gains Strength II while on fire.\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"Permanent Strength II in Nether. \",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 10682368
+                    },
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "nether_chestplate"
+                },
                 "attributes": [
                     {
                         "name": "generic.armor_toughness",
@@ -5042,6 +6656,21 @@
                     "enemies with the Resistance effect. "
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Nether Leggings\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Deals 33% extra melee damage to\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"enemies with the Resistance effect. \",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 9834512
+                    },
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "netherleggings"
+                },
                 "attributes": [
                     {
                         "name": "generic.max_health",
@@ -5215,6 +6844,9 @@
             },
             {
                 "type": "shield",
+                "nbt": {
+                    "weapon": "light"
+                },
                 "attributes": [
                     {
                         "name": "generic.movement_speed",
@@ -5274,7 +6906,10 @@
                 "type": "dark_prismarine"
             },
             {
-                "type": "suspicious_stew"
+                "type": "suspicious_stew",
+                "nbt": {
+                    "food": "satstew"
+                }
             },
             {
                 "type": "leather_chestplate",
@@ -5286,6 +6921,22 @@
                     "Dolphin's Grace and Conduit Power II."
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Ocean Chestplate\",\"color\":\"gold\",\"bold\":false,\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"When worn the user gains permanent\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"Dolphin's Grace and Conduit Power II.\",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 957667
+                    },
+                    "HideFlags": 64,
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "oceanchest"
+                },
                 "attributes": [
                     {
                         "name": "generic.knockback_resistance",
@@ -5346,6 +6997,9 @@
             },
             {
                 "type": "trident",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_damage",
@@ -5406,7 +7060,10 @@
                 "type": "fishing_rod"
             },
             {
-                "type": "turtle_helmet"
+                "type": "turtle_helmet",
+                "nbt": {
+                    "armor": "turt"
+                }
             },
             {
                 "type": "netherite_ingot"
@@ -5441,6 +7098,10 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "horse"
+                },
                 "name": "Horse Horn",
                 "lore": [
                     "  ",
@@ -5481,6 +7142,10 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "dirty"
+                },
                 "name": "Dirty Roller Horn",
                 "lore": [
                     "  ",
@@ -5503,6 +7168,10 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "pega"
+                },
                 "name": "Pegasus Call Horn",
                 "lore": [
                     "  ",
@@ -5514,7 +7183,10 @@
             },
             {
                 "type": "carrot_on_a_stick",
-                "unbreakable": true
+                "unbreakable": true,
+                "nbt": {
+                    "Unbreakable": "1b"
+                }
             },
             {
                 "type": "lead"
@@ -5583,7 +7255,28 @@
             },
             {
                 "type": "splash_potion",
-                "name": "Horse Drugs"
+                "name": "Horse Drugs",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Horse Drugs\",\"color\":\"light_purple\",\"italic\":false}"
+                    },
+                    "HideFlags": 127,
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "1b",
+                            "Amplifier": "3b",
+                            "Duration": 1980,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "8b",
+                            "Amplifier": "3b",
+                            "Duration": 1980,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 16716440
+                }
             },
             {
                 "type": "leather_helmet",
@@ -5595,6 +7288,22 @@
                     "after consuming them."
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Savanna Helmet\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Golden edibles give extra buffs \",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"after consuming them.\",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 10462785
+                    },
+                    "HideFlags": 64,
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "savanna_helmet"
+                },
                 "attributes": [
                     {
                         "name": "generic.armor",
@@ -5661,6 +7370,10 @@
             },
             {
                 "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "horse"
+                },
                 "name": "Horse Horn",
                 "lore": [
                     "  ",
@@ -5714,6 +7427,20 @@
                     " 2.75 Attack Speed"
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Scythe of Souls\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Has a 12.5% chance to regain 4 health\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"upon hitting an enemy.\",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "weapon": "soul_scythe"
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -5781,7 +7508,33 @@
             },
             {
                 "type": "potion",
-                "name": "Pure Soul Potion"
+                "name": "Pure Soul Potion",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Pure Soul Potion\",\"color\":\"gold\",\"italic\":false}"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "10b",
+                            "Amplifier": "3b",
+                            "Duration": 800,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "22b",
+                            "Amplifier": "2b",
+                            "Duration": 800,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "23b",
+                            "Amplifier": "4b",
+                            "Duration": 200,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 12708080
+                }
             },
             {
                 "type": "leather_helmet",
@@ -5793,6 +7546,21 @@
                     "wearer has 10 health or below. "
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Soul Valley Helmet\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Gains Resistance II when the\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"wearer has 10 health or below. \",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 11401215
+                    },
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "soul_helmet"
+                },
                 "attributes": [
                     {
                         "name": "generic.armor",
@@ -5890,7 +7658,33 @@
             },
             {
                 "type": "potion",
-                "name": "Soul Potion"
+                "name": "Soul Potion",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Soul Potion\",\"color\":\"light_purple\",\"italic\":false}"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "10b",
+                            "Amplifier": "2b",
+                            "Duration": 800,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "22b",
+                            "Amplifier": "1b",
+                            "Duration": 800,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "23b",
+                            "Amplifier": "4b",
+                            "Duration": 100,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 11852256
+                }
             },
             {
                 "type": "crying_obsidian"
@@ -6010,46 +7804,294 @@
             },
             {
                 "type": "splash_potion",
-                "name": "Ultra Splash Slowness"
+                "name": "Ultra Splash Slowness",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Ultra Splash Slowness\",\"color\":\"light_purple\",\"italic\":false}"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "2b",
+                            "Amplifier": "3b",
+                            "Duration": 4000,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "4b",
+                            "Amplifier": "1b",
+                            "Duration": 4000,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "18b",
+                            "Amplifier": "0b",
+                            "Duration": 4000,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 4146759
+                }
             },
             {
                 "type": "nether_wart"
             },
             {
                 "type": "potion",
-                "name": "Ultra Instant Heal"
+                "name": "Ultra Instant Heal",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Ultra Instant Heal\",\"color\":\"light_purple\",\"italic\":false}"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "6b",
+                            "Amplifier": "2b",
+                            "Duration": 10,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "10b",
+                            "Amplifier": "1b",
+                            "Duration": 400,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "22b",
+                            "Amplifier": "1b",
+                            "Duration": 400,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 16712451
+                }
             },
             {
                 "type": "splash_potion",
-                "name": "Ultra Splash Damage"
+                "name": "Ultra Splash Damage",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Ultra Splash Damage\",\"color\":\"light_purple\",\"italic\":false}"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "7b",
+                            "Amplifier": "3b",
+                            "Duration": 10,
+                            "ShowParticles": "0b"
+                        }
+                    ],
+                    "CustomPotionColor": 0
+                }
             },
             {
                 "type": "splash_potion",
-                "name": "Ultra Splash Poison"
+                "name": "Ultra Splash Poison",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Ultra Splash Poison\",\"color\":\"light_purple\",\"italic\":false}"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "7b",
+                            "Amplifier": "0b",
+                            "Duration": 10
+                        },
+                        {
+                            "Id": "17b",
+                            "Amplifier": "3b",
+                            "Duration": 600,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "19b",
+                            "Amplifier": "2b",
+                            "Duration": 600,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 1944876
+                }
             },
             {
                 "type": "potion",
-                "name": "Ultra Fire Resistance"
+                "name": "Ultra Fire Resistance",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Ultra Fire Resistance\",\"color\":\"light_purple\",\"italic\":false}"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "11b",
+                            "Amplifier": "0b",
+                            "Duration": 6000,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "12b",
+                            "Amplifier": "3b",
+                            "Duration": 24000,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "22b",
+                            "Amplifier": "1b",
+                            "Duration": 6000,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 16228620
+                }
             },
             {
                 "type": "potion",
-                "name": "Ultra Water Breathing"
+                "name": "Ultra Water Breathing",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Ultra Water Breathing\",\"color\":\"light_purple\",\"italic\":false}"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "29b",
+                            "Amplifier": "1b",
+                            "Duration": 6000,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "30b",
+                            "Amplifier": "1b",
+                            "Duration": 6000,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 1034743
+                }
             },
             {
                 "type": "potion",
-                "name": "Ultra Swiftness"
+                "name": "Ultra Swiftness",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Ultra Swiftness\",\"color\":\"light_purple\",\"italic\":false}"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "1b",
+                            "Amplifier": "3b",
+                            "Duration": 4000,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "3b",
+                            "Amplifier": "1b",
+                            "Duration": 4000,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 1034743
+                }
             },
             {
                 "type": "cauldron"
             },
             {
                 "type": "splash_potion",
-                "name": "Ultra Splash Weakness"
+                "name": "Ultra Splash Weakness",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Ultra Splash Weakness\",\"color\":\"light_purple\",\"italic\":false}"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "4b",
+                            "Amplifier": "1b",
+                            "Duration": 4000,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "18b",
+                            "Amplifier": "1b",
+                            "Duration": 4000,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "27b",
+                            "Amplifier": "9b",
+                            "Duration": 4000,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 4541757
+                }
             }
         ],
         "legendary": [
             {
-                "type": "splash_potion"
+                "type": "splash_potion",
+                "nbt": {
+                    "display": {
+                        "Name": "[{\"text\":\"Ultimate\",\"color\":\"gold\",\"bold\":false,\"italic\":false},{\"text\":\" Splash\",\"color\":\"gold\",\"bold\":false,\"italic\":false}]"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "2b",
+                            "Amplifier": "4b",
+                            "Duration": 2400
+                        },
+                        {
+                            "Id": "4b",
+                            "Amplifier": "4b",
+                            "Duration": 2400
+                        },
+                        {
+                            "Id": "7b",
+                            "Amplifier": "4b",
+                            "Duration": 10
+                        },
+                        {
+                            "Id": "9b",
+                            "Amplifier": "4b",
+                            "Duration": 120
+                        },
+                        {
+                            "Id": "15b",
+                            "Amplifier": "4b",
+                            "Duration": 40
+                        },
+                        {
+                            "Id": "17b",
+                            "Amplifier": "255b",
+                            "Duration": 2400
+                        },
+                        {
+                            "Id": "18b",
+                            "Amplifier": "2b",
+                            "Duration": 2400
+                        },
+                        {
+                            "Id": "19b",
+                            "Amplifier": "4b",
+                            "Duration": 2400
+                        },
+                        {
+                            "Id": "20b",
+                            "Amplifier": "4b",
+                            "Duration": 2400
+                        },
+                        {
+                            "Id": "25b",
+                            "Amplifier": "30b",
+                            "Duration": 40,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "27b",
+                            "Amplifier": "9b",
+                            "Duration": 160,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 0
+                }
             },
             {
                 "type": "ender_chest"
@@ -6086,10 +8128,143 @@
             },
             {
                 "type": "brewing_stand",
-                "name": "Old Brewing Stand"
+                "name": "Old Brewing Stand",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Old Brewing Stand\",\"color\":\"gold\",\"italic\":false}"
+                    },
+                    "BlockEntityTag": {
+                        "Items": [
+                            {
+                                "Slot": "0b",
+                                "id": "minecraft:lingering_potion",
+                                "Count": "1b",
+                                "tag": {
+                                    "CustomPotionEffects": [
+                                        {
+                                            "Id": "7b",
+                                            "Amplifier": "2b",
+                                            "Duration": 21,
+                                            "ShowParticles": "0b"
+                                        }
+                                    ],
+                                    "CustomPotionColor": 0
+                                }
+                            },
+                            {
+                                "Slot": "1b",
+                                "id": "minecraft:lingering_potion",
+                                "Count": "1b",
+                                "tag": {
+                                    "CustomPotionEffects": [
+                                        {
+                                            "Id": "18b",
+                                            "Amplifier": "1b",
+                                            "Duration": 1200,
+                                            "ShowParticles": "0b"
+                                        }
+                                    ],
+                                    "CustomPotionColor": 3357007
+                                }
+                            },
+                            {
+                                "Slot": "2b",
+                                "id": "minecraft:lingering_potion",
+                                "Count": "1b",
+                                "tag": {
+                                    "CustomPotionEffects": [
+                                        {
+                                            "Id": "2b",
+                                            "Amplifier": "4b",
+                                            "Duration": 180,
+                                            "ShowParticles": "0b"
+                                        }
+                                    ],
+                                    "CustomPotionColor": 2169958
+                                }
+                            }
+                        ],
+                        "BrewTime": 40,
+                        "Fuel": "64b",
+                        "block": "old"
+                    }
+                }
             },
             {
-                "type": "potion"
+                "type": "potion",
+                "nbt": {
+                    "display": {
+                        "Name": "[{\"text\":\"Ultimate\",\"color\":\"gold\",\"bold\":false,\"italic\":false},{\"text\":\" Potion\",\"color\":\"gold\",\"bold\":false,\"italic\":false}]"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "1b",
+                            "Amplifier": "2b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "3b",
+                            "Amplifier": "2b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "5b",
+                            "Amplifier": "2b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "6b",
+                            "Amplifier": "2b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "10b",
+                            "Amplifier": "2b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "11b",
+                            "Amplifier": "1b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "12b",
+                            "Amplifier": "1b",
+                            "Duration": 2400
+                        },
+                        {
+                            "Id": "13b",
+                            "Amplifier": "1b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "22b",
+                            "Amplifier": "3b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "23b",
+                            "Amplifier": "1b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "26b",
+                            "Amplifier": "9b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 16119285
+                }
             },
             {
                 "type": "leather_chestplate",
@@ -6103,6 +8278,24 @@
                     "immunity to most negative effects. "
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Swamp Chestplate\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Has a 25% chance to lose garbage  \",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"upon being hit causing random debuffs \",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"to all enemies. Also granting the user\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"immunity to most negative effects. \",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 2055734
+                    },
+                    "HideFlags": 64,
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "swamp_chestplate"
+                },
                 "attributes": [
                     {
                         "name": "generic.knockback_resistance",
@@ -6254,7 +8447,38 @@
             },
             {
                 "type": "splash_potion",
-                "name": "Stinky Splash Potion"
+                "name": "Stinky Splash Potion",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Stinky Splash Potion\",\"color\":\"aqua\",\"italic\":false}"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "4b",
+                            "Amplifier": "1b",
+                            "Duration": 400,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "9b",
+                            "Amplifier": "1b",
+                            "Duration": 400,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "19b",
+                            "Amplifier": "1b",
+                            "Duration": 400
+                        },
+                        {
+                            "Id": "31b",
+                            "Amplifier": "0b",
+                            "Duration": 40,
+                            "ShowParticles": "0b"
+                        }
+                    ],
+                    "CustomPotionColor": 3963442
+                }
             }
         ]
     },
@@ -6337,6 +8561,9 @@
             },
             {
                 "type": "netherite_shovel",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -6412,6 +8639,12 @@
             },
             {
                 "type": "totem_of_undying",
+                "nbt": {
+                    "weapon": "totemdeath",
+                    "Enchantments": [
+                        {}
+                    ]
+                },
                 "name": "Totem of Death",
                 "lore": [
                     "When activated launches a deadly",
@@ -6423,6 +8656,9 @@
             },
             {
                 "type": "netherite_shovel",
+                "nbt": {
+                    "HideFlags": 2
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -6490,6 +8726,21 @@
                     "Replenishes hunger as you walk."
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Taiga Pants\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Replenishes hunger as you walk.\",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 7996519
+                    },
+                    "HideFlags": 64,
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "taigapants"
+                },
                 "attributes": [
                     {
                         "name": "generic.movement_speed",
@@ -6577,6 +8828,9 @@
             },
             {
                 "type": "flint_and_steel",
+                "nbt": {
+                    "item": "flint"
+                },
                 "enchantments": [
                     {
                         "type": "unbreaking",
@@ -6675,6 +8929,21 @@
                     " 1.75 Attack Speed"
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Hurricane Sword\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Hitting an enemy has a 20% chance to apply \",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"gust reducing Attack Damage by 20% and\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"Knockback Resistance to 0 for 5 seconds. \",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "weapon": "hurri"
+                },
                 "attributes": [
                     {
                         "name": "generic.attack_speed",
@@ -6725,7 +8994,21 @@
             },
             {
                 "type": "tipped_arrow",
-                "name": "Upwind Arrow"
+                "name": "Upwind Arrow",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Upwind Arrow\",\"color\":\"#F2F2D0\",\"italic\":false}"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": 25,
+                            "Amplifier": "3b",
+                            "Duration": 60,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 16775410
+                }
             },
             {
                 "type": "diamond_block"
@@ -6760,6 +9043,24 @@
                     "Caps at 80%."
                 ],
                 "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Wind Chestplate\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"When worn weapons with the knockback \",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"enchantment increases damage of that\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"weapon by 8% per knockback level.\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"Caps at 80%.\",\"color\":\"gray\",\"italic\":false}"
+                        ],
+                        "color": 16115415
+                    },
+                    "HideFlags": 64,
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "armor": "wind_chestplate"
+                },
                 "attributes": [
                     {
                         "name": "generic.movement_speed",
@@ -6887,7 +9188,21 @@
         "epic": [
             {
                 "type": "tipped_arrow",
-                "name": "Upwind Arrow"
+                "name": "Upwind Arrow",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Upwind Arrow\",\"color\":\"#F2F2D0\",\"italic\":false}"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": 25,
+                            "Amplifier": "3b",
+                            "Duration": 60,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 16775410
+                }
             },
             {
                 "type": "golden_apple"
@@ -6918,6 +9233,13 @@
             {
                 "type": "player_head",
                 "name": "Chicken Helmet",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Chicken Helmet\",\"color\":\"light_purple\",\"italic\":false}"
+                    },
+                    "armor": "chic",
+                    "SkullOwner": "MHF_Chicken"
+                },
                 "attributes": [
                     {
                         "name": "generic.armor",
@@ -6961,6 +9283,9 @@
             },
             {
                 "type": "bow",
+                "nbt": {
+                    "weapon": "wbow"
+                },
                 "enchantments": [
                     {
                         "type": "power",
@@ -7008,7 +9333,28 @@
             },
             {
                 "type": "potion",
-                "name": "Updraft Potion"
+                "name": "Updraft Potion",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Updraft Potion\",\"color\":\"white\",\"italic\":false}"
+                    },
+                    "item": "upd",
+                    "CustomPotionEffects": [
+                        {
+                            "Id": 25,
+                            "Amplifier": "29b",
+                            "Duration": 40,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": 28,
+                            "Amplifier": "0b",
+                            "Duration": 400,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 16776422
+                }
             },
             {
                 "type": "cooked_chicken"

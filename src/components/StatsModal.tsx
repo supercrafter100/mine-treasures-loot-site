@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { faTag, faBook, faXmark } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { attributeNames } from '../utils/attribute-names';
+import NBTBlock from './NBTBlock';
 
 const StatsModal = ({ item, setModal }: { item: MT_ITEM, setModal: Function }) => {
 
@@ -43,6 +44,12 @@ const StatsModal = ({ item, setModal }: { item: MT_ITEM, setModal: Function }) =
                                 {!item.unbreakable && !item.enchantments && <p className="text-center"><i>No enchantments</i></p>}
                             </div>
                         </section>
+                        {item.nbt && (
+                            <section className="lg:col-span-3">
+                                <NBTBlock nbt={item.nbt}></NBTBlock>
+                            </section>
+                        )}
+                        <section></section>
                     </div>
                 </div>
             </div>

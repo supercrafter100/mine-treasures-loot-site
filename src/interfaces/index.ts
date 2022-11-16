@@ -9,6 +9,7 @@ export type MT_ITEM = {
   name?: string;
   unbreakable?: boolean;
   lore?: string[];
+  nbt?: object;
   enchantments?: MT_ENCHANTMENT[];
   attributes?: MT_ATTRIBUTE[]
 }
