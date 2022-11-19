@@ -2,13 +2,18 @@
     "badlands_treasure": [
         "badlands",
         "eroded badlands",
-        "wooded badlands"
+        "wooded badlands",
+        "terralith:snowy badlands",
+        "terralith:bryce canyon",
+        "terralith:painted mountains",
+        "terralith:warped mesa"
     ],
     "basalt_treasure": [
         "basalt deltas"
     ],
     "dark_forest_treasure": [
-        "dark forest"
+        "dark forest",
+        "terralith:sakura grove"
     ],
     "deep_dark_treasure": [
         "deep dark"
@@ -23,7 +28,14 @@
         "river"
     ],
     "desert_treasure": [
-        "desert"
+        "desert",
+        "terralith:desert oasis",
+        "terralith:sandstone valley",
+        "terralith:red oasis",
+        "terralith:desert canyon",
+        "terralith:lush desert",
+        "terralith:ancient sands",
+        "terralith:desert spires"
     ],
     "dripstone_treasure": [
         "dripstone caves"
@@ -44,12 +56,22 @@
         "snowy beach",
         "snowy plains",
         "ice spikes",
-        "frozen river"
+        "frozen river",
+        "terralith:frozen cliffs",
+        "terralith:glacial chasm",
+        "terralith:alpha islands winter",
+        "terralith:wintry forest",
+        "terralith:snowy badlands"
     ],
     "jungle_treasure": [
         "sparse jungle",
         "jungle",
-        "bamboo jungle"
+        "bamboo jungle",
+        "terralith:tropical jungle",
+        "terralith:amethyst canyon",
+        "terralith:amethyst rainforest",
+        "terralith:jungle mountains",
+        "terralith:rocky jungle"
     ],
     "lush_caves_treasure": [
         "lush caves"
@@ -59,15 +81,24 @@
         "frozen peaks",
         "stony peaks",
         "grove",
-        "snowy slopes"
+        "terralith:blooming plateau",
+        "terralith:stony spires",
+        "snowy slopes",
+        "terralith:volcanic peaks",
+        "terralith:volcanic crater",
+        "terralith:scarlet mountains",
+        "terralith:rocky mountains",
+        "terralith:caldera",
+        "terralith:emerald peaks",
+        "terralith:painted mountains",
+        "terralith:alpine grove"
     ],
     "mushroom_treasure": [
         "mushroom fields"
     ],
     "nether_treasure": [
-        "nether wastes",
-        "crimson forest",
-        "warped forest"
+        "soul sand valley",
+        "basalt deltas"
     ],
     "ocean_treasure": [
         "deep lukewarm ocean",
@@ -83,24 +114,54 @@
     "savanna_treasure": [
         "windswept savanna",
         "savanna plateau",
-        "savanna"
+        "savanna",
+        "terralith:arid highlands",
+        "terralith:fractured savanna",
+        "terralith:savanna slopes",
+        "terralith:savanna badlands",
+        "terralith:brushland",
+        "terralith:ashen savanna"
     ],
     "soul_valley_treasure": [
         "soul sand valley"
     ],
     "swamp_treasure": [
         "swamp",
-        "mangrove swamp"
+        "mangrove swamp",
+        "terralith:ice marsh",
+        "terralith:siberian taiga",
+        "terralith:orchid swamp"
     ],
     "taiga_treasure": [
         "snowy taiga",
         "old growth pine taiga",
         "old growth spruce taiga",
-        "taiga"
+        "taiga",
+        "terralith:birch taiga",
+        "terralith:lush valley",
+        "terralith:shield",
+        "terralith:yellowstone",
+        "terralith:alphine highlands",
+        "terralith:forested highlands",
+        "terralith:caldera",
+        "terralith:cloud forest",
+        "terralith:caldera",
+        "terralith:cloud forest",
+        "terralith:siberian grove",
+        "terralith:siberian taiga",
+        "terralith:snowy maple forest",
+        "terralith:temperate highlands",
+        "terralith:snowy shield",
+        "terralith:wintry forest",
+        "terralith:wintry lowlands",
+        "terralith:yosemite cliffs",
+        "terralith:yosemite lowlands"
     ],
     "wind_treasure": [
         "windswept gravelly hills",
         "windswept hills",
-        "windswept forest"
+        "windswept forest",
+        "terralith:haze mountain",
+        "terralith:windswept spires"
     ]
 }
