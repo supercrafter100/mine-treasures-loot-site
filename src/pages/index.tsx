@@ -1,100 +1,73 @@
-import Image from 'next/image'
-import { useState } from 'react'
-import Biome from '../components/Biome'
-import Card from '../components/Card'
-import ChanceSection from '../components/ChanceSection'
-import Grid from '../components/Grid'
-import ItemsCard from '../components/ItemsCard'
-import Section from '../components/Section'
-import useRequest from '../hooks/useRequest'
-import { MT_DATA } from '../interfaces'
-import Footer from '../components/Footer'
-import Locations from '../components/Locations'
-import Block from '../components/Block'
 import Head from 'next/head'
+import React from 'react'
+import Image from 'next/image'
+import { faArrowRight, faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Link from 'next/link';
+const index = () => {
+    return (
+        <>
+            <Head>
+                <title>Mine Treasure</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
+            <div className="bg-white px-6 lg:px-24 py-12 h-screen">
+                <header>
+                    <h1 className='text-2xl inline-block pl-5'>Mine Treasures</h1>
+                    <nav className="pl-2 md:pl-0 block md:inline-block md:float-right">
+                        <ul className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                            <li className="p-3"><Link href="/">Home</Link></li>
+                            <li className="p-3"><Link href="/loot">Treasure</Link></li>
+                            <li className="p-3 px-10 bg-blue-500 rounded-full"><a href="https://www.planetminecraft.com/data-pack/mine-treasure/">Download</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <main className="pt-10 xl:pt-3 grid xl:grid-cols-2 w-full">
+                    <section className="flex justify-center items-center">
+                        <div className="pl-5">
+                            <h1 className="inline-block font-bold text-4xl">Make mining enjoyable again</h1>
+                            <p className="max-w-[60%] pt-3">Ever gotten tired of mining endlessly with no goal in mind? No motivation to go strip-mining? No means to go on this repetitive task for ores? Well, this data pack aims to change exactly that.</p>
+                            <a href="https://www.planetminecraft.com/data-pack/mine-treasure/" className="mt-10 inline-block px-10 text-white py-3 rounded-full bg-blue-500">Start playing <FontAwesomeIcon icon={faArrowRight} className="align-middle" /></a>
+                        </div>
+                    </section>
+                    <section className="hidden xl:inline-block"><Image src="/images/treasure.svg" alt="header" width={500} height={500}></Image></section>
+                </main>
+            </div>
+            <div className="bg-gray-100 px-6 lg:px-24 py-12">
+                <h1 className="text-center text-3xl font-bold">Why this datapack?</h1>
+                <section className="w-[90%] md:w-[70%] xl:w-[60%] mx-auto pt-5 grid grid-cols-1 xl:grid-cols-2 gap-0">
+                    <div className="2xl:h-64 bg-gray-300 hidden xl:flex items-center">
+                        <img className="mx-auto block 2xl:w-full max-h-full" src="/images/treeasure-tiers.gif" alt="treasure tiers gif"></img>
+                    </div>
+                    <div className="p-5 bg-gray-300 h-72 2xl:h-64 flex items-center">
+                        <div>
+                            <h1 className="text-2xl font-medium">Custom treasures</h1>
+                            <p>This data pack introduces a whole new way of approaching mining with a huge reward system. Treasure has a chance to spawn when mining a stone-related block. These treasures are divided into several different tiers: Common, Rare, Epic and Legendary.</p>
+                        </div>
+                    </div>
+                    <div className="p-5 bg-gray-300 h-72 2xl:h-64 flex items-center">
+                        <div>
+                            <h1 className="text-2xl font-medium">Biome specific</h1>
+                            <p>There are biome-specific treasures depending on which biome the player is in, which also motivates different bases in different biomes.</p>
+                        </div>
+                    </div>
+                    <div className="h-72 2xl:h-64 bg-gray-300 hidden xl:flex items-center">
+                        <img className="mx-auto block 2xl:w-full max-h-full" src="/images/biomes.jpg" alt="treasure tiers gif"></img>
+                    </div>
+                    <div className="h-72 2xl:h-64 bg-gray-300 hidden xl:flex items-center">
+                        <img className="mx-auto block 2xl:w-full max-h-full" src="/images/items.jpg" alt="treasure tiers gif"></img>
+                    </div>
 
-const IndexPage = () => {
-
-  const [customData, setCustomData] = useState<undefined | MT_DATA>();
-
-  const [rarityData, loadedRarityData] = useRequest('/api/rarityData');
-  const [blockData, loadedBlockData] = useRequest('/api/blocksData');
-  const [lootData, loadedLootData] = useRequest('/api/treasureData');
-  const [biomeData, loadedBiomeData] = useRequest('/api/biomeData');
-
-  const filterData = (query) => {
-    if (!loadedLootData) return;
-    if (query.length === 0) { setCustomData(undefined); return };
-
-    let filteredData = {};
-    for (const biome of Object.keys(lootData)) {
-      filteredData[biome] = {};
-      for (const rarity of Object.keys(lootData[biome])) {
-        filteredData[biome][rarity] = lootData[biome][rarity].filter((value) => (value.name?.toLowerCase() ?? value.type.replace(/_/g, ' ').toLowerCase()).includes(query.toLowerCase()))
-      }
-    }
-    setCustomData(filteredData);
-  }
-
-  return (
-    <>
-      <Head>
-        <title>Mine Treasure</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
-      <div className="bg-white px-6 lg:px-24 py-12">
-        <Card background={"#00a6ed"}><p className='text-4xl font-mono text-center font-bold'>Mine Treasures</p></Card>
-
-        {loadedRarityData && loadedBlockData && <Section>
-          <header className="text-center">
-            <Image src={"/items/diamond.png"} width={48} height={48} alt={"Diamond"} className="inline-block"></Image>
-            <p className="font-mono text-3xl md:inline-block md:ml-5 align-middle">Rarities</p>
-          </header>
-          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-2 mt-5">
-            {Object.keys(rarityData).map((ore, idx) => <ChanceSection key={idx} ore={ore} chance={rarityData[ore]} />)}
-          </div>
-          <hr className="mt-10 mb-10"></hr>
-          <header className="text-center">
-            <Image src={"/items/cobblestone.png"} width={48} height={48} alt={"Diamond"} className="inline-block"></Image>
-            <p className="font-mono text-3xl md:inline-block md:ml-5 align-middle">Blocks</p>
-          </header>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-8 gap-2 mt-5">
-            {blockData.map((block, idx) => <Block key={idx} block={block} />)}
-          </div>
-        </Section>
-        }
-        <Section>
-          <div className="grid grid-cols-1 md:grid-cols-12">
-            <span className="text-xl md:col-span-1">Search: </span>
-            <input type="text" className="md:col-span-11 w-full rounded-xl p-2" onChange={(e) => filterData(e.target.value)}></input>
-          </div>
-        </Section>
-        {loadedRarityData && loadedLootData && loadedBiomeData && Object.keys(customData ?? lootData).map((biome, idx) => {
-          const commonData = (customData ?? lootData)[biome]["common"];
-          const rareData = (customData ?? lootData)[biome]["rare"];
-          const epicData = (customData ?? lootData)[biome]["epic"];
-          const legendaryData = (customData ?? lootData)[biome]["legendary"];
-
-          if (!commonData.length && !rareData.length && !epicData.length && !legendaryData.length) return "";
-
-          return (
-            <Section key={idx}>
-              <Biome name={biome}></Biome>
-              <Locations biomes={biomeData[biome]} />
-              <Grid>
-                <ItemsCard rarity={"common"} loot={(customData ?? lootData)[biome]["common"]} />
-                <ItemsCard rarity={"rare"} loot={(customData ?? lootData)[biome]["rare"]} />
-                <ItemsCard rarity={"epic"} loot={(customData ?? lootData)[biome]["epic"]} />
-                <ItemsCard rarity={"legendary"} loot={(customData ?? lootData)[biome]["legendary"]} />
-              </Grid>
-            </Section>
-          )
-        })}
-        <Footer />
-      </div>
-
-    </>
-  )
+                    <div className="p-5 bg-gray-300 h-72 2xl:h-64 flex items-center">
+                        <div>
+                            <h1 className="text-2xl font-medium">Custom items</h1>
+                            <p>This data pack includes over 80+ loot tables with custom armor, custom weapons, custom food, custom advancements and custom utility items and randomized stats, making many items feel unique.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </>
+    )
 }
 
-export default IndexPage
+export default index
