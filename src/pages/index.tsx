@@ -5,6 +5,7 @@ import { faArrowRight, faCircleCheck, faCircleExclamation, faCircleMinus } from 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
 import Footer from '../components/Footer';
+import Review from '../components/Review';
 const index = () => {
     return (
         <>
@@ -74,6 +75,11 @@ const index = () => {
                         <img className="mx-auto block 2xl:w-full max-h-full" src="/images/advancements.png" alt="advancements"></img>
                     </div>
                 </section>
+
+                <div className="pt-10 grid grid-cols-1 md:grid-cols-2 gap-5">
+                    <Review text="So much content, I can tell a lot of work went into this, very impressive!" username={"Kefaku"} />
+                    <Review text="I love this pack so much. mining is one of those grindy things in minecraft i used to hate so much but now its got such an allure!" username={"ThatwitchyPlayr"} />
+                </div>
 
                 <h1 className="text-center text-3xl font-bold mt-5">Compatibility</h1>
                 <div className="overflow-x-auto">
