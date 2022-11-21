@@ -78,7 +78,7 @@ const index = () => {
 
                 <div className="pt-10 grid grid-cols-1 md:grid-cols-2 gap-5">
                     <Review text="So much content, I can tell a lot of work went into this, very impressive!" username={"Kefaku"} />
-                    <Review text="I love this pack so much. mining is one of those grindy things in minecraft i used to hate so much but now its got such an allure!" username={"ThatwitchyPlayr"} />
+                    <Review text="I love this pack so much. Mining is one of those grindy things in minecraft I used to hate so much but now it's got such an allure!" username={"ThatwitchyPlayr"} />
                 </div>
 
                 <h1 className="text-center text-3xl font-bold mt-5">Compatibility</h1>
