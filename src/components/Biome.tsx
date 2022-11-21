@@ -10,7 +10,7 @@ const Biome = ({ name }) => {
     const ref = useRef();
 
     const writeHref = () => {
-        const route = window.location.origin + "/#" + name
+        const route = window.location.origin + "/loot#" + name
         navigator.clipboard.writeText(route);
         window.location.href = route;
     }
