@@ -14,17 +14,17 @@ const index = () => {
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
             <div className="bg-white px-6 lg:px-24 py-12 h-screen">
-                <header>
+                <header className="mb-7">
                     <h1 className='text-2xl inline-block pl-5'>Mine Treasures</h1>
                     <nav className="pl-4 md:pl-0 block md:inline-block md:float-right">
                         <ul className="grid grid-cols-1 md:grid-cols-3 gap-3">
-                            <li className="p-1 md:p-3 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors duration-200"><Link href="/">Home</Link></li>
-                            <li className="p-1 md:p-3 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors duration-200"><Link href="/loot">Treasure</Link></li>
+                            <li className="p-1 md:p-3 hover:bg-gray-100 transition-colors duration-200"><Link href="/">Home</Link></li>
+                            <li className="p-1 md:p-3 hover:bg-gray-100 transition-colors duration-200"><Link href="/loot">Treasure</Link></li>
                             <li className="p-1 md:p-3 text-center md:text-left md:px-10 bg-blue-500 rounded-full"><a href="https://www.planetminecraft.com/data-pack/mine-treasure/">Download</a></li>
                         </ul>
                     </nav>
                 </header>
-                <main className="pt-10 xl:pt-3 grid xl:grid-cols-2 w-full">
+                <main className="pt-10 xl:pt-3 grid xl:grid-cols-2 w-full border-t">
                     <section className="flex justify-center items-center">
                         <div className="pl-5">
                             <h1 className="inline-block font-bold text-4xl">Make mining enjoyable again</h1>
