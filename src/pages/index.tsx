@@ -10,7 +10,7 @@ const index = () => {
     return (
         <>
             <Head>
-                <title>Mine Treasure</title>
+                <title>Mine Treasure | Home</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
             <div className="bg-white px-6 lg:px-24 py-12 h-screen">
