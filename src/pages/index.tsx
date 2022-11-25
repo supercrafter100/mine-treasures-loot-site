@@ -6,7 +6,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
 import Footer from '../components/Footer';
 import Review from '../components/Review';
+import StatisticsChart from '../components/StatisticsChart';
+import useRequest from '../hooks/useRequest';
 const index = () => {
+
+    const [statistics, loadedStatistics] = useRequest('/api/statistics');
+
     return (
         <>
             <Head>
@@ -81,6 +86,13 @@ const index = () => {
                     <Review text="So much content, I can tell a lot of work went into this, very impressive!" username={"Kefaku"} />
                     <Review text="I love this pack so much. Mining is one of those grindy things in minecraft I used to hate so much but now it's got such an allure!" username={"ThatwitchyPlayr"} />
                 </div>
+
+                {loadedStatistics &&
+                    <div className="pt-10 max-w-[70%] mx-auto">
+                        <h1 className="text-center text-3xl font-bold mb-5">Our daily statistics</h1>
+                        <StatisticsChart data={statistics} />
+                    </div>
+                }
 
                 <h1 className="text-center text-3xl font-bold mt-5">Compatibility</h1>
                 <div className="overflow-x-auto">

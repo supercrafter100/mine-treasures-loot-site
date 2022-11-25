@@ -11,6 +11,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "mysql2": "^2.3.3",
     "next": "latest",
     "react": "^18.2.0",
     "react-collapse": "^5.1.1",
@@ -18,6 +19,7 @@
     "react-hash-scroll": "^1.4.7",
     "react-syntax-highlighter": "^15.5.0",
     "react-tooltip": "^4.5.0",
+    "recharts": "^2.1.16",
     "string-similarity": "^4.0.4"
   },
   "devDependencies": {
