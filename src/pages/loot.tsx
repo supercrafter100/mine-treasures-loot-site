@@ -1,7 +1,6 @@
 import Image from 'next/image'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Biome from '../components/Biome'
-import Card from '../components/Card'
 import ChanceSection from '../components/ChanceSection'
 import Grid from '../components/Grid'
 import ItemsCard from '../components/ItemsCard'
@@ -13,29 +12,62 @@ import Locations from '../components/Locations'
 import Block from '../components/Block'
 import Head from 'next/head'
 import Navbar from '../components/layout/Navbar'
+import MultiSelect from '../components/form/MultiSelect'
+import Toggle from '../components/form/Toggle'
 
 const IndexPage = () => {
 
+  // Filters
   const [customData, setCustomData] = useState<undefined | MT_DATA>();
 
+  const [queryString, setQueryString] = useState("");
+  const [selectedTreasures, setSelectedTreasures] = useState([]);
+  const [selectedRarities, setSelectedRarities] = useState([]);
+  const [customItemsOnly, setCustomItemsOnly] = useState(false);
+
+  const filterData = (query) => {
+    if (!loadedLootData) return;
+
+    const validBiomes = selectedTreasures.map(t => t.value);
+    const validRarities = selectedRarities.map(t => t.value);
+
+    let filteredData = {};
+    let biomes = Object.keys(lootData);
+    biomes = validBiomes.length ? biomes.filter(b => validBiomes.includes(b)) : biomes;
+
+
+    for (const biome of biomes) {
+      filteredData[biome] = {};
+      for (const rarity of Object.keys(lootData[biome])) {
+        if (validRarities.length && !validRarities.includes(rarity)) {
+          filteredData[biome][rarity] = [];
+          continue;
+        }
+        filteredData[biome][rarity] = lootData[biome][rarity].filter((value) => (value.name?.toLowerCase() ?? value.type.replace(/_/g, ' ').toLowerCase()).includes(query.toLowerCase()));
+        if (customItemsOnly) filteredData[biome][rarity] = filteredData[biome][rarity].filter((value) => value.name !== undefined);
+      }
+    }
+
+    setCustomData(filteredData);
+  }
+
+  useEffect(() => {
+    filterData(queryString);
+  }, [selectedTreasures, selectedRarities, queryString, customItemsOnly])
+
+  const clearFilters = () => {
+    setSelectedTreasures([]);
+    setSelectedRarities([]);
+    setCustomItemsOnly(false);
+    setQueryString("");
+  }
+
+  // Rarity data
   const [rarityData, loadedRarityData] = useRequest('/api/rarityData');
   const [blockData, loadedBlockData] = useRequest('/api/blocksData');
   const [lootData, loadedLootData] = useRequest('/api/treasureData');
   const [biomeData, loadedBiomeData] = useRequest('/api/biomeData');
 
-  const filterData = (query) => {
-    if (!loadedLootData) return;
-    if (query.length === 0) { setCustomData(undefined); return };
-
-    let filteredData = {};
-    for (const biome of Object.keys(lootData)) {
-      filteredData[biome] = {};
-      for (const rarity of Object.keys(lootData[biome])) {
-        filteredData[biome][rarity] = lootData[biome][rarity].filter((value) => (value.name?.toLowerCase() ?? value.type.replace(/_/g, ' ').toLowerCase()).includes(query.toLowerCase()))
-      }
-    }
-    setCustomData(filteredData);
-  }
 
   return (
     <>
@@ -45,30 +77,58 @@ const IndexPage = () => {
       </Head>
       <div className="bg-white px-6 lg:px-24 py-12">
         <Navbar />
-        {loadedRarityData && loadedBlockData && <Section>
-          <header className="text-center">
-            <Image src={"/items/diamond.png"} width={48} height={48} alt={"Diamond"} className="inline-block"></Image>
-            <p className="font-mono text-3xl md:inline-block md:ml-5 align-middle">Rarities</p>
-          </header>
-          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-2 mt-5">
-            {Object.keys(rarityData).map((ore, idx) => <ChanceSection key={idx} ore={ore} chance={rarityData[ore]} />)}
-          </div>
-          <hr className="mt-10 mb-10"></hr>
-          <header className="text-center">
-            <Image src={"/items/cobblestone.png"} width={48} height={48} alt={"Diamond"} className="inline-block"></Image>
-            <p className="font-mono text-3xl md:inline-block md:ml-5 align-middle">Blocks</p>
-          </header>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-8 gap-2 mt-5">
-            {blockData.map((block, idx) => <Block key={idx} block={block} />)}
-          </div>
-        </Section>
+        {loadedRarityData && loadedBlockData && loadedLootData && <>
+          <Section>
+            <header className="text-center">
+              <Image src={"/items/diamond.png"} width={48} height={48} alt={"Diamond"} className="inline-block"></Image>
+              <p className="font-mono text-3xl md:inline-block md:ml-5 align-middle">Rarities</p>
+            </header>
+            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-2 mt-5">
+              {Object.keys(rarityData).map((ore, idx) => <ChanceSection key={idx} ore={ore} chance={rarityData[ore]} />)}
+            </div>
+            <hr className="mt-10 mb-10"></hr>
+            <header className="text-center">
+              <Image src={"/items/cobblestone.png"} width={48} height={48} alt={"Diamond"} className="inline-block"></Image>
+              <p className="font-mono text-3xl md:inline-block md:ml-5 align-middle">Blocks</p>
+            </header>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-8 gap-2 mt-5">
+              {blockData.map((block, idx) => <Block key={idx} block={block} />)}
+            </div>
+          </Section>
+          <Section>
+            <div>
+              <label htmlFor="search" className="sr-only">Search</label>
+              <div className="relative w-full">
+                <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                  <svg aria-hidden="true" className="w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+                </div>
+                <input type="text" id="search" value={queryString} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5" onChange={(e) => setQueryString(e.target.value)}></input>
+              </div>
+
+              <div className="flex items-center justify-between mt-4">
+                <p className="font-medium">Filters</p>
+                <button className="px-4 py-2 bg-white hover:bg-gray-200 text-sm font-medium rounded-md" onClick={() => clearFilters()}>Reset Filter</button>
+              </div>
+              <div>
+                <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 mt-4">
+                  <div>
+                    <p className="text-sm font-medium">Treasure types</p>
+                    <MultiSelect options={Object.keys(lootData).map(biome => { return { name: biome.replace(/_/g, ' '), value: biome } })} standard={""} selected={selectedTreasures} setSelected={setSelectedTreasures} />
+                  </div>
+                  <div>
+                    <p className="text-sm font-medium">Rarity types</p>
+                    <MultiSelect options={[{ name: "Common", value: "common" }, { name: "Rare", value: "rare" }, { name: "Epic", value: "epic" }, { name: "Legendary", value: "legendary" }]} standard={""} selected={selectedRarities} setSelected={setSelectedRarities} />
+                  </div>
+                  <div>
+                    <p className="text-sm font-medium">Custom items only</p>
+                    <Toggle setToggled={setCustomItemsOnly} toggled={customItemsOnly} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Section>
+        </>
         }
-        <Section>
-          <div className="grid grid-cols-1 md:grid-cols-12">
-            <span className="text-xl md:col-span-1">Search: </span>
-            <input type="text" className="md:col-span-11 w-full rounded-xl p-2" onChange={(e) => filterData(e.target.value)}></input>
-          </div>
-        </Section>
         {loadedRarityData && loadedLootData && loadedBiomeData && Object.keys(customData ?? lootData).map((biome, idx) => {
           const commonData = (customData ?? lootData)[biome]["common"];
           const rareData = (customData ?? lootData)[biome]["rare"];
