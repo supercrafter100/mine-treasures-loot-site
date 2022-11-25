@@ -18,10 +18,10 @@ const index = () => {
                     <h1 className='text-2xl inline-block pl-5'>Mine Treasures</h1>
                     <nav className="pl-4 md:pl-0 block md:inline-block md:float-right">
                         <ul className="grid grid-cols-1 md:grid-cols-4 gap-3">
-                            <li className="p-1 md:p-3 hover:bg-gray-100 transition-colors duration-200"><Link href="/">Home</Link></li>
-                            <li className="p-1 md:p-3 hover:bg-gray-100 transition-colors duration-200"><Link href="/loot">Treasure</Link></li>
-                            <li className="p-1 md:p-3 hover:bg-gray-100 transition-colors duration-200"><Link href="https://discord.gg/ASB67acx2Y">Discord</Link></li>
-                            <li className="p-1 md:p-3 text-center md:text-left md:px-10 bg-blue-500 rounded-full"><a href="https://www.planetminecraft.com/data-pack/mine-treasure/">Download</a></li>
+                            <li><Link className="inline-block w-full p-1 md:p-3 hover:bg-gray-100 transition-colors duration-200  align-middle" href="/">Home</Link></li>
+                            <li><Link className="inline-block w-full p-1 md:p-3 hover:bg-gray-100 transition-colors duration-200" href="/loot">Treasure</Link></li>
+                            <li><Link className="inline-block w-full p-1 md:p-3 hover:bg-gray-100 transition-colors duration-200" href="https://discord.gg/ASB67acx2Y">Discord</Link></li>
+                            <li><a className="inline-block w-full p-1 md:p-3 text-center md:text-left md:px-10 bg-blue-500 rounded-full" href="https://www.planetminecraft.com/data-pack/mine-treasure/">Download</a></li>
                         </ul>
                     </nav>
                 </header>
