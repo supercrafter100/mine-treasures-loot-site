@@ -944,7 +944,8 @@
                     },
                     "RepairCost": 99999,
                     "Unbreakable": "1b",
-                    "weapon": "barbaric_axe"
+                    "weapon": "barbaric_axe",
+                    "HideFlags": 2
                 },
                 "attributes": [
                     {
@@ -1013,7 +1014,8 @@
                             "ShowParticles": "1b"
                         }
                     ],
-                    "CustomPotionColor": 7565403
+                    "CustomPotionColor": 7565403,
+                    "item": "raid"
                 }
             },
             {
@@ -1193,7 +1195,8 @@
                             "ShowParticles": "1b"
                         }
                     ],
-                    "CustomPotionColor": 7565403
+                    "CustomPotionColor": 7565403,
+                    "item": "raid"
                 }
             },
             {
@@ -1217,7 +1220,8 @@
                             "ShowParticles": "1b"
                         }
                     ],
-                    "CustomPotionColor": 7565403
+                    "CustomPotionColor": 7565403,
+                    "item": "raid"
                 }
             },
             {
@@ -1295,7 +1299,8 @@
                             "ShowParticles": "1b"
                         }
                     ],
-                    "CustomPotionColor": 7565403
+                    "CustomPotionColor": 7565403,
+                    "item": "raid"
                 }
             },
             {
@@ -1520,7 +1525,8 @@
             {
                 "type": "netherite_pickaxe",
                 "nbt": {
-                    "HideFlags": 2
+                    "HideFlags": 2,
+                    "tool": "dpick"
                 },
                 "attributes": [
                     {
@@ -1665,7 +1671,8 @@
             {
                 "type": "netherite_pickaxe",
                 "nbt": {
-                    "HideFlags": 2
+                    "HideFlags": 2,
+                    "tool": "ddarkpick"
                 },
                 "attributes": [
                     {
@@ -1812,7 +1819,8 @@
                 "nbt": {
                     "RepairCost": 9999,
                     "Unbreakable": "1b",
-                    "weapon": "riftaxe"
+                    "weapon": "riftaxe",
+                    "HideFlags": 2
                 },
                 "attributes": [
                     {
@@ -2492,7 +2500,8 @@
                     },
                     "RepairCost": 9999,
                     "Unbreakable": "1b",
-                    "weapon": "assablade"
+                    "weapon": "assablade",
+                    "HideFlags": 2
                 },
                 "attributes": [
                     {
@@ -2637,7 +2646,7 @@
                     },
                     "HideFlags": 64,
                     "RepairCost": 99999,
-                    "Unbreakable": "1b",
+                    "Unbreakable": 1,
                     "armor": "desert_chestplate"
                 },
                 "attributes": [
@@ -3367,7 +3376,8 @@
                     },
                     "Fireworks": {
                         "Flight": "5b"
-                    }
+                    },
+                    "item": "flight"
                 }
             }
         ],
@@ -3381,7 +3391,8 @@
                     },
                     "Fireworks": {
                         "Flight": "126b"
-                    }
+                    },
+                    "item": "uflight"
                 }
             },
             {
@@ -3437,7 +3448,8 @@
                         "Name": "{\"text\":\"Indestructia\",\"color\":\"gold\",\"italic\":false}"
                     },
                     "RepairCost": 99999,
-                    "Unbreakable": "1b"
+                    "Unbreakable": "1b",
+                    "armor": "indestructia"
                 }
             },
             {
@@ -3592,7 +3604,8 @@
                     },
                     "Fireworks": {
                         "Flight": "5b"
-                    }
+                    },
+                    "item": "flight"
                 }
             }
         ]
@@ -4299,8 +4312,24 @@
                 "type": "bow",
                 "unbreakable": true,
                 "nbt": {
-                    "Unbreakable": 1
+                    "Unbreakable": 1,
+                    "display": {
+                        "Name": "{\"text\":\"Stray Bow\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\"\",\"color\":\"white\",\"italic\":false}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Arrows apply Slowness II.\",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "RepairCost": 9999,
+                    "weapon": "stray"
                 },
+                "name": "Stray Bow",
+                "lore": [
+                    "",
+                    "Ability:",
+                    "Arrows apply Slowness II."
+                ],
                 "enchantments": [
                     {
                         "type": "power",
@@ -4484,7 +4513,8 @@
                     },
                     "RepairCost": 99999,
                     "Unbreakable": "1b",
-                    "weapon": "ice_sword"
+                    "weapon": "ice_sword",
+                    "HideFlags": 2
                 },
                 "attributes": [
                     {
@@ -5181,7 +5211,8 @@
                             "ShowParticles": "1b"
                         }
                     ],
-                    "CustomPotionColor": 3135785
+                    "CustomPotionColor": 3135785,
+                    "item": "lpotion"
                 }
             }
         ],
@@ -5647,7 +5678,7 @@
                     },
                     "HideFlags": 64,
                     "RepairCost": 99999,
-                    "Unbreakable": "1b",
+                    "Unbreakable": 1,
                     "armor": "mountleggings"
                 },
                 "attributes": [
@@ -5764,7 +5795,8 @@
                             "ShowParticles": "1b"
                         }
                     ],
-                    "CustomPotionColor": 9285658
+                    "CustomPotionColor": 9285658,
+                    "item": "mhaste"
                 },
                 "name": "Potion of Haste"
             }
@@ -5889,7 +5921,8 @@
                             "ShowParticles": "1b"
                         }
                     ],
-                    "CustomPotionColor": 280333
+                    "CustomPotionColor": 280333,
+                    "item": "mjump"
                 },
                 "name": "Potion of Mountain Climb"
             }
@@ -6432,7 +6465,8 @@
                             "{\"text\":\"for 7 seconds upon hitting an enemy.  \",\"color\":\"gray\",\"italic\":false}"
                         ]
                     },
-                    "weapon": "wither_sword"
+                    "weapon": "wither_sword",
+                    "HideFlags": 2
                 },
                 "attributes": [
                     {
@@ -6503,7 +6537,8 @@
                             "ShowParticles": "1b"
                         }
                     ],
-                    "CustomPotionColor": 12393500
+                    "CustomPotionColor": 12393500,
+                    "food": "netherp"
                 }
             }
         ],
@@ -6577,7 +6612,8 @@
                             "ShowParticles": "1b"
                         }
                     ],
-                    "CustomPotionColor": 12393500
+                    "CustomPotionColor": 12393500,
+                    "food": "demonp"
                 }
             },
             {
@@ -6908,8 +6944,15 @@
             {
                 "type": "suspicious_stew",
                 "nbt": {
-                    "food": "satstew"
-                }
+                    "food": "satstew",
+                    "display": {
+                        "Name": "{\"text\":\"Saturation Stew\",\"color\":\"gold\",\"italic\":false}"
+                    },
+                    "BlockStateTag": {
+                        "unstable": "true"
+                    }
+                },
+                "name": "Saturation Stew"
             },
             {
                 "type": "leather_chestplate",
@@ -6934,7 +6977,7 @@
                     },
                     "HideFlags": 64,
                     "RepairCost": 99999,
-                    "Unbreakable": "1b",
+                    "Unbreakable": 1,
                     "armor": "oceanchest"
                 },
                 "attributes": [
@@ -7439,7 +7482,8 @@
                     },
                     "RepairCost": 99999,
                     "Unbreakable": "1b",
-                    "weapon": "soul_scythe"
+                    "weapon": "soul_scythe",
+                    "HideFlags": 2
                 },
                 "attributes": [
                     {
@@ -7533,7 +7577,8 @@
                             "ShowParticles": "1b"
                         }
                     ],
-                    "CustomPotionColor": 12708080
+                    "CustomPotionColor": 12708080,
+                    "food": "psoul"
                 }
             },
             {
@@ -7683,7 +7728,8 @@
                             "ShowParticles": "1b"
                         }
                     ],
-                    "CustomPotionColor": 11852256
+                    "CustomPotionColor": 11852256,
+                    "food": "soul"
                 }
             },
             {
@@ -7862,7 +7908,8 @@
                             "ShowParticles": "1b"
                         }
                     ],
-                    "CustomPotionColor": 16712451
+                    "CustomPotionColor": 16712451,
+                    "item": "uheal"
                 }
             },
             {
@@ -7939,7 +7986,8 @@
                             "ShowParticles": "1b"
                         }
                     ],
-                    "CustomPotionColor": 16228620
+                    "CustomPotionColor": 16228620,
+                    "item": "ufres"
                 }
             },
             {
@@ -7963,7 +8011,8 @@
                             "ShowParticles": "1b"
                         }
                     ],
-                    "CustomPotionColor": 1034743
+                    "CustomPotionColor": 1034743,
+                    "item": "uwbg"
                 }
             },
             {
@@ -7987,7 +8036,8 @@
                             "ShowParticles": "1b"
                         }
                     ],
-                    "CustomPotionColor": 1034743
+                    "CustomPotionColor": 1034743,
+                    "item": "uswift"
                 }
             },
             {
@@ -8263,7 +8313,8 @@
                             "ShowParticles": "1b"
                         }
                     ],
-                    "CustomPotionColor": 16119285
+                    "CustomPotionColor": 16119285,
+                    "item": "upotion"
                 }
             },
             {
@@ -8562,7 +8613,8 @@
             {
                 "type": "netherite_shovel",
                 "nbt": {
-                    "HideFlags": 2
+                    "HideFlags": 2,
+                    "weapon": "taigashovel"
                 },
                 "attributes": [
                     {
@@ -8942,7 +8994,8 @@
                     },
                     "RepairCost": 99999,
                     "Unbreakable": "1b",
-                    "weapon": "hurri"
+                    "weapon": "hurri",
+                    "HideFlags": 2
                 },
                 "attributes": [
                     {
@@ -9338,7 +9391,7 @@
                     "display": {
                         "Name": "{\"text\":\"Updraft Potion\",\"color\":\"white\",\"italic\":false}"
                     },
-                    "item": "upd",
+                    "item": "uppot",
                     "CustomPotionEffects": [
                         {
                             "Id": 25,
