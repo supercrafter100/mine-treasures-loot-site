@@ -85,15 +85,7 @@ const IndexPage = () => {
               <p className="font-mono text-3xl md:inline-block md:ml-5 align-middle">Rarities</p>
             </header>
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-2 mt-5">
-              {Object.keys(rarityData).map((ore, idx) => <ChanceSection key={idx} ore={ore} chance={rarityData[ore]} />)}
-            </div>
-            <hr className="mt-10 mb-10"></hr>
-            <header className="text-center">
-              <Image src={"/items/cobblestone.png"} width={48} height={48} alt={"Diamond"} className="inline-block"></Image>
-              <p className="font-mono text-3xl md:inline-block md:ml-5 align-middle">Blocks</p>
-            </header>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-8 gap-2 mt-5">
-              {blockData.map((block, idx) => <Block key={idx} block={block} predicate={blockPredicates[block]} />)}
+              {Object.keys(rarityData).map((ore, idx) => <ChanceSection key={idx} ore={ore} chance={rarityData[ore]} blocks={blockData.filter(b => blockPredicates[b] === ore)} />)}
             </div>
           </Section>
           <Section>

@@ -17,7 +17,7 @@ const StatsModal = ({ item, setModal }: { item: MT_ITEM, setModal: Function }) =
     return (
         <>
             <div className='fixed top-0 left-0 h-screen w-screen modal-background' onClick={handleModalClick} style={{ backgroundColor: 'rgb(0, 0, 0, 0.7)' }}>
-                <div className="relative w-[80vw] h-[80vh] rounded-xl bg-gray-200 opacity-100 mx-[10vw] my-[10vh] p-5 overflow-x-auto" onClick={handleModalClick}>
+                <div className="relative w-[80vw] h-[80vh] rounded-xl bg-gray-200 opacity-100 mx-[10vw] my-[10vh] p-5 overflow-x-auto scrollbar-thumb-gray-400 scrollbar-thumb-rounded-lg scrollbar-thin" onClick={handleModalClick}>
                     <FontAwesomeIcon className="absolute top-5 left-5 text-2xl transition-all duration-100 hover:text-4xl" icon={faXmark} onClick={() => setModal(false)} />
                     {/* Grid */}
                     <div className="w-full h-full grid grid-cols-1 lg:grid-cols-3 gap-10 md:gap-3">

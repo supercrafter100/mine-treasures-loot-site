@@ -3,8 +3,9 @@ import React from 'react'
 import { MT_CHANCE } from '../interfaces'
 import { rarityColors } from '../utils/rarity-colors'
 import { rarityIcons } from '../utils/rarity-icons'
+import Block from './Block'
 
-const ChanceSection = ({ ore, chance }: { ore: string, chance: MT_CHANCE }) => {
+const ChanceSection = ({ ore, chance, blocks }: { ore: string, chance: MT_CHANCE, blocks: string[] }) => {
 
     return (
         <div>
@@ -17,6 +18,10 @@ const ChanceSection = ({ ore, chance }: { ore: string, chance: MT_CHANCE }) => {
                 <span style={{ color: rarityColors["rare"] }} className="text-xl font-mono">rare: <span className='text-black text-lg'>{chance["rare"]}%</span></span>
                 <span style={{ color: rarityColors["epic"] }} className="text-xl font-mono">epic: <span className='text-black text-lg'>{chance["epic"]}%</span></span>
                 <span style={{ color: rarityColors["legendary"] }} className="text-xl font-mono">legendary: <span className='text-black text-lg'>{chance["legendary"] ?? "0"}%</span></span>
+            </div>
+            <hr className="mt-2 mb-2 mx-10 border-gray-400"></hr>
+            <div className="grid grid-cols-1 gap-2 max-h-56 overflow-y-auto scrollbar-thumb-gray-300 scrollbar-thumb-rounded-lg scrollbar-thin">
+                {blocks.map((block, idx) => <Block key={idx} block={block} />)}
             </div>
         </div>
     )

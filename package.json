@@ -20,7 +20,8 @@
     "react-syntax-highlighter": "^15.5.0",
     "react-tooltip": "^4.5.0",
     "recharts": "^2.1.16",
-    "string-similarity": "^4.0.4"
+    "string-similarity": "^4.0.4",
+    "tailwind-scrollbar": "^2.0.1"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
