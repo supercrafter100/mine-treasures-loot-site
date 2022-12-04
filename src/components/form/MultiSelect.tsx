@@ -23,7 +23,7 @@ const MultiSelect = ({ options, standard, selected, setSelected }: { options: { 
     }, []);
 
     return (
-        <div className="w-full flex flex-col items-center mx-auto">
+        <div className="w-full flex flex-col items-center mx-auto" onClick={() => setDropdown(!dropdown)}>
             <div className="w-full">
                 <div className="flex flex-col items-center relative">
                     <div className="my-2 p-1 flex border border-gray-200 bg-white rounded w-full">
@@ -43,7 +43,7 @@ const MultiSelect = ({ options, standard, selected, setSelected }: { options: { 
                             )}
                         </div>
                         <div className="text-gray-300 w-8 py-1 pl-2 pr-1 border-l flex items-center border-gray-200">
-                            <button className="cursor-pointer w-6 h-6 text-gray-600 outline-none focus:outline-none" onClick={() => setDropdown(!dropdown)}>
+                            <button className="cursor-pointer w-6 h-6 text-gray-600 outline-none focus:outline-none">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" strokeLinecap="round" strokeLinejoin="round" className={"duration-500 w-4 h-4" + (dropdown ? " rotate-180" : "rotate-0")}>
                                     <polyline points="18 15 12 9 6 15"></polyline>
                                 </svg>

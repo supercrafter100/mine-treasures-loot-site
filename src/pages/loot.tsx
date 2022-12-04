@@ -67,6 +67,7 @@ const IndexPage = () => {
   const [blockData, loadedBlockData] = useRequest('/api/blocksData');
   const [lootData, loadedLootData] = useRequest('/api/treasureData');
   const [biomeData, loadedBiomeData] = useRequest('/api/biomeData');
+  const [blockPredicates, loadedBlockPredicates] = useRequest('/api/blockPredicates');
 
 
   return (
@@ -77,7 +78,7 @@ const IndexPage = () => {
       </Head>
       <div className="bg-white px-6 lg:px-24 py-12">
         <Navbar />
-        {loadedRarityData && loadedBlockData && loadedLootData && <>
+        {loadedRarityData && loadedBlockData && loadedLootData && loadedBlockPredicates && <>
           <Section>
             <header className="text-center">
               <Image src={"/items/diamond.png"} width={48} height={48} alt={"Diamond"} className="inline-block"></Image>
@@ -92,7 +93,7 @@ const IndexPage = () => {
               <p className="font-mono text-3xl md:inline-block md:ml-5 align-middle">Blocks</p>
             </header>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-8 gap-2 mt-5">
-              {blockData.map((block, idx) => <Block key={idx} block={block} />)}
+              {blockData.map((block, idx) => <Block key={idx} block={block} predicate={blockPredicates[block]} />)}
             </div>
           </Section>
           <Section>
