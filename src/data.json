@@ -737,6 +737,9 @@
                 "type": "blaze_powder"
             },
             {
+                "type": "potion"
+            },
+            {
                 "type": "obsidian"
             }
         ],
@@ -781,6 +784,18 @@
             },
             {
                 "type": "obsidian"
+            },
+            {
+                "type": "ancient_debris"
+            },
+            {
+                "type": "netherite_helmet"
+            },
+            {
+                "type": "netherite_pickaxe"
+            },
+            {
+                "type": "netherite_boots"
             }
         ],
         "legendary": [
@@ -818,6 +833,9 @@
             },
             {
                 "type": "experience_bottle"
+            },
+            {
+                "type": "netherite_scrap"
             },
             {
                 "type": "leather_boots",
@@ -925,10 +943,11 @@
                 "type": "golden_axe",
                 "name": "Barbaric Axe",
                 "lore": [
-                    "  ",
-                    "When in Main Hand:",
-                    " 32 Attack Damage",
-                    " 0.75 Attack Speed"
+                    " ",
+                    "Ability:",
+                    "When hitting an enemy there is a",
+                    "25% chance to create an explosion",
+                    "dealing AoE damage."
                 ],
                 "unbreakable": true,
                 "nbt": {
@@ -2036,6 +2055,9 @@
                 "type": "wooden_pickaxe"
             },
             {
+                "type": "potion"
+            },
+            {
                 "type": "ender_pearl"
             }
         ],
@@ -2143,7 +2165,7 @@
                     "  ",
                     "When in Main Hand:",
                     " 20 Attack Damage",
-                    " 2 Attack Speed"
+                    " 1.5 Attack Speed"
                 ]
             },
             {
@@ -2169,36 +2191,6 @@
                     },
                     "armor": "rn_boots"
                 },
-                "attributes": [
-                    {
-                        "name": "generic.knockback_resistance",
-                        "type": "addition",
-                        "min": 0.1,
-                        "max": 0.1,
-                        "slot": "feet"
-                    },
-                    {
-                        "name": "generic.armor_toughness",
-                        "type": "addition",
-                        "min": 2.5,
-                        "max": 4.5,
-                        "slot": "feet"
-                    },
-                    {
-                        "name": "generic.armor",
-                        "type": "addition",
-                        "min": 2.5,
-                        "max": 4.5,
-                        "slot": "feet"
-                    },
-                    {
-                        "name": "generic.max_health",
-                        "type": "addition",
-                        "min": 5,
-                        "max": 5,
-                        "slot": "feet"
-                    }
-                ],
                 "enchantments": [
                     {
                         "type": "protection",
@@ -2482,10 +2474,10 @@
                 "type": "golden_sword",
                 "name": "Assassin's Blade",
                 "lore": [
-                    "  ",
-                    "When in Main Hand:",
-                    " 21 Attack Damage",
-                    " 1.75 Attack Speed"
+                    "",
+                    "Ability:",
+                    "Early strikes deal 75% more damage",
+                    "for 5 seconds. Cooldown of 25 seconds."
                 ],
                 "unbreakable": true,
                 "nbt": {
@@ -2749,6 +2741,9 @@
             },
             {
                 "type": "gold_nugget"
+            },
+            {
+                "type": "potion"
             },
             {
                 "type": "raw_iron"
@@ -3274,6 +3269,9 @@
                 "type": "end_stone"
             },
             {
+                "type": "potion"
+            },
+            {
                 "type": "goat_horn",
                 "nbt": {
                     "instrument": "minecraft:call_goat_horn",
@@ -3617,6 +3615,9 @@
             },
             {
                 "type": "poppy"
+            },
+            {
+                "type": "potion"
             },
             {
                 "type": "dandelion"
@@ -4160,6 +4161,9 @@
                 "type": "packed_ice"
             },
             {
+                "type": "potion"
+            },
+            {
                 "type": "ice"
             },
             {
@@ -4494,10 +4498,11 @@
                 "type": "diamond_sword",
                 "name": "Ice Sword",
                 "lore": [
-                    "  ",
-                    "When in Main Hand:",
-                    " 19 Attack Damage",
-                    " 2.25 Attack Speed"
+                    " ",
+                    "Ability:",
+                    "When wearing Frost Walker-enchanted",
+                    "boots, the sword deals 30% more damage as",
+                    "well as slowing the opponent for 5 seconds. "
                 ],
                 "unbreakable": true,
                 "nbt": {
@@ -4828,6 +4833,9 @@
             },
             {
                 "type": "sugar_cane"
+            },
+            {
+                "type": "potion"
             },
             {
                 "type": "gold_ingot"
@@ -6172,12 +6180,10 @@
                 "type": "shield",
                 "name": "Mushroom Shield",
                 "lore": [
-                    " ",
-                    "When in Main Hand / Off Hand:",
-                    "+1.5 Armor",
-                    "+1.5 Armor Toughness",
-                    "-7.5% Speed",
-                    "Unbreakable"
+                    "",
+                    "Ability:",
+                    "Gains Regeneration II for 5 ",
+                    "seconds while blocking damage. "
                 ],
                 "unbreakable": true,
                 "nbt": {
@@ -6355,6 +6361,10 @@
                     " 10 Attack Damage",
                     " 0.8 Attack Speed"
                 ]
+            },
+            {
+                "type": "chest",
+                "name": "Rare Treasure"
             }
         ]
     },
@@ -6450,10 +6460,10 @@
                 "type": "stone_sword",
                 "name": "Wither Sword",
                 "lore": [
-                    "  ",
-                    "When in Main Hand:",
-                    " 14.5 Attack Damage",
-                    " 1.5 Attack Speed"
+                    " ",
+                    "Ability:",
+                    "Has a 25% chance to apply Wither II",
+                    "for 7 seconds upon hitting an enemy.  "
                 ],
                 "nbt": {
                     "display": {
@@ -6801,6 +6811,28 @@
                 "type": "cod"
             },
             {
+                "type": "potion",
+                "nbt": {
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "13b",
+                            "Amplifier": "1b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "10b",
+                            "Amplifier": "0b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 3041023,
+                    "item": "obreath"
+                },
+                "name": "Potion of Gills"
+            },
+            {
                 "type": "salmon"
             },
             {
@@ -6866,12 +6898,55 @@
         ],
         "legendary": [
             {
-                "type": "fishing_rod",
+                "type": "trident",
+                "name": "Oceanic Spear",
+                "lore": [
+                    " ",
+                    "Ability:",
+                    "Throw damage is increased by 150% as well as ",
+                    "a 25% chance to apply wetness upon hit. Wetness ",
+                    "reduces armor and speed by 25% for 5 seconds. ",
+                    "Wetness always applies if the target is already wet. "
+                ],
+                "unbreakable": true,
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Oceanic Spear\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\" \"}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Throw damage is increased by 150% as well as \",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"a 25% chance to apply wetness upon hit. Wetness \",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"reduces armor and speed by 25% for 5 seconds. \",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"Wetness always applies if the target is already wet. \",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "RepairCost": 99999,
+                    "Unbreakable": "1b",
+                    "weapon": "ocean_spear",
+                    "HideFlags": 2
+                },
+                "attributes": [
+                    {
+                        "name": "generic.attack_damage",
+                        "type": "addition",
+                        "min": 25,
+                        "max": 35,
+                        "slot": "mainhand"
+                    },
+                    {
+                        "name": "generic.attack_speed",
+                        "type": "addition",
+                        "min": -3.2,
+                        "max": -2.4,
+                        "slot": "mainhand"
+                    }
+                ],
                 "enchantments": [
                     {
-                        "type": "luck_of_the_sea",
-                        "min": 1,
-                        "max": 10
+                        "type": "loyalty",
+                        "min": 3,
+                        "max": 5
                     }
                 ]
             },
@@ -7110,6 +7185,10 @@
             },
             {
                 "type": "netherite_ingot"
+            },
+            {
+                "type": "chest",
+                "name": "Rare Treasure"
             }
         ]
     },
@@ -7464,10 +7543,10 @@
                 "type": "netherite_hoe",
                 "name": "Scythe of Souls",
                 "lore": [
-                    "  ",
-                    "When in Main Hand:",
-                    " 20 Attack Damage",
-                    " 2.75 Attack Speed"
+                    " ",
+                    "Ability:",
+                    "Has a 12.5% chance to regain 4 health",
+                    "upon hitting an enemy."
                 ],
                 "unbreakable": true,
                 "nbt": {
@@ -8542,6 +8621,9 @@
                 "type": "spruce_log"
             },
             {
+                "type": "potion"
+            },
+            {
                 "type": "fern"
             },
             {
@@ -8688,6 +8770,9 @@
             },
             {
                 "type": "enchanting_table"
+            },
+            {
+                "type": "netherite_scrap"
             },
             {
                 "type": "totem_of_undying",
@@ -8975,10 +9060,11 @@
                 "type": "iron_sword",
                 "name": "Hurricane Sword",
                 "lore": [
-                    "  ",
-                    "When in Main Hand:",
-                    " 19 Attack Damage",
-                    " 1.75 Attack Speed"
+                    " ",
+                    "Ability:",
+                    "Hitting an enemy has a 20% chance to apply ",
+                    "gust reducing Attack Damage by 20% and",
+                    "Knockback Resistance to 0 for 5 seconds. "
                 ],
                 "unbreakable": true,
                 "nbt": {
