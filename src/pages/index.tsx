@@ -88,7 +88,7 @@ const index = () => {
                 </div>
 
                 {loadedStatistics &&
-                    <div className="pt-10 max-w-[70%] mx-auto">
+                    <div className="pt-10 max-w-full xl:max-w-[80%] mx-auto">
                         <h1 className="text-center text-3xl font-bold mb-5">Our daily statistics</h1>
                         <StatisticsChart data={statistics} />
                     </div>
