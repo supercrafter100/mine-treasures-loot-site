@@ -9,7 +9,6 @@ import useRequest from '../hooks/useRequest'
 import { MT_DATA } from '../interfaces'
 import Footer from '../components/Footer'
 import Locations from '../components/Locations'
-import Block from '../components/Block'
 import Head from 'next/head'
 import Navbar from '../components/layout/Navbar'
 import MultiSelect from '../components/form/MultiSelect'
@@ -24,6 +23,11 @@ const IndexPage = () => {
   const [selectedTreasures, setSelectedTreasures] = useState([]);
   const [selectedRarities, setSelectedRarities] = useState([]);
   const [customItemsOnly, setCustomItemsOnly] = useState(false);
+
+  const [commonChance, setCommonChance] = useState(0);
+  const [rareChance, setRareChance] = useState(0);
+  const [epicChance, setEpicChance] = useState(0);
+  const [legendaryChance, setLegendaryChance] = useState(0);
 
   const filterData = (query) => {
     if (!loadedLootData) return;
@@ -64,11 +68,18 @@ const IndexPage = () => {
 
   // Rarity data
   const [rarityData, loadedRarityData] = useRequest('/api/rarityData');
-  const [blockData, loadedBlockData] = useRequest('/api/blocksData');
   const [lootData, loadedLootData] = useRequest('/api/treasureData');
   const [biomeData, loadedBiomeData] = useRequest('/api/biomeData');
-  const [blockPredicates, loadedBlockPredicates] = useRequest('/api/blockPredicates');
+  const [initialChanceData, loadedInitialChanceData] = useRequest('/api/initialChances');
 
+  useEffect(() => {
+    if (initialChanceData) {
+      setCommonChance(initialChanceData.common);
+      setRareChance(initialChanceData.rare);
+      setEpicChance(initialChanceData.epic);
+      setLegendaryChance(initialChanceData.legendary);
+    }
+  }, [loadedInitialChanceData]);
 
   return (
     <>
@@ -78,16 +89,7 @@ const IndexPage = () => {
       </Head>
       <div className="bg-white px-6 lg:px-24 py-12">
         <Navbar />
-        {loadedRarityData && loadedBlockData && loadedLootData && loadedBlockPredicates && <>
-          <Section>
-            <header className="text-center">
-              <Image src={"/items/diamond.png"} width={48} height={48} alt={"Diamond"} className="inline-block"></Image>
-              <p className="font-mono text-3xl md:inline-block md:ml-5 align-middle">Rarities</p>
-            </header>
-            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-2 mt-5">
-              {Object.keys(rarityData).map((ore, idx) => <ChanceSection key={idx} ore={ore} chance={rarityData[ore]} blocks={blockData.filter(b => blockPredicates[b] === ore)} />)}
-            </div>
-          </Section>
+        {loadedRarityData && loadedLootData && loadedInitialChanceData && <>
           <Section>
             <div>
               <label htmlFor="search" className="sr-only">Search</label>
@@ -97,7 +99,25 @@ const IndexPage = () => {
                 </div>
                 <input type="text" id="search" value={queryString} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5" onChange={(e) => setQueryString(e.target.value)}></input>
               </div>
-
+              <p className="font-medium mt-4">High roll values</p>
+              <div className="grid grid-cols-2 md:grid-cols-4 mt-2 gap-4">
+                <div>
+                  <label htmlFor="commonChance">Common chance</label>
+                  <input type="number" id="commonChance" value={commonChance} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-5 p-2.5" onChange={(e) => setCommonChance(parseInt(e.target.value))} />
+                </div>
+                <div>
+                  <label htmlFor="rareChance">Rare chance</label>
+                  <input type="number" id="rareChance" value={rareChance} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-5 p-2.5" onChange={(e) => setCommonChance(parseInt(e.target.value))} />
+                </div>
+                <div>
+                  <label htmlFor="epicChance">Epic chance</label>
+                  <input type="number" id="epicChance" value={epicChance} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-5 p-2.5" onChange={(e) => setCommonChance(parseInt(e.target.value))} />
+                </div>
+                <div>
+                  <label htmlFor="legendaryChance">Legendary chance</label>
+                  <input type="number" id="legendaryChance" value={legendaryChance} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-5 p-2.5" onChange={(e) => setCommonChance(parseInt(e.target.value))} />
+                </div>
+              </div>
               <div className="flex items-center justify-between mt-4">
                 <p className="font-medium">Filters</p>
                 <button className="px-4 py-2 bg-white hover:bg-gray-200 text-sm font-medium rounded-md" onClick={() => clearFilters()}>Reset Filter</button>
@@ -118,6 +138,15 @@ const IndexPage = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </Section>
+          <Section>
+            <header className="text-center">
+              <Image src={"/items/diamond.png"} width={48} height={48} alt={"Diamond"} className="inline-block"></Image>
+              <p className="font-mono text-3xl md:inline-block md:ml-5 align-middle">Rarities</p>
+            </header>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-5 gap-2 mt-5">
+              {Object.keys(rarityData).map((ore, idx) => <ChanceSection key={idx} ore={ore} chance={rarityData[ore]} rarityValues={{ common: commonChance, rare: rareChance, epic: epicChance, legendary: legendaryChance }} />)}
             </div>
           </Section>
         </>
