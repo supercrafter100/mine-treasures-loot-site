@@ -13,6 +13,8 @@ import Head from 'next/head'
 import Navbar from '../components/layout/Navbar'
 import MultiSelect from '../components/form/MultiSelect'
 import Toggle from '../components/form/Toggle'
+import TooltipIcon from '../components/icons/TooltipIcon'
+import ReactTooltip from 'react-tooltip'
 
 const IndexPage = () => {
 
@@ -99,10 +101,18 @@ const IndexPage = () => {
                 </div>
                 <input type="text" id="search" value={queryString} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5" onChange={(e) => setQueryString(e.target.value)}></input>
               </div>
-              <p className="font-medium mt-4">Output values</p>
+              <p className="font-medium mt-4 inline-block">Output values</p>
+              <div className="inline-block ml-1" data-tip data-for={"commonChance-ttp"}>
+                <TooltipIcon className="h-5 w-5 inline-block" />
+                <ReactTooltip id={"commonChance-ttp"} effect="solid" className="opacity-100">
+                  <p>Input a number to determine a range of output values. The higher the number, the higher the chance or vice versa.</p>
+                </ReactTooltip>
+              </div>
               <div className="grid grid-cols-2 md:grid-cols-4 mt-2 gap-4">
                 <div>
-                  <label htmlFor="commonChance">Common chance</label>
+                  <label htmlFor="commonChance">
+                    Common chance
+                  </label>
                   <input type="number" id="commonChance" value={commonChance} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-5 p-2.5" onChange={(e) => setCommonChance(parseInt(e.target.value))} />
                 </div>
                 <div>
