@@ -241,6 +241,52 @@
                 ]
             },
             {
+                "type": "crossbow",
+                "attributes": [
+                    {
+                        "name": "generic.movement_speed",
+                        "type": "multiply_total",
+                        "min": 0.05,
+                        "max": 0.05,
+                        "slot": "mainhand"
+                    },
+                    {
+                        "name": "generic.movement_speed",
+                        "type": "multiply_total",
+                        "min": 0.05,
+                        "max": 0.05,
+                        "slot": "offhand"
+                    }
+                ],
+                "enchantments": [
+                    {
+                        "type": "piercing",
+                        "min": 5,
+                        "max": 10
+                    },
+                    {
+                        "type": "quick_charge",
+                        "min": 1,
+                        "max": 1
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 1,
+                        "max": 10
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "multishot",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
                 "type": "splash_potion",
                 "name": "Grenade",
                 "nbt": {
@@ -488,6 +534,9 @@
                 "type": "enchanted_golden_apple"
             },
             {
+                "type": "golden_apple"
+            },
+            {
                 "type": "diamond_block"
             },
             {
@@ -549,7 +598,10 @@
                 ]
             },
             {
-                "type": "golden_apple"
+                "type": "name_tag"
+            },
+            {
+                "type": "book"
             },
             {
                 "type": "iron_pickaxe"
@@ -646,6 +698,40 @@
             },
             {
                 "type": "tipped_arrow"
+            },
+            {
+                "type": "crossbow",
+                "enchantments": [
+                    {
+                        "type": "multishot",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "piercing",
+                        "min": 0,
+                        "max": 4
+                    },
+                    {
+                        "type": "unbreaking",
+                        "min": 0,
+                        "max": 5
+                    },
+                    {
+                        "type": "quick_charge",
+                        "min": 0,
+                        "max": 3
+                    },
+                    {
+                        "type": "mending",
+                        "min": 0,
+                        "max": 1
+                    }
+                ]
+            },
+            {
+                "type": "chest",
+                "name": "Mineshaft Loot Chest"
             }
         ]
     },
@@ -706,6 +792,9 @@
             },
             {
                 "type": "potion"
+            },
+            {
+                "type": "magma_block"
             },
             {
                 "type": "cooked_porkchop"
@@ -772,6 +861,9 @@
             },
             {
                 "type": "potion"
+            },
+            {
+                "type": "magma_block"
             },
             {
                 "type": "cooked_porkchop"
@@ -863,6 +955,9 @@
                 "type": "potion"
             },
             {
+                "type": "magma_block"
+            },
+            {
                 "type": "cooked_porkchop"
             },
             {
@@ -951,6 +1046,31 @@
                         "max": 2
                     }
                 ]
+            },
+            {
+                "type": "potion",
+                "name": "Level V Raid Potion",
+                "lore": [
+                    "Drink in a Village"
+                ],
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Level V Raid Potion\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\"Drink in a Village\",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "31b",
+                            "Amplifier": "4b",
+                            "Duration": 20,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 7565403,
+                    "item": "raid"
+                }
             },
             {
                 "type": "potion",
@@ -1316,6 +1436,9 @@
             },
             {
                 "type": "experience_bottle"
+            },
+            {
+                "type": "sculk_catalyst"
             },
             {
                 "type": "diamond_pickaxe",
@@ -2125,6 +2248,29 @@
                     "armor": "rn_boots",
                     "mt": "armor"
                 },
+                "attributes": [
+                    {
+                        "name": "generic.knockback_resistance",
+                        "type": "addition",
+                        "min": 0.1,
+                        "max": 0.1,
+                        "slot": "feet"
+                    },
+                    {
+                        "name": "generic.armor_toughness",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 4.5,
+                        "slot": "feet"
+                    },
+                    {
+                        "name": "generic.armor",
+                        "type": "addition",
+                        "min": 2.5,
+                        "max": 4.5,
+                        "slot": "feet"
+                    }
+                ],
                 "enchantments": [
                     {
                         "type": "protection",
@@ -2534,10 +2680,19 @@
                 ]
             },
             {
+                "type": "golden_apple"
+            },
+            {
+                "type": "tnt"
+            },
+            {
                 "type": "yellow_shulker_box"
             },
             {
                 "type": "diamond"
+            },
+            {
+                "type": "enchanted_golden_apple"
             },
             {
                 "type": "chest",
@@ -2622,7 +2777,13 @@
                 "type": "bone"
             },
             {
+                "type": "spider_eye"
+            },
+            {
                 "type": "rotten_flesh"
+            },
+            {
+                "type": "saddle"
             },
             {
                 "type": "iron_horse_armor"
@@ -2637,7 +2798,7 @@
                 "type": "book"
             },
             {
-                "type": "golden_apple"
+                "type": "gunpowder"
             },
             {
                 "type": "string"
@@ -2815,6 +2976,9 @@
                 "type": "orange_stained_glass"
             },
             {
+                "type": "yellow_stained_glass"
+            },
+            {
                 "type": "blue_stained_glass"
             },
             {
@@ -2831,6 +2995,9 @@
             },
             {
                 "type": "black_stained_glass"
+            },
+            {
+                "type": "white_stained_glass"
             },
             {
                 "type": "magenta_stained_glass"
@@ -3031,6 +3198,9 @@
                         "max": 10
                     }
                 ]
+            },
+            {
+                "type": "pointed_dripstone"
             },
             {
                 "type": "golden_apple"
@@ -3249,6 +3419,19 @@
                         "max": 7
                     }
                 ]
+            },
+            {
+                "type": "firework_rocket",
+                "name": "Ultimate Flight Rocket",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Ultimate Flight Rocket\",\"color\":\"gold\",\"italic\":false}"
+                    },
+                    "Fireworks": {
+                        "Flight": "126b"
+                    },
+                    "item": "uflight"
+                }
             },
             {
                 "type": "netherite_ingot"
@@ -3786,6 +3969,9 @@
                 ]
             },
             {
+                "type": "enchanted_golden_apple"
+            },
+            {
                 "type": "pumpkin_pie",
                 "name": "Flower Pie",
                 "nbt": {
@@ -4117,6 +4303,47 @@
                         "type": "feather_falling",
                         "min": 1,
                         "max": 5
+                    }
+                ]
+            },
+            {
+                "type": "bow",
+                "unbreakable": true,
+                "nbt": {
+                    "Unbreakable": 1,
+                    "display": {
+                        "Name": "{\"text\":\"Stray Bow\",\"color\":\"gold\",\"italic\":false}",
+                        "Lore": [
+                            "{\"text\":\"\",\"color\":\"white\",\"italic\":false}",
+                            "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
+                            "{\"text\":\"Arrows apply Slowness II.\",\"color\":\"gray\",\"italic\":false}"
+                        ]
+                    },
+                    "RepairCost": 9999,
+                    "weapon": "stray",
+                    "mt": "weapon"
+                },
+                "name": "Stray Bow",
+                "lore": [
+                    "",
+                    "Ability:",
+                    "Arrows apply Slowness II."
+                ],
+                "enchantments": [
+                    {
+                        "type": "power",
+                        "min": 6,
+                        "max": 9
+                    },
+                    {
+                        "type": "infinity",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "punch",
+                        "min": 1,
+                        "max": 3
                     }
                 ]
             },
@@ -4542,6 +4769,9 @@
                     " 14 Attack Damage",
                     " 0.75 Attack Speed"
                 ]
+            },
+            {
+                "type": "golden_apple"
             },
             {
                 "type": "enchanted_golden_apple"
@@ -5239,6 +5469,19 @@
                 "type": "golden_apple"
             },
             {
+                "type": "honey_bottle",
+                "name": "Juicy Experience Drink",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Juicy Experience Drink\",\"color\":\"gold\",\"italic\":false}"
+                    },
+                    "food": "xphoney",
+                    "Enchantments": [
+                        {}
+                    ]
+                }
+            },
+            {
                 "type": "glow_ink_sac"
             },
             {
@@ -5835,6 +6078,9 @@
                         "max": 3
                     }
                 ]
+            },
+            {
+                "type": "enchanted_golden_apple"
             },
             {
                 "type": "light_gray_shulker_box"
@@ -6670,7 +6916,7 @@
                     " ",
                     "Ability:",
                     "When worn the user gains permanent",
-                    "Dolphin's Grace and Conduit Power II. "
+                    "Dolphin's Grace and Conduit Power II."
                 ],
                 "unbreakable": true,
                 "nbt": {
@@ -6680,7 +6926,7 @@
                             "{\"text\":\" \"}",
                             "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
                             "{\"text\":\"When worn the user gains permanent\",\"color\":\"gray\",\"italic\":false}",
-                            "{\"text\":\"Dolphin's Grace and Conduit Power II. \",\"color\":\"gray\",\"italic\":false}"
+                            "{\"text\":\"Dolphin's Grace and Conduit Power II.\",\"color\":\"gray\",\"italic\":false}"
                         ],
                         "color": 957667
                     },
@@ -6742,6 +6988,19 @@
                 ]
             },
             {
+                "type": "fishing_rod",
+                "enchantments": [
+                    {
+                        "type": "luck_of_the_sea",
+                        "min": 1,
+                        "max": 10
+                    }
+                ]
+            },
+            {
+                "type": "splash_potion"
+            },
+            {
                 "type": "shield",
                 "nbt": {
                     "weapon": "light"
@@ -6790,6 +7049,9 @@
                 "type": "enchanted_golden_apple"
             },
             {
+                "type": "golden_apple"
+            },
+            {
                 "type": "totem_of_undying"
             },
             {
@@ -6799,7 +7061,10 @@
                 "type": "sponge"
             },
             {
-                "type": "golden_apple"
+                "type": "cooked_salmon"
+            },
+            {
+                "type": "prismarine"
             },
             {
                 "type": "dark_prismarine"
@@ -6932,6 +7197,16 @@
                 ]
             },
             {
+                "type": "fishing_rod",
+                "enchantments": [
+                    {
+                        "type": "luck_of_the_sea",
+                        "min": 1,
+                        "max": 8
+                    }
+                ]
+            },
+            {
                 "type": "tnt"
             },
             {
@@ -6956,6 +7231,28 @@
         "rare": [
             {
                 "type": "diamond"
+            },
+            {
+                "type": "potion",
+                "nbt": {
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "13b",
+                            "Amplifier": "1b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "10b",
+                            "Amplifier": "0b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 3041023,
+                    "item": "obreath"
+                },
+                "name": "Potion of Gills"
             },
             {
                 "type": "iron_ingot"
@@ -7161,6 +7458,9 @@
                         "max": 1
                     }
                 ]
+            },
+            {
+                "type": "golden_carrot"
             },
             {
                 "type": "golden_apple"
@@ -7402,6 +7702,9 @@
                 ]
             },
             {
+                "type": "wither_skeleton_skull"
+            },
+            {
                 "type": "ghast_tear"
             },
             {
@@ -7534,6 +7837,9 @@
             },
             {
                 "type": "fire_charge"
+            },
+            {
+                "type": "arrow"
             },
             {
                 "type": "soul_torch"
@@ -7762,6 +8068,74 @@
                         "max": 1
                     }
                 ]
+            },
+            {
+                "type": "splash_potion",
+                "nbt": {
+                    "display": {
+                        "Name": "[{\"text\":\"Ultimate\",\"color\":\"gold\",\"bold\":false,\"italic\":false},{\"text\":\" Splash\",\"color\":\"gold\",\"bold\":false,\"italic\":false}]"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "2b",
+                            "Amplifier": "4b",
+                            "Duration": 2400
+                        },
+                        {
+                            "Id": "4b",
+                            "Amplifier": "4b",
+                            "Duration": 2400
+                        },
+                        {
+                            "Id": "7b",
+                            "Amplifier": "4b",
+                            "Duration": 10
+                        },
+                        {
+                            "Id": "9b",
+                            "Amplifier": "4b",
+                            "Duration": 120
+                        },
+                        {
+                            "Id": "15b",
+                            "Amplifier": "4b",
+                            "Duration": 40
+                        },
+                        {
+                            "Id": "17b",
+                            "Amplifier": "255b",
+                            "Duration": 2400
+                        },
+                        {
+                            "Id": "18b",
+                            "Amplifier": "2b",
+                            "Duration": 2400
+                        },
+                        {
+                            "Id": "19b",
+                            "Amplifier": "4b",
+                            "Duration": 2400
+                        },
+                        {
+                            "Id": "20b",
+                            "Amplifier": "4b",
+                            "Duration": 2400
+                        },
+                        {
+                            "Id": "25b",
+                            "Amplifier": "30b",
+                            "Duration": 40,
+                            "ShowParticles": "1b"
+                        },
+                        {
+                            "Id": "27b",
+                            "Amplifier": "9b",
+                            "Duration": 160,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 0
+                }
             },
             {
                 "type": "ender_chest"
@@ -8919,6 +9293,12 @@
                         "max": 1
                     }
                 ]
+            },
+            {
+                "type": "arrow"
+            },
+            {
+                "type": "white_shulker_box"
             },
             {
                 "type": "enchanted_golden_apple"
