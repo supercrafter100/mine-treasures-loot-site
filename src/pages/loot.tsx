@@ -107,15 +107,15 @@ const IndexPage = () => {
                 </div>
                 <div>
                   <label htmlFor="rareChance">Rare chance</label>
-                  <input type="number" id="rareChance" value={rareChance} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-5 p-2.5" onChange={(e) => setCommonChance(parseInt(e.target.value))} />
+                  <input type="number" id="rareChance" value={rareChance} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-5 p-2.5" onChange={(e) => setRareChance(parseInt(e.target.value))} />
                 </div>
                 <div>
                   <label htmlFor="epicChance">Epic chance</label>
-                  <input type="number" id="epicChance" value={epicChance} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-5 p-2.5" onChange={(e) => setCommonChance(parseInt(e.target.value))} />
+                  <input type="number" id="epicChance" value={epicChance} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-5 p-2.5" onChange={(e) => setEpicChance(parseInt(e.target.value))} />
                 </div>
                 <div>
                   <label htmlFor="legendaryChance">Legendary chance</label>
-                  <input type="number" id="legendaryChance" value={legendaryChance} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-5 p-2.5" onChange={(e) => setCommonChance(parseInt(e.target.value))} />
+                  <input type="number" id="legendaryChance" value={legendaryChance} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-5 p-2.5" onChange={(e) => setLegendaryChance(parseInt(e.target.value))} />
                 </div>
               </div>
               <div className="flex items-center justify-between mt-4">
