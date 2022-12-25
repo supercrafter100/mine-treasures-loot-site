@@ -99,7 +99,7 @@ const IndexPage = () => {
                 </div>
                 <input type="text" id="search" value={queryString} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5" onChange={(e) => setQueryString(e.target.value)}></input>
               </div>
-              <p className="font-medium mt-4">High roll values</p>
+              <p className="font-medium mt-4">Output values</p>
               <div className="grid grid-cols-2 md:grid-cols-4 mt-2 gap-4">
                 <div>
                   <label htmlFor="commonChance">Common chance</label>
