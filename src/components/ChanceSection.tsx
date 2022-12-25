@@ -8,8 +8,8 @@ import Block from './Block'
 const ChanceSection = ({ ore, chance, rarityValues }: { ore: string, chance: MT_CHANCE, rarityValues: { common: number, rare: number, epic: number, legendary: number } }) => {
 
     const commonPercent = Math.round((chance["common"] / rarityValues["common"]) * 100000) / 1000;
-    const rarePercent = Math.round((chance["rare"] / rarityValues["rare"]) * 100000) / 100;
-    const epicPercent = Math.round((chance["epic"] / rarityValues["epic"]) * 100000) / 100;
+    const rarePercent = Math.round((chance["rare"] / rarityValues["rare"]) * 100000) / 1000;
+    const epicPercent = Math.round((chance["epic"] / rarityValues["epic"]) * 100000) / 1000;
     const legendaryPercent = Math.round((chance["legendary"] / rarityValues["legendary"]) * 100000) / 1000;
 
     return (
