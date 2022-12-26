@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import React from 'react'
+import React, { useRef } from 'react'
 import Image from 'next/image'
 import { faArrowRight, faCircleCheck, faCircleExclamation, faCircleMinus } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -8,9 +8,12 @@ import Footer from '../components/Footer';
 import Review from '../components/Review';
 import StatisticsChart from '../components/StatisticsChart';
 import useRequest from '../hooks/useRequest';
+import { scrollTo } from '../utils/scrollTo';
+
 const index = () => {
 
     const [statistics, loadedStatistics] = useRequest('/api/statistics');
+    const whySectionRef = useRef();
 
     return (
         <>
@@ -35,6 +38,8 @@ const index = () => {
                         <div className="pl-5">
                             <h1 className="inline-block font-bold text-4xl">Make mining enjoyable again</h1>
                             <p className="max-w-[60%] pt-3">Ever gotten tired of mining endlessly with no goal in mind? No motivation to go strip-mining? No means to go on this repetitive task for ores? Well, this data pack aims to change exactly that.</p>
+                            <button className="cursor-pointer mt-2" onClick={() => scrollTo({ id: 'why', ref: whySectionRef, duration: 2000 })}><em>Read more...</em></button>
+                            <br />
                             <a href="https://www.planetminecraft.com/data-pack/mine-treasure/" className="mt-5 md:mt-10 inline-block px-10 text-white py-3 rounded-full bg-blue-500">Start playing <FontAwesomeIcon icon={faArrowRight} className="align-middle" /></a>
                         </div>
                     </section>
@@ -42,7 +47,7 @@ const index = () => {
                 </main>
             </div>
             <div className="bg-gray-100 px-6 lg:px-24 py-12">
-                <h1 className="text-center text-3xl font-bold">Why this datapack?</h1>
+                <h1 className="text-center text-3xl font-bold" ref={whySectionRef} id="why">Why this datapack?</h1>
                 <section className="w-[90%] md:w-[70%] xl:w-[60%] mx-auto pt-5 grid grid-cols-1 xl:grid-cols-2 gap-5 xl:gap-0">
                     <div className="2xl:h-64 bg-gray-300 hidden xl:flex items-center">
                         <img className="mx-auto block 2xl:w-full max-h-full" src="/images/treeasure-tiers.gif" alt="treasure tiers gif"></img>
@@ -105,6 +110,11 @@ const index = () => {
                             </tr>
                         </thead>
                         <tbody>
+                            <tr className="bg-white border-b">
+                                <td className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">Realms</td>
+                                <td className="py-4 px-6 text-center"><FontAwesomeIcon icon={faCircleExclamation} className="text-yellow-400 text-xl" /></td>
+                                <td className="py-4 px-6">If you have the data pack on realms you may notice that the overworld treasure are not working sometimes. The reason for this is quite peculiar. I first discovered this Realms bug when I asked the bug reporters to show me the files of Mine Treasure. It turns out Realms is programmed to rename every folder that has the name "World" in it to correspond with the Realms' name, which also includes data pack folders. Meaning the overworld folder Mine Treasure uses is renamed to over(REALMS NAME), hopefully this bug gets patched by Mojang in an upcoming version.</td>
+                            </tr>
                             <tr className="bg-white border-b">
                                 <td className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">Spigot</td>
                                 <td className="py-4 px-6 text-center"><FontAwesomeIcon icon={faCircleExclamation} className="text-yellow-400 text-xl" /></td>
