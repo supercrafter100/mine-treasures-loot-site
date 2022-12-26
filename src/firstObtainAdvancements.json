@@ -1,0 +1,380 @@
+{
+    "badlands_treasure": {
+        "common": {
+            "title": "Howdy Ol' Fella",
+            "description": "Find your first Common Badlands Treasure!"
+        },
+        "epic": {
+            "title": "Galloping Into The Ol' Sunset",
+            "description": "Find your first Epic Badlands Treasure!"
+        },
+        "legendary": {
+            "title": "The Good Times Of Ol' Chernobyl",
+            "description": "Find your first Legendary Badlands Treasure!"
+        },
+        "rare": {
+            "title": "Good Ol' Reliable Betsy",
+            "description": "Find your first Rare Badlands Treasure!"
+        }
+    },
+    "basalt_treasure": {
+        "common": {
+            "title": "Bruhsalt",
+            "description": "Find your first Common Basalt Deltas Treasure!"
+        },
+        "epic": {
+            "title": "Forging In Black And Stone",
+            "description": "Find your first Epic Basalt Deltas Treasure!"
+        },
+        "legendary": {
+            "title": "Bruh, Why Bruhsalt Deltas?",
+            "description": "Find your first Legendary Basalt Deltas Treasure!"
+        },
+        "rare": {
+            "title": "Too Much Salt",
+            "description": "Find your first Rare Basalt Deltas Treasure!"
+        }
+    },
+    "forest_treasure": {
+        "common_dark": {
+            "title": "Enjoying The Shade?",
+            "description": "Find your first Common Dark Forest Treasure!"
+        },
+        "epic_dark": {
+            "title": "Pillaging The Loot",
+            "description": "Find your first Epic Dark Forest Treasure!"
+        },
+        "legendary_dark": {
+            "title": "Who Cares About a Mansion",
+            "description": "Find your first Legendary Dark Forest Treasure!"
+        },
+        "rare_dark": {
+            "title": "Anti-Village Or Pro-Village?",
+            "description": "Find your first Rare Dark Forest Treasure!"
+        }
+    },
+    "deepdark_treasure": {
+        "common": {
+            "title": "Watch Your Step!",
+            "description": "Find your first Common Deep Dark Treasure!"
+        },
+        "epic": {
+            "title": "I Am a Man Who Walks Alone",
+            "description": "Find your first Epic Deep Dark Treasure!"
+        },
+        "legendary": {
+            "title": "The Light In The Dark",
+            "description": "Find your first Legendary Deep Dark Treasure!"
+        },
+        "rare": {
+            "title": "I Can Smell You...",
+            "description": "Find your first Rare Deep Dark Treasure!"
+        }
+    },
+    "default_treasure": {
+        "common": {
+            "title": "Going With The Norm",
+            "description": "Find your first Common Default Treasure!"
+        },
+        "epic": {
+            "title": "Almost There Now...",
+            "description": "Find your first Epic Default Treasure!"
+        },
+        "legendary": {
+            "title": "Congratulations Normie!",
+            "description": "Find your first Legendary Default Treasure!"
+        },
+        "rare": {
+            "title": "We're Getting There",
+            "description": "Find your first Rare Default Treasure!"
+        }
+    },
+    "desert_treasure": {
+        "common": {
+            "title": "Driest Place In Minecraft",
+            "description": "Find your first Common Desert Treasure!"
+        },
+        "epic": {
+            "title": "Better Than A Desert Temple?",
+            "description": "Find your first Epic Desert Treasure!"
+        },
+        "legendary": {
+            "title": "Welcome, New Pharaoh!",
+            "description": "Find your first Legendary Desert Treasure!"
+        },
+        "rare": {
+            "title": "So Hot That It Burns",
+            "description": "Find your first Rare Desert Treasure!"
+        }
+    },
+    "dripstone_treasure": {
+        "common": {
+            "title": "Getting That Drip",
+            "description": "Find your first Common Dripstone Treasure!"
+        },
+        "epic": {
+            "title": "Stalactite Madness",
+            "description": "Find your first Epic Dripstone Treasure!"
+        },
+        "legendary": {
+            "title": "WATCH YOUR HEAD!",
+            "description": "Find your first Legendary Dripstone Treasure!"
+        },
+        "rare": {
+            "title": "Even Better Drip",
+            "description": "Find your first Rare Dripstone Treasure!"
+        }
+    },
+    "end_treasure": {
+        "common": {
+            "title": "The Beginning Of The End",
+            "description": "Find your first Common End Treasure!"
+        },
+        "epic": {
+            "title": "Dragon's Bellowing Chorus",
+            "description": "Find your first Epic End Treasure!"
+        },
+        "legendary": {
+            "title": "Finally, I Freed Myself",
+            "description": "Find your first Legendary End Treasure!"
+        },
+        "rare": {
+            "title": "Ready For Take-Off?",
+            "description": "Find your first Rare End Treasure!"
+        }
+    },
+    "flower_treasure": {
+        "common": {
+            "title": "Flower Power!",
+            "description": "Find your first Common Flower Treasure!"
+        },
+        "epic": {
+            "title": "Is It Spring Already?",
+            "description": "Find your first Epic Flower Treasure!"
+        },
+        "legendary": {
+            "title": "Aww For Me? You Shouldn't Have (◕‿◕✿)",
+            "description": "Find your first Legendary Flower Treasure!"
+        },
+        "rare": {
+            "title": "Save The Planet!",
+            "description": "Find your first Rare Flower Treasure!"
+        }
+    },
+    "ice_treasure": {
+        "common": {
+            "title": "Jesus, It's So Cold Down Here",
+            "description": "Find your first Common Ice Treasure!"
+        },
+        "epic": {
+            "title": "Led A'Stray",
+            "description": "Find your first Epic Ice Treasure!"
+        },
+        "legendary": {
+            "title": "Did Christmas Come Early?",
+            "description": "Find your first Legendary Ice Treasure!"
+        },
+        "rare": {
+            "title": "The Campfire Song Song",
+            "description": "Find your first Rare Ice Treasure!"
+        }
+    },
+    "jungle_treasure": {
+        "common": {
+            "title": "The Bear Necessities",
+            "description": "Find your first Common Jungle Treasure!"
+        },
+        "epic": {
+            "title": "OOO OOO AHH AHH AHH",
+            "description": "Find your first Epic Jungle Treasure!"
+        },
+        "legendary": {
+            "title": "In The Jungle The Mighty Jungle",
+            "description": "Find your first Legendary Jungle Treasure!"
+        },
+        "rare": {
+            "title": "Kung Fu Panda",
+            "description": "Find your first Rare Jungle Treasure!"
+        }
+    },
+    "caves_treasure": {
+        "common_lush": {
+            "title": "The Flourishing Fun",
+            "description": "Find your first Common Lush Caves Treasure!"
+        },
+        "epic_lush": {
+            "title": "Lush Galore",
+            "description": "Find your first Epic Lush Caves Treasure!"
+        },
+        "legendary_lush": {
+            "title": "Acquired Green Hands",
+            "description": "Find your first Legendary Lush Caves Treasure!"
+        },
+        "rare_lush": {
+            "title": "Glowing Prize",
+            "description": "Find your first Rare Lush Caves Treasure!"
+        }
+    },
+    "mountain_treasure": {
+        "common": {
+            "title": "DIGGY DIGGY HOLE",
+            "description": "Find your first Common Mountain Treasure!"
+        },
+        "epic": {
+            "title": "Conquering Mt. Everest",
+            "description": "Find your first Epic Mountain Treasure!"
+        },
+        "legendary": {
+            "title": "OMG, WE FOUND THE MINING MOLE!",
+            "description": "Find your first Legendary Mountain Treasure!"
+        },
+        "rare": {
+            "title": "In The Hall Of The Mountain King",
+            "description": "Find your first Rare Mountain Treasure!"
+        }
+    },
+    "mushroom_treasure": {
+        "common": {
+            "title": "How Mush-Room Did That Take?",
+            "description": "Find your first Common Mushroom Treasure!"
+        },
+        "epic": {
+            "title": "Homebrewed Moomoo Milk",
+            "description": "Find your first Epic Mushroom Treasure!"
+        },
+        "legendary": {
+            "title": "Is This Real Or Am I High?",
+            "description": "Find your first Legendary Mushroom Treasure!"
+        },
+        "rare": {
+            "title": "Imported Mooshroom",
+            "description": "Find your first Rare Mushroom Treasure!"
+        }
+    },
+    "nether_treasure": {
+        "common": {
+            "title": "Sins In Your Past Life?",
+            "description": "Find your first Common Nether Treasure!"
+        },
+        "epic": {
+            "title": "Satan's Watching You",
+            "description": "Find your first Epic Nether Treasure!"
+        },
+        "legendary": {
+            "title": "Satan's Minion",
+            "description": "Find your first Legendary Nether Treasure!"
+        },
+        "rare": {
+            "title": "Fortune In Hell",
+            "description": "Find your first Rare Nether Treasure!"
+        }
+    },
+    "ocean_treasure": {
+        "common": {
+            "title": "Underneath The Ocean",
+            "description": "Find your first Common Ocean Treasure!"
+        },
+        "epic": {
+            "title": "Finding Nemo Part III?",
+            "description": "Find your first Epic Ocean Treasure!"
+        },
+        "legendary": {
+            "title": "Finally, Discovered Atlantis",
+            "description": "Find your first Legendary Ocean Treasure!"
+        },
+        "rare": {
+            "title": "Ocean Man, Take Me By The Hand",
+            "description": "Find your first Rare Ocean Treasure!"
+        }
+    },
+    "savanna_treasure": {
+        "common": {
+            "title": "On The Horse Back",
+            "description": "Find your first Common Savanna Treasure!"
+        },
+        "epic": {
+            "title": "Talking Donkey",
+            "description": "Find your first Epic Savanna Treasure!"
+        },
+        "legendary": {
+            "title": "Riding The Donkey Like Jesus",
+            "description": "Find your first Legendary Savanna Treasure!"
+        },
+        "rare": {
+            "title": "Riding On Da Horse",
+            "description": "Find your first Rare Savanna Treasure!"
+        }
+    },
+    "soulvalley_treasure": {
+        "common": {
+            "title": "Ghostbusters!",
+            "description": "Find your first Common Soul Valley Treasure!"
+        },
+        "epic": {
+            "title": "You Poor Soul...",
+            "description": "Find your first Epic Soul Valley Treasure!"
+        },
+        "legendary": {
+            "title": "YOU HAVE SACRIFIED YOUR SOUL!",
+            "description": "Find your first Legendary Soul Valley Treasure!"
+        },
+        "rare": {
+            "title": "Boo! Did I Scare You?",
+            "description": "Find your first Rare Soul Valley Treasure!"
+        }
+    },
+    "swamp_treasure": {
+        "common": {
+            "title": "Eww, My Hands Are Slimy!",
+            "description": "Find your first Common Swamp Treasure!"
+        },
+        "epic": {
+            "title": "Drug Trafficking",
+            "description": "Find your first Epic Swamp Treasure!"
+        },
+        "legendary": {
+            "title": "What Are Ya Doing In My Swamp?",
+            "description": "Find your first Legendary Swamp Treasure!"
+        },
+        "rare": {
+            "title": "Uh Oh, Stinky!",
+            "description": "Find your first Rare Swamp Treasure!"
+        }
+    },
+    "taiga_treasure": {
+        "common": {
+            "title": "These Stupid Old Grown Moss!",
+            "description": "Find your first Common Taiga Treasure!"
+        },
+        "epic": {
+            "title": "Found By The Wendigo Yet?",
+            "description": "Find your first Epic Taiga Treasure!"
+        },
+        "legendary": {
+            "title": "There’s No Place Like Home",
+            "description": "Find your first Legendary Taiga Treasure!"
+        },
+        "rare": {
+            "title": "What Did The Fox Say?",
+            "description": "Find your first Rare Taiga Treasure!"
+        }
+    },
+    "wind_treasure": {
+        "common": {
+            "title": "It Sure Feels Windy!",
+            "description": "Find your first Common Wind Treasure!"
+        },
+        "epic": {
+            "title": "Chicken Dance!",
+            "description": "Find your first Epic Wind Treasure!"
+        },
+        "legendary": {
+            "title": "WEEEEEEEEEEEE!",
+            "description": "Find your first Legendary Wind Treasure!"
+        },
+        "rare": {
+            "title": "HELLO? I CAN BARELY HEAR YOU!",
+            "description": "Find your first Rare Wind Treasure!"
+        }
+    }
+}

@@ -72,6 +72,7 @@ const IndexPage = () => {
   const [rarityData, loadedRarityData] = useRequest('/api/rarityData');
   const [lootData, loadedLootData] = useRequest('/api/treasureData');
   const [biomeData, loadedBiomeData] = useRequest('/api/biomeData');
+  const [advancementData, loadedAdvancementData] = useRequest('/api/advancements');
   const [initialChanceData, loadedInitialChanceData] = useRequest('/api/initialChances');
 
   useEffect(() => {
@@ -161,7 +162,7 @@ const IndexPage = () => {
           </Section>
         </>
         }
-        {loadedRarityData && loadedLootData && loadedBiomeData && Object.keys(customData ?? lootData).map((biome, idx) => {
+        {loadedRarityData && loadedLootData && loadedBiomeData && loadedAdvancementData && Object.keys(customData ?? lootData).map((biome, idx) => {
           const commonData = (customData ?? lootData)[biome]["common"];
           const rareData = (customData ?? lootData)[biome]["rare"];
           const epicData = (customData ?? lootData)[biome]["epic"];
@@ -174,10 +175,10 @@ const IndexPage = () => {
               <Biome name={biome}></Biome>
               <Locations biomes={biomeData[biome]} />
               <Grid>
-                <ItemsCard rarity={"common"} loot={(customData ?? lootData)[biome]["common"]} />
-                <ItemsCard rarity={"rare"} loot={(customData ?? lootData)[biome]["rare"]} />
-                <ItemsCard rarity={"epic"} loot={(customData ?? lootData)[biome]["epic"]} />
-                <ItemsCard rarity={"legendary"} loot={(customData ?? lootData)[biome]["legendary"]} />
+                <ItemsCard advancement={advancementData[biome]?.["common"]} rarity={"common"} loot={(customData ?? lootData)[biome]["common"]} />
+                <ItemsCard advancement={advancementData[biome]?.["rare"]} rarity={"rare"} loot={(customData ?? lootData)[biome]["rare"]} />
+                <ItemsCard advancement={advancementData[biome]?.["epic"]} rarity={"epic"} loot={(customData ?? lootData)[biome]["epic"]} />
+                <ItemsCard advancement={advancementData[biome]?.["legendary"]} rarity={"legendary"} loot={(customData ?? lootData)[biome]["legendary"]} />
               </Grid>
             </Section>
           )
