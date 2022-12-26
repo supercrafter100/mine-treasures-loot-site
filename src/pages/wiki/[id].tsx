@@ -53,7 +53,7 @@ const Wiki = ({ sidebarData }) => {
 const WikiSidebar = ({ sidebarData }) => {
 
   return (
-    <aside className="w-64 float-right mt-24">
+    <aside className="w-full sm:w-[60%] sm:mx-auto xl:w-64 xl:float-right mt-24">
       <div className="overflow-y-auto py-4 px-3 bg-gray-50 rounded">
         <h1 className="font-bold text-xl text-center mb-3">Sections</h1>
         <ul className="space-y-2">
