@@ -92,7 +92,7 @@ const index = () => {
 
                 <h1 className="text-center text-3xl font-bold mt-5">Compatibility</h1>
                 <div className="overflow-x-auto">
-                    <table className="w-[60%] mx-auto text-sm text-left text-gray-500 mt-5">
+                    <table className="w-[80%] md:w-[60%] mx-auto text-sm text-left text-gray-500 mt-5">
                         <thead className="text-xs text-gray-700 uppercase bg-gray-50">
                             <tr>
                                 <th scope="col" className="py-3 px-6">Software</th>

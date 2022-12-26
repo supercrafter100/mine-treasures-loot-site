@@ -7,7 +7,7 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
     return (
-        <header className="h-[64px]">
+        <header>
             <Image src="/images/minetreasuretext.png" width={320} height={64} alt={"Mine treasure logo"} className='inline-block align-middle'></Image>
             <nav className="pl-4 md:pl-0 block md:inline-block md:float-right h-full">
                 <ul className="grid grid-cols-1 md:grid-cols-4 gap-3 h-full">
