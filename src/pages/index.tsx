@@ -9,6 +9,7 @@ import Review from '../components/Review';
 import StatisticsChart from '../components/StatisticsChart';
 import useRequest from '../hooks/useRequest';
 import { scrollTo } from '../utils/scrollTo';
+import Header from '../components/layout/Header';
 
 const index = () => {
 
@@ -21,18 +22,8 @@ const index = () => {
                 <title>Mine Treasure | Home</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
-            <div className="bg-white px-6 lg:px-24 py-12 h-screen">
-                <header className="mb-7">
-                    <h1 className='text-2xl inline-block pl-5'>Mine Treasures</h1>
-                    <nav className="pl-4 md:pl-0 block md:inline-block md:float-right">
-                        <ul className="grid grid-cols-1 md:grid-cols-4 gap-3">
-                            <li><Link className="inline-block w-full p-1 md:p-3 hover:bg-gray-100 transition-colors duration-200  align-middle" href="/">Home</Link></li>
-                            <li><Link className="inline-block w-full p-1 md:p-3 hover:bg-gray-100 transition-colors duration-200" href="/loot">Treasure</Link></li>
-                            <li><Link className="inline-block w-full p-1 md:p-3 hover:bg-gray-100 transition-colors duration-200" href="https://discord.gg/ASB67acx2Y">Discord</Link></li>
-                            <li><a className="inline-block w-full p-1 md:p-3 text-center md:text-left md:px-10 bg-blue-500 rounded-full" href="https://www.planetminecraft.com/data-pack/mine-treasure/">Download</a></li>
-                        </ul>
-                    </nav>
-                </header>
+            <div className="bg-white px-6 lg:px-24 py-6 h-screen">
+                <Header />
                 <main className="pt-10 xl:pt-3 grid xl:grid-cols-2 w-full border-t">
                     <section className="flex justify-center items-center">
                         <div className="pl-5">
@@ -40,7 +31,7 @@ const index = () => {
                             <p className="max-w-[60%] pt-3">Ever gotten tired of mining endlessly with no goal in mind? No motivation to go strip-mining? No means to go on this repetitive task for ores? Well, this data pack aims to change exactly that.</p>
                             <button className="cursor-pointer mt-2" onClick={() => scrollTo({ id: 'why', ref: whySectionRef, duration: 2000 })}><em>Read more...</em></button>
                             <br />
-                            <a href="https://www.planetminecraft.com/data-pack/mine-treasure/" className="mt-5 md:mt-10 inline-block px-10 text-white py-3 rounded-full bg-blue-500">Start playing <FontAwesomeIcon icon={faArrowRight} className="align-middle" /></a>
+                            <Link href="/download" className="mt-5 md:mt-10 inline-block px-10 text-white py-3 rounded-full bg-blue-500">Start playing <FontAwesomeIcon icon={faArrowRight} className="align-middle" /></Link>
                         </div>
                     </section>
                     <section className="hidden xl:inline-block"><Image src="/images/treasure.svg" alt="header" width={500} height={500}></Image></section>
@@ -149,7 +140,7 @@ const index = () => {
                     </table>
                 </div>
                 {/* className="p-1 md:p-3 text-center md:text-left md:px-10 bg-blue-500 rounded-full" */}
-                <a href="https://www.planetminecraft.com/data-pack/mine-treasure/" className="block w-52 mt-5 px-10 p-3 text-center text-white mx-auto bg-blue-500 rounded-full">Start playing <FontAwesomeIcon icon={faArrowRight} className="align-middle" /></a>
+                <Link href="/download" className="block w-52 mt-5 px-10 p-3 text-center text-white mx-auto bg-blue-500 rounded-full">Start playing <FontAwesomeIcon icon={faArrowRight} className="align-middle" /></Link>
             </div>
             <Footer />
         </>
