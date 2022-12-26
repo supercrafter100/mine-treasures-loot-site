@@ -1,18 +1,28 @@
 [
     {
         "title": "Biome information",
+        "icon": "tree",
         "collapsable": true,
         "children": [
-            "/Biome-Information",
-            "/Some-Other-Page"
+            {
+                "name": "Biome information",
+                "link": "/Biome-Information"
+            },
+            {
+                "name": "Some other page",
+                "link": "/Some-Other-Page"
+            }
         ]
     },
     {
         "title": "Finding treasure",
+        "icon": "toolbox",
         "collapsable": true,
         "children": [
-            "/Some-Page",
-            "ABC"
+            {
+                "name": "Some section",
+                "link": "/some location"
+            }
         ]
     }
 ]

@@ -27,7 +27,7 @@ const download = () => {
             <div className="bg-white px-6 lg:px-24 py-6 h-screen">
                 <Header />
                 <main className="mt-24">
-                    <div className="mx-auto w-[70%] rounded-lg border border-blue-500 flex justify-between p-5">
+                    <div className="mx-auto w-[70%] rounded-lg border border-blue-500 flex justify-between p-5 flex-wrap md:flex-nowrap">
                         <div className="text-center w-full text-2xl font-mono">
                             <h1>Version 1.0.1 <em>(1.19.2)</em></h1>
                             <button onClick={() => downloadFile('mine-treasure-1.0.1-.zip')} className="bg-blue-500 rounded-lg px-5 py-2 mt-5">Download</button>
