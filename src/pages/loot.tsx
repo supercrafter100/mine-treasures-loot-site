@@ -106,7 +106,7 @@ const IndexPage = () => {
               <div className="inline-block ml-1" data-tip data-for={"commonChance-ttp"}>
                 <TooltipIcon className="h-5 w-5 inline-block" />
                 <ReactTooltip id={"commonChance-ttp"} effect="solid" className="opacity-100">
-                  <p>Input a number to determine a range of output values. The higher the number, the higher the chance or vice versa.</p>
+                  <p>Input a number to determine a range of output values. The higher the number, the lower the chance or vice versa.</p>
                 </ReactTooltip>
               </div>
               <div className="grid grid-cols-2 md:grid-cols-4 mt-2 gap-4">
