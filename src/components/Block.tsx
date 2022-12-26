@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const Block = ({ block, width = 24, height = 25 }) => {
+const Block = ({ block, width = 24, height = 24 }) => {
     return (
         <div>
             <Image src={"/items/" + block + ".png"} alt={block} width={width} height={height} className="inline-block" />
