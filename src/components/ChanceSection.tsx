@@ -2,8 +2,6 @@ import Image from 'next/image'
 import React from 'react'
 import { MT_CHANCE } from '../interfaces'
 import { rarityColors } from '../utils/rarity-colors'
-import { rarityIcons } from '../utils/rarity-icons'
-import Block from './Block'
 
 const ChanceSection = ({ ore, chance, rarityValues }: { ore: string, chance: MT_CHANCE, rarityValues: { common: number, rare: number, epic: number, legendary: number } }) => {
 

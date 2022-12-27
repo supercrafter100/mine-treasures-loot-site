@@ -2,7 +2,7 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 import pool from '../../utils/db'
 
 export default async function handler(
-    req: NextApiRequest,
+    _req: NextApiRequest,
     res: NextApiResponse
 ) {
     if (!pool) {
