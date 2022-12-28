@@ -230,6 +230,7 @@
     "nether_quartz_ore": {
         "common": 14,
         "rare": 14,
+        "epic": 14,
         "legendary": 14
     },
     "basalt": {
