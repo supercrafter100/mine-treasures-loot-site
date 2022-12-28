@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      mono: ['Minecraft', 'sans-serif']
+    }
   },
   plugins: [
     require('tailwind-scrollbar')({ nocompatible: true }),
