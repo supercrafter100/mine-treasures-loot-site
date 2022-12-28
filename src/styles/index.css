@@ -1,7 +1,17 @@
 @font-face {
     font-family: "Minecraft";
-    src: url("https://db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.eot");
-    src: url("https://db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.woff") format("woff"), url("https://db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.svg#Minecraft") format("svg");
+    src: url("/fonts/Minecraft/6ab539c6fc2b21ff0b149b3d06d7f97c.eot");
+    /* IE9*/
+    src: url("/fonts/Minecraft/6ab539c6fc2b21ff0b149b3d06d7f97c.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("/fonts/Minecraft/6ab539c6fc2b21ff0b149b3d06d7f97c.woff2") format("woff2"),
+        /* chrome、firefox */
+        url("/fonts/Minecraft/6ab539c6fc2b21ff0b149b3d06d7f97c.woff") format("woff"),
+        /* chrome、firefox */
+        url("/fonts/Minecraft/6ab539c6fc2b21ff0b149b3d06d7f97c.ttf") format("truetype"),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url("/fonts/Minecraft/6ab539c6fc2b21ff0b149b3d06d7f97c.svg#Minecraft Regular") format("svg");
+    /* iOS 4.1- */
 }
 
 @tailwind base;
