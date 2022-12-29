@@ -27,7 +27,8 @@
     "remark-hint": "^1.0.10",
     "remark-toc": "^8.0.1",
     "string-similarity": "^4.0.4",
-    "tailwind-scrollbar": "^2.0.1"
+    "tailwind-scrollbar": "^2.0.1",
+    "unist-util-visit-parents": "^5.1.1"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",

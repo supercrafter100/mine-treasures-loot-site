@@ -15,6 +15,7 @@ import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const { library } = require('@fortawesome/fontawesome-svg-core')
 import { fas } from '@fortawesome/free-solid-svg-icons';
+import mcItem from '../../utils/remarkPlugins/mcItem';
 
 const Wiki = ({ sidebarData }) => {
 
@@ -42,7 +43,7 @@ const Wiki = ({ sidebarData }) => {
 
         <main className="mx-auto w-full prose" id={"wiki"}>
           {markdownData.length && (<>
-            <ReactMarkdown remarkPlugins={[remarkGfm, remarkToc, remarkHint]} rehypePlugins={[remarkSlug]}>{markdownData}</ReactMarkdown>
+            <ReactMarkdown remarkPlugins={[remarkGfm, remarkToc, remarkHint, mcItem]} rehypePlugins={[remarkSlug]}>{markdownData}</ReactMarkdown>
           </>)}
         </main>
       </div>

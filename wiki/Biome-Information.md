@@ -1,4 +1,4 @@
-# Know-abouts
+# [MCITEM:iron_hoe] Know-abouts
 
 If you want to increase your chances of finding Treasure there is only one legitimate way of doing it, increase your mining speed. There are several ways to increase your mining speed in Minecraft such as having a better pickaxe with enchantments. However, the Haste effect also increases mining speed which is also useful. Experience bottles are always a common drop in most chests if listed in the loot table, hence there is no need to mention them in common drops.
 ***
