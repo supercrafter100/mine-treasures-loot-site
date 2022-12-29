@@ -35,7 +35,7 @@
             "description": "Find your first Rare Basalt Deltas Treasure!"
         }
     },
-    "forest_treasure": {
+    "dark_forest_treasure": {
         "common_dark": {
             "title": "Enjoying The Shade?",
             "description": "Find your first Common Dark Forest Treasure!"
@@ -53,7 +53,7 @@
             "description": "Find your first Rare Dark Forest Treasure!"
         }
     },
-    "deepdark_treasure": {
+    "deep_dark_treasure": {
         "common": {
             "title": "Watch Your Step!",
             "description": "Find your first Common Deep Dark Treasure!"
@@ -305,7 +305,7 @@
             "description": "Find your first Rare Savanna Treasure!"
         }
     },
-    "soulvalley_treasure": {
+    "soul_valley_treasure": {
         "common": {
             "title": "Ghostbusters!",
             "description": "Find your first Common Soul Valley Treasure!"
