@@ -24,18 +24,24 @@ const index = () => {
             </Head>
             <div className="bg-white px-6 lg:px-24 py-6 h-screen">
                 <Header />
-                <main className="pt-10 xl:pt-3 grid xl:grid-cols-2 w-full border-t">
-                    <section className="flex justify-center items-center">
-                        <div className="pl-5">
-                            <h1 className="inline-block font-bold text-4xl">Make mining enjoyable again</h1>
-                            <p className="max-w-[60%] pt-3">Ever gotten tired of mining endlessly with no goal in mind? No motivation to go strip-mining? No means to go on this repetitive task for ores? Well, this data pack aims to change exactly that.</p>
-                            <button className="cursor-pointer mt-2" onClick={() => scrollTo({ id: 'why', ref: whySectionRef, duration: 2000 })}><em>Read more...</em></button>
-                            <br />
-                            <Link href="/download" className="mt-5 md:mt-10 inline-block px-10 text-white py-3 rounded-full bg-blue-500">Start playing <FontAwesomeIcon icon={faArrowRight} className="align-middle" /></Link>
-                        </div>
-                    </section>
-                    <section className="hidden xl:inline-block"><Image src="/images/treasure.svg" alt="header" width={500} height={500}></Image></section>
+                <main className="flex justify-center content-center w-full h-[70%]">
+                    <div className="pt-10 xl:pt-3 grid xl:grid-cols-2 w-full border-t">
+                        <section className="flex justify-center items-center">
+                            <div className="pl-5">
+                                <h1 className="inline-block font-bold text-4xl">Make mining enjoyable again</h1>
+                                <p className="max-w-[60%] pt-3">Ever gotten tired of mining endlessly with no goal in mind? No motivation to go strip-mining? No means to go on this repetitive task for ores? Well, this data pack aims to change exactly that.</p>
+                                <button className="cursor-pointer mt-2" onClick={() => scrollTo({ id: 'why', ref: whySectionRef, duration: 2000 })}><em>Read more...</em></button>
+                                <br />
+                                <Link href="/download" className="mt-5 md:mt-10 inline-block px-10 text-white py-3 rounded-full bg-blue-500">Start playing <FontAwesomeIcon icon={faArrowRight} className="align-middle" /></Link>
+                            </div>
+                        </section>
+                        <section className="hidden xl:flex items-center"><Image src="/images/treasure.svg" alt="header" width={500} height={500}></Image></section>
+                    </div>
                 </main>
+                {/* Read more arrows in the center */}
+                <div className="block text-center">
+
+                </div>
             </div>
             <div className="bg-gray-100 px-6 lg:px-24 py-12">
                 <h1 className="text-center text-3xl font-bold" ref={whySectionRef} id="why">Why this datapack?</h1>
