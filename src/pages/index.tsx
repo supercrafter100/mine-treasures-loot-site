@@ -30,7 +30,7 @@ const index = () => {
                             <section className="flex justify-center items-center">
                                 <div className="pl-5">
                                     <h1 className="inline-block font-bold text-4xl">Make mining enjoyable again</h1>
-                                    <p className="max-w-[60%] pt-3">Ever gotten tired of mining endlessly with no goal in mind? No motivation to go strip-mining? No means to go on this repetitive task for ores? Well, this data pack aims to change exactly that.</p>
+                                    <p className="max-w-[90%] sm:max-w-[60%] pt-3">Ever gotten tired of mining endlessly with no goal in mind? No motivation to go strip-mining? No means to go on this repetitive task for ores? Well, this data pack aims to change exactly that.</p>
                                     <button className="cursor-pointer mt-2" onClick={() => scrollTo({ id: 'why', ref: whySectionRef, duration: 2000 })}><em>Read more...</em></button>
                                     <br />
                                     <Link href="/download" className="mt-5 md:mt-10 inline-block px-10 text-white py-3 rounded-full bg-blue-500">Start playing <FontAwesomeIcon icon={faArrowRight} className="align-middle" /></Link>
@@ -41,10 +41,10 @@ const index = () => {
                     </main>
                 </div>
                 {/* Read more arrows in the center */}
-                <div className="absolute bottom-10 w-full">
+                <div className="absolute bottom-5 md:bottom-10 w-full">
                     <div className="flex w-full justify-center items-center flex-col cursor-pointer" onClick={() => scrollTo({ id: 'why', ref: whySectionRef, duration: 2000 })}>
                         <p>Read more</p>
-                        <div className="box-border w-8 h-8 border border-black border-t-0 border-l-0 rotate-45"></div>
+                        <div className="box-border w-4 h-4 md:w-8 md:h-8 border border-black border-t-0 border-l-0 rotate-45"></div>
                     </div>
                 </div>
             </div>
