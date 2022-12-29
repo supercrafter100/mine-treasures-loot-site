@@ -36,24 +36,24 @@
         }
     },
     "dark_forest_treasure": {
-        "common_dark": {
+        "common": {
             "title": "Enjoying The Shade?",
             "description": "Find your first Common Dark Forest Treasure!"
         },
-        "epic_dark": {
+        "epic": {
             "title": "Pillaging The Loot",
             "description": "Find your first Epic Dark Forest Treasure!"
         },
-        "legendary_dark": {
+        "legendary": {
             "title": "Who Cares About a Mansion",
             "description": "Find your first Legendary Dark Forest Treasure!"
         },
-        "rare_dark": {
+        "rare": {
             "title": "Anti-Village Or Pro-Village?",
             "description": "Find your first Rare Dark Forest Treasure!"
         }
     },
-    "deep_dark_treasure": {
+    "deepdark_treasure": {
         "common": {
             "title": "Watch Your Step!",
             "description": "Find your first Common Deep Dark Treasure!"
@@ -197,20 +197,20 @@
             "description": "Find your first Rare Jungle Treasure!"
         }
     },
-    "caves_treasure": {
-        "common_lush": {
+    "lush_caves_treasure": {
+        "common": {
             "title": "The Flourishing Fun",
             "description": "Find your first Common Lush Caves Treasure!"
         },
-        "epic_lush": {
+        "epic": {
             "title": "Lush Galore",
             "description": "Find your first Epic Lush Caves Treasure!"
         },
-        "legendary_lush": {
+        "legendary": {
             "title": "Acquired Green Hands",
             "description": "Find your first Legendary Lush Caves Treasure!"
         },
-        "rare_lush": {
+        "rare": {
             "title": "Glowing Prize",
             "description": "Find your first Rare Lush Caves Treasure!"
         }
@@ -305,7 +305,7 @@
             "description": "Find your first Rare Savanna Treasure!"
         }
     },
-    "soul_valley_treasure": {
+    "soulvalley_treasure": {
         "common": {
             "title": "Ghostbusters!",
             "description": "Find your first Common Soul Valley Treasure!"
