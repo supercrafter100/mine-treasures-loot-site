@@ -50,6 +50,25 @@
                 "type": "copper_block"
             },
             {
+                "type": "potion",
+                "name": "Absorption Potion",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Absorption Potion\",\"color\":\"aqua\",\"italic\":false}"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "22b",
+                            "Amplifier": "0b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 47035785,
+                    "item": "badpotion"
+                }
+            },
+            {
                 "type": "firework_rocket",
                 "nbt": {
                     "Fireworks": {
@@ -788,6 +807,20 @@
                 "type": "chiseled_polished_blackstone"
             },
             {
+                "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "ruined"
+                },
+                "name": "Ruined Portal Horn",
+                "lore": [
+                    "  ",
+                    "Calls upon the great builder to instantly ",
+                    "build a ruined portal right in front of you. ",
+                    "Use with caution. "
+                ]
+            },
+            {
                 "type": "magma_cream"
             },
             {
@@ -801,20 +834,6 @@
             },
             {
                 "type": "experience_bottle"
-            },
-            {
-                "type": "goat_horn",
-                "nbt": {
-                    "instrument": "minecraft:call_goat_horn",
-                    "weapon": "ruined"
-                },
-                "name": "Ruined Portal Horn",
-                "lore": [
-                    "  ",
-                    "Calls upon the great builder to instantly ",
-                    "build a ruined portal right in front of you. ",
-                    "Use with caution. "
-                ]
             },
             {
                 "type": "obsidian"
@@ -840,6 +859,12 @@
                 "type": "gold_block"
             },
             {
+                "type": "netherite_ingot"
+            },
+            {
+                "type": "bedrock"
+            },
+            {
                 "type": "goat_horn",
                 "nbt": {
                     "instrument": "minecraft:call_goat_horn",
@@ -852,12 +877,6 @@
                     "build a ruined portal right in front of you. ",
                     "Use with caution. "
                 ]
-            },
-            {
-                "type": "netherite_ingot"
-            },
-            {
-                "type": "bedrock"
             },
             {
                 "type": "potion"
@@ -1101,6 +1120,20 @@
                 "type": "golden_apple"
             },
             {
+                "type": "goat_horn",
+                "nbt": {
+                    "instrument": "minecraft:call_goat_horn",
+                    "weapon": "portal_horn"
+                },
+                "name": "Portal Room Horn",
+                "lore": [
+                    "  ",
+                    "Calls upon the great builder to",
+                    "instantly build the portal room right ",
+                    "in front of you. Use with caution. "
+                ]
+            },
+            {
                 "type": "enchanted_golden_apple"
             },
             {
@@ -1114,20 +1147,6 @@
             },
             {
                 "type": "totem_of_undying"
-            },
-            {
-                "type": "goat_horn",
-                "nbt": {
-                    "instrument": "minecraft:call_goat_horn",
-                    "weapon": "portal_horn"
-                },
-                "name": "Portal Room Horn",
-                "lore": [
-                    "  ",
-                    "Calls upon the great builder to",
-                    "instantly build the portal room right ",
-                    "in front of you. Use with caution. "
-                ]
             },
             {
                 "type": "black_shulker_box"
@@ -1210,6 +1229,25 @@
             },
             {
                 "type": "red_mushroom_block"
+            },
+            {
+                "type": "potion",
+                "name": "Hero of the Village Potion",
+                "nbt": {
+                    "display": {
+                        "Name": "{\"text\":\"Hero of the Village Potion\",\"color\":\"aqua\",\"italic\":false}"
+                    },
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "32b",
+                            "Amplifier": "0b",
+                            "Duration": 2400,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 3135785,
+                    "item": "badpotion"
+                }
             },
             {
                 "type": "iron_pickaxe"
@@ -1301,15 +1339,6 @@
                 "type": "gold_block"
             },
             {
-                "type": "ender_pearl"
-            },
-            {
-                "type": "iron_block"
-            },
-            {
-                "type": "golden_carrot"
-            },
-            {
                 "type": "goat_horn",
                 "nbt": {
                     "instrument": "minecraft:call_goat_horn",
@@ -1336,6 +1365,15 @@
                     "build a pillager outpost right in front of ",
                     "you. Use with caution. "
                 ]
+            },
+            {
+                "type": "ender_pearl"
+            },
+            {
+                "type": "iron_block"
+            },
+            {
+                "type": "golden_carrot"
             },
             {
                 "type": "emerald_block"
@@ -1377,18 +1415,6 @@
                 }
             },
             {
-                "type": "gold_ingot"
-            },
-            {
-                "type": "emerald"
-            },
-            {
-                "type": "iron_ingot"
-            },
-            {
-                "type": "experience_bottle"
-            },
-            {
                 "type": "goat_horn",
                 "nbt": {
                     "instrument": "minecraft:call_goat_horn",
@@ -1401,6 +1427,18 @@
                     "instantly build a weaponsmith right ",
                     "in front of you. Use with caution. "
                 ]
+            },
+            {
+                "type": "gold_ingot"
+            },
+            {
+                "type": "emerald"
+            },
+            {
+                "type": "iron_ingot"
+            },
+            {
+                "type": "experience_bottle"
             },
             {
                 "type": "dark_oak_log"
@@ -1739,7 +1777,7 @@
                 "type": "nether_star"
             },
             {
-                "type": "netherite_block"
+                "type": "netherite_ingot"
             },
             {
                 "type": "budding_amethyst"
@@ -3069,7 +3107,7 @@
                 "type": "copper_block"
             },
             {
-                "type": "diamond_block"
+                "type": "diamond"
             },
             {
                 "type": "leather_boots",
