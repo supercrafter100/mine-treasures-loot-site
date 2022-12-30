@@ -2,6 +2,7 @@ import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
 import Header from '../../components/layout/Header';
+import ErrorPage from 'next/error';
 
 import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -15,7 +16,7 @@ import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const { library } = require('@fortawesome/fontawesome-svg-core')
 import { fas } from '@fortawesome/free-solid-svg-icons';
-import mcItem from '../../utils/remarkPlugins/mcItem';
+import remarkMcItem from '../../utils/remarkPlugins/mcItem';
 
 const Wiki = ({ sidebarData }) => {
 
@@ -37,37 +38,38 @@ const Wiki = ({ sidebarData }) => {
         <title>Mine Treasure | Download</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <div className="bg-white px-6 lg:px-24 py-6 h-screen">
-        <Header />
-        <WikiSidebar sidebarData={sidebarData} />
+      {markdownData === '{"message":"Not found"}' && <ErrorPage statusCode={404} />}
+      {markdownData !== '{"message":"Not found"}' &&
+        <div className="bg-white px-6 lg:px-24 py-6 h-screen">
+          <Header />
+          <WikiSidebar sidebarData={sidebarData} activePage={"/" + pageId} />
 
-        <main className="mx-auto w-full prose" id={"wiki"}>
-          {markdownData.length && (<>
-            <ReactMarkdown remarkPlugins={[remarkGfm, remarkToc, remarkHint, mcItem]} rehypePlugins={[remarkSlug]}>{markdownData}</ReactMarkdown>
-          </>)}
-        </main>
-      </div>
+          <main className="mx-auto w-full prose" id={"wiki"}>
+            {markdownData.length && (<>
+              <ReactMarkdown remarkPlugins={[remarkGfm, remarkToc, remarkHint, remarkMcItem]} rehypePlugins={[remarkSlug]}>{markdownData}</ReactMarkdown>
+            </>)}
+          </main>
+        </div>
+      }
     </>
   )
 }
 
-const WikiSidebar = ({ sidebarData }) => {
-
+const WikiSidebar = ({ sidebarData, activePage }) => {
   return (
     <aside className="w-full sm:w-[60%] sm:mx-auto xl:w-64 xl:float-right mt-24">
       <div className="overflow-y-auto py-4 px-3 bg-gray-50 rounded">
         <h1 className="font-bold text-xl text-center mb-3">Sections</h1>
         <ul className="space-y-2">
-          {sidebarData.map((elem, idx) => <WikiSidebarSection key={idx} sidebarSectionData={elem} />)}
+          {sidebarData.map((elem, idx) => <WikiSidebarSection key={idx} sidebarSectionData={elem} activePage={activePage} />)}
         </ul>
       </div>
     </aside>
   )
 }
 
-const WikiSidebarSection = ({ sidebarSectionData }) => {
-
-  const [isDroppedDown, setIsDroppedDown] = useState(false);
+const WikiSidebarSection = ({ sidebarSectionData, activePage }) => {
+  const [isDroppedDown, setIsDroppedDown] = useState(sidebarSectionData.children.some(child => child.link === activePage));
   return (
     <li>
       <button onClick={() => setIsDroppedDown(!isDroppedDown)} type="button" className="flex items-center p-2 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100">
@@ -79,7 +81,7 @@ const WikiSidebarSection = ({ sidebarSectionData }) => {
         <ul className="py-2 space-y-2">
           {sidebarSectionData.children.map((child, idx) => (
             <li key={idx}>
-              <Link href={"/wiki" + (child.link.startsWith('/') ? '' : '/') + child.link} className="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100">{child.name}</Link>
+              <Link href={"/wiki" + (child.link.startsWith('/') ? '' : '/') + child.link} className={"flex items-center p-2 pl-11 w-full text-base font-normalrounded-lg transition text-gray-900 duration-75 group hover:bg-gray-100" + (activePage === child.link ? " font-bold" : "")}>{child.name}</Link>
             </li>
           ))}
         </ul>
