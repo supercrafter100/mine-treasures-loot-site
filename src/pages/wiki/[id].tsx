@@ -35,7 +35,7 @@ const Wiki = ({ sidebarData }) => {
   return (
     <>
       <Head>
-        <title>Mine Treasure | Download</title>
+        <title>Mine Treasure | Wiki</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       {markdownData === '{"message":"Not found"}' && <ErrorPage statusCode={404} />}
