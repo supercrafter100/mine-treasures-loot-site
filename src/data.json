@@ -615,63 +615,6 @@
                     " 10 Attack Damage",
                     " 4 Attack Speed"
                 ]
-            },
-            {
-                "type": "name_tag"
-            },
-            {
-                "type": "book"
-            },
-            {
-                "type": "iron_pickaxe"
-            },
-            {
-                "type": "iron_ingot"
-            },
-            {
-                "type": "gold_ingot"
-            },
-            {
-                "type": "redstone"
-            },
-            {
-                "type": "lapis_lazuli"
-            },
-            {
-                "type": "diamond"
-            },
-            {
-                "type": "coal"
-            },
-            {
-                "type": "bread"
-            },
-            {
-                "type": "glow_berries"
-            },
-            {
-                "type": "melon_seeds"
-            },
-            {
-                "type": "pumpkin_seeds"
-            },
-            {
-                "type": "beetroot_seeds"
-            },
-            {
-                "type": "rail"
-            },
-            {
-                "type": "powered_rail"
-            },
-            {
-                "type": "detector_rail"
-            },
-            {
-                "type": "activator_rail"
-            },
-            {
-                "type": "torch"
             }
         ],
         "rare": [
@@ -5723,11 +5666,108 @@
         ]
     },
     "mountain_treasure": {
-        "legendary": [
+        "common": [
             {
-                "type": "chest",
-                "name": "Blessing of the Mountain"
+                "type": "amethyst_shard"
             },
+            {
+                "type": "raw_copper"
+            },
+            {
+                "type": "raw_gold"
+            },
+            {
+                "type": "raw_iron"
+            },
+            {
+                "type": "coal"
+            },
+            {
+                "type": "experience_bottle"
+            },
+            {
+                "type": "iron_helmet"
+            },
+            {
+                "type": "iron_leggings"
+            },
+            {
+                "type": "iron_axe"
+            },
+            {
+                "type": "iron_pickaxe"
+            },
+            {
+                "type": "budding_amethyst"
+            },
+            {
+                "type": "diamond_block"
+            },
+            {
+                "type": "potion",
+                "nbt": {
+                    "CustomPotionEffects": [
+                        {
+                            "Id": "3b",
+                            "Amplifier": "1b",
+                            "Duration": 3600,
+                            "ShowParticles": "1b"
+                        }
+                    ],
+                    "CustomPotionColor": 9285658,
+                    "item": "mhaste"
+                },
+                "name": "Potion of Haste"
+            }
+        ],
+        "epic": [
+            {
+                "type": "diamond_block"
+            },
+            {
+                "type": "netherite_pickaxe",
+                "nbt": {
+                    "HideFlags": 2
+                },
+                "enchantments": [
+                    {
+                        "type": "silk_touch",
+                        "min": 0,
+                        "max": 1
+                    }
+                ],
+                "name": "Mountain Netherite Pickaxe"
+            },
+            {
+                "type": "netherite_ingot"
+            },
+            {
+                "type": "enchanted_golden_apple"
+            },
+            {
+                "type": "golden_apple"
+            },
+            {
+                "type": "gold_block"
+            },
+            {
+                "type": "iron_block"
+            },
+            {
+                "type": "copper_block"
+            },
+            {
+                "type": "lapis_block"
+            },
+            {
+                "type": "bundle",
+                "nbt": {
+                    "item": "bundle"
+                },
+                "name": "Mountain Bundle"
+            }
+        ],
+        "legendary": [
             {
                 "type": "netherite_block"
             },
@@ -5861,107 +5901,6 @@
                         "max": 3
                     }
                 ]
-            }
-        ],
-        "common": [
-            {
-                "type": "amethyst_shard"
-            },
-            {
-                "type": "raw_copper"
-            },
-            {
-                "type": "raw_gold"
-            },
-            {
-                "type": "raw_iron"
-            },
-            {
-                "type": "coal"
-            },
-            {
-                "type": "experience_bottle"
-            },
-            {
-                "type": "iron_helmet"
-            },
-            {
-                "type": "iron_leggings"
-            },
-            {
-                "type": "iron_axe"
-            },
-            {
-                "type": "iron_pickaxe"
-            },
-            {
-                "type": "budding_amethyst"
-            },
-            {
-                "type": "diamond_block"
-            },
-            {
-                "type": "potion",
-                "nbt": {
-                    "CustomPotionEffects": [
-                        {
-                            "Id": "3b",
-                            "Amplifier": "1b",
-                            "Duration": 3600,
-                            "ShowParticles": "1b"
-                        }
-                    ],
-                    "CustomPotionColor": 9285658,
-                    "item": "mhaste"
-                },
-                "name": "Potion of Haste"
-            }
-        ],
-        "epic": [
-            {
-                "type": "diamond_block"
-            },
-            {
-                "type": "netherite_pickaxe",
-                "nbt": {
-                    "HideFlags": 2
-                },
-                "enchantments": [
-                    {
-                        "type": "silk_touch",
-                        "min": 0,
-                        "max": 1
-                    }
-                ],
-                "name": "Mountain Netherite Pickaxe"
-            },
-            {
-                "type": "netherite_ingot"
-            },
-            {
-                "type": "enchanted_golden_apple"
-            },
-            {
-                "type": "golden_apple"
-            },
-            {
-                "type": "gold_block"
-            },
-            {
-                "type": "iron_block"
-            },
-            {
-                "type": "copper_block"
-            },
-            {
-                "type": "lapis_block"
-            },
-            {
-                "type": "bundle",
-                "nbt": {
-                    "item": "bundle"
-                },
-                "name": "Mountain Bundle"
             }
         ],
         "rare": [
