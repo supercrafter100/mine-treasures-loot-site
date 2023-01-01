@@ -1,6 +1,6 @@
 {
-    "common": 500,
-    "rare": 2000,
-    "epic": 12000,
-    "legendary": 24000
+    "common": 800,
+    "rare": 3200,
+    "epic": 25600,
+    "legendary": 51200
 }
