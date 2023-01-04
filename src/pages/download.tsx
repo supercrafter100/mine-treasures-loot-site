@@ -23,6 +23,10 @@ const download = () => {
             <Head>
                 <title>Mine Treasure | Download</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+                <meta name="description" content="Download the Mine-Treasure datapack here. Available for the most recent versions of Minecraft" key="desc" />
+                <meta property="og:title" content="Download | Mine Treasure" />
+                <meta property="og:description" content="Download the Mine-Treasure datapack here. Available for the most recent versions of Minecraft" />
             </Head>
             <div className="bg-white px-6 lg:px-24 py-6 h-screen">
                 <Header />

@@ -89,6 +89,11 @@ const IndexPage = () => {
       <Head>
         <title>Mine Treasure | Loot</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+        <meta name="description" content="These are the loot tables of the datapack. They are the items that can appear in the treasure barrels" key="desc" />
+        <meta property="og:title" content="Loot table | Mine Treasure" />
+        <meta property="og:description" content="These are the loot tables of the datapack. They are the items that can appear in the treasure barrels" />
+
       </Head>
       <div className="bg-white px-6 lg:px-24 py-12">
         <Navbar />

@@ -13,8 +13,8 @@ const Header = () => {
                 <ul className="grid grid-cols-1 md:grid-cols-4 gap-3 h-full">
                     <li className="h-full flex items-center"><Link className="inline-block w-full p-1 md:p-3 hover:bg-gray-100 transition-colors duration-200  align-middle" href="/">Home</Link></li>
                     <li className="h-full flex items-center"><Link className="inline-block w-full p-1 md:p-3 hover:bg-gray-100 transition-colors duration-200" href="/loot">Treasure</Link></li>
-                    <li className="h-full flex items-center"><Link className="inline-block w-full p-1 md:p-3 hover:bg-gray-100 transition-colors duration-200" href="https://discord.gg/ASB67acx2Y"><FontAwesomeIcon className="mr-1" icon={faDiscord as any} />Discord</Link></li>
-                    <li className="h-full flex items-center"><Link className="inline-block w-full p-1 md:p-3 text-center md:text-left md:px-10 bg-blue-500 rounded-full" href="/download"><FontAwesomeIcon className="mr-1" icon={faDownload} />Download</Link></li>
+                    <li className="h-full flex items-center"><Link className="inline-block w-full p-1 md:p-3 hover:bg-gray-100 transition-colors duration-200" href="https://discord.gg/ASB67acx2Y" passHref><FontAwesomeIcon className="mr-1" icon={faDiscord as any} />Discord</Link></li>
+                    <li className="h-full flex items-center"><Link className="inline-block w-full p-1 md:p-3 text-center md:text-left md:px-10 bg-blue-500 rounded-full" href="/download" passHref><FontAwesomeIcon className="mr-1" icon={faDownload} />Download</Link></li>
                 </ul>
             </nav>
         </header>

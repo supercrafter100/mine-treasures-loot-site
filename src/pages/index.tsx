@@ -21,6 +21,11 @@ const index = () => {
             <Head>
                 <title>Mine Treasure | Home</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+                <meta name="description" content="Mine treasure is a Minecraft datapack which aims to enhance the mining experience. This datapack does so by making treasure randomly spawn while mining." key="desc" />
+                <meta property="og:title" content="Mine Treasure" />
+                <meta property="og:description" content="Mine treasure is a Minecraft datapack which aims to enhance the mining experience." />
+                <meta property="og:image" content="/images/Mine_Treasure.png" />
             </Head>
             <div className="bg-white py-6 h-screen relative">
                 <div className="px-6 lg:px-24">
