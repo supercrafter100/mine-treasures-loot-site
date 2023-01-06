@@ -97,6 +97,13 @@ const IndexPage = () => {
       </Head>
       <div className="bg-white px-6 lg:px-24 py-12">
         <Navbar />
+        {(!loadedRarityData || !loadedLootData || !loadedBiomeData || !loadedAdvancementData || !loadedInitialChanceData) &&
+          <Section>
+            <div className="text-center">
+              <span className='loader' />
+            </div>
+          </Section>
+        }
         {loadedRarityData && loadedLootData && loadedInitialChanceData && <>
           <Section>
             <div>

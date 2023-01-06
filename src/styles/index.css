@@ -84,3 +84,24 @@ p.hint.error {
 p.hint.error:before {
     background-color: #ef4e4e;
 }
+
+.loader {
+    width: 96px;
+    height: 96px;
+    border: 10px solid #fff;
+    border-bottom-color: #00A6ED;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
