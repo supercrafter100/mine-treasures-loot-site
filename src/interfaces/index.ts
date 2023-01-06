@@ -8,6 +8,7 @@ export type MT_ITEM = {
   type: string;
   name?: string;
   unbreakable?: boolean;
+  enchantWithLevel?: number;
   lore?: string[];
   nbt?: object;
   enchantments?: MT_ENCHANTMENT[];

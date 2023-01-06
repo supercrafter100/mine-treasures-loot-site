@@ -40,8 +40,9 @@ const StatsModal = ({ item, setModal }: { item: MT_ITEM, setModal: Function }) =
                             <h1 className="text-xl md:text-4xl font-bold mb-5"><FontAwesomeIcon icon={faBook} /> Enchantments</h1>
                             <div className="grid grid-cols-1 gap-3">
                                 {item.unbreakable && <UnbreakableEnchantment />}
+                                {item.enchantWithLevel && <LevelEnchantment level={item.enchantWithLevel} />}
                                 {item.enchantments && item.enchantments.map((enchantment, idx) => <Enchantment key={idx} enchantment={enchantment}></Enchantment>)}
-                                {!item.unbreakable && !item.enchantments && <p className="text-center"><i>No enchantments</i></p>}
+                                {!item.unbreakable && !item.enchantments && !item.enchantWithLevel && <p className="text-center"><i>No enchantments</i></p>}
                             </div>
                         </section>
                         {item.nbt && (
@@ -103,6 +104,15 @@ const UnbreakableEnchantment = () => {
         <div className="text-center lg:text-left">
             <Image src="/items/enchanted_book.png" alt="enchanted_book" width={24} height={24} className="inline-block"></Image>
             <p className="text-lg md:text-xl inline-block align-middle pl-3"><b>Unbreakable</b></p>
+        </div>
+    )
+}
+
+const LevelEnchantment = ({ level }) => {
+    return (
+        <div className="text-center lg:text-left">
+            <Image src="/items/enchanted_book.png" alt="enchanted_book" width={24} height={24} className="inline-block"></Image>
+            <p className="text-lg md:text-xl inline-block align-middle pl-3"><b>Level {level} enchantment(s)</b></p>
         </div>
     )
 }

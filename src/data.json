@@ -1193,7 +1193,8 @@
                 }
             },
             {
-                "type": "iron_pickaxe"
+                "type": "iron_pickaxe",
+                "enchantWithLevel": 5
             },
             {
                 "type": "gold_nugget"
@@ -1330,7 +1331,8 @@
                 "type": "arrow"
             },
             {
-                "type": "iron_pickaxe"
+                "type": "iron_pickaxe",
+                "enchantWithLevel": 18
             },
             {
                 "type": "potion",
@@ -2073,19 +2075,24 @@
                 "type": "experience_bottle"
             },
             {
-                "type": "leather_helmet"
+                "type": "leather_helmet",
+                "enchantWithLevel": 12
             },
             {
-                "type": "leather_chestplate"
+                "type": "leather_chestplate",
+                "enchantWithLevel": 12
             },
             {
-                "type": "leather_leggings"
+                "type": "leather_leggings",
+                "enchantWithLevel": 8
             },
             {
-                "type": "leather_boots"
+                "type": "leather_boots",
+                "enchantWithLevel": 12
             },
             {
-                "type": "wooden_pickaxe"
+                "type": "wooden_pickaxe",
+                "enchantWithLevel": 12
             },
             {
                 "type": "potion"
@@ -2111,13 +2118,16 @@
                 "type": "coal_block"
             },
             {
-                "type": "diamond_shovel"
+                "type": "diamond_shovel",
+                "enchantWithLevel": 50
             },
             {
-                "type": "diamond_pickaxe"
+                "type": "diamond_pickaxe",
+                "enchantWithLevel": 50
             },
             {
-                "type": "diamond_axe"
+                "type": "diamond_axe",
+                "enchantWithLevel": 50
             },
             {
                 "type": "tnt"
@@ -2129,16 +2139,20 @@
                 "type": "golden_apple"
             },
             {
-                "type": "diamond_helmet"
+                "type": "diamond_helmet",
+                "enchantWithLevel": 30
             },
             {
-                "type": "diamond_chestplate"
+                "type": "diamond_chestplate",
+                "enchantWithLevel": 30
             },
             {
-                "type": "diamond_leggings"
+                "type": "diamond_leggings",
+                "enchantWithLevel": 30
             },
             {
-                "type": "diamond_boots"
+                "type": "diamond_boots",
+                "enchantWithLevel": 30
             },
             {
                 "type": "shulker_shell"
@@ -2197,6 +2211,7 @@
                         "slot": "mainhand"
                     }
                 ],
+                "enchantWithLevel": 50,
                 "name": "Refined Netherite Sword",
                 "lore": [
                     "  ",
@@ -2489,25 +2504,31 @@
                 "type": "experience_bottle"
             },
             {
-                "type": "iron_helmet"
+                "type": "iron_helmet",
+                "enchantWithLevel": 22
             },
             {
-                "type": "iron_chestplate"
+                "type": "iron_chestplate",
+                "enchantWithLevel": 22
             },
             {
-                "type": "iron_leggings"
+                "type": "iron_leggings",
+                "enchantWithLevel": 22
             },
             {
-                "type": "iron_boots"
+                "type": "iron_boots",
+                "enchantWithLevel": 22
             },
             {
                 "type": "diamond"
             },
             {
-                "type": "iron_axe"
+                "type": "iron_axe",
+                "enchantWithLevel": 22
             },
             {
-                "type": "iron_pickaxe"
+                "type": "iron_pickaxe",
+                "enchantWithLevel": 50
             }
         ]
     },
@@ -2690,7 +2711,8 @@
                         "min": 0,
                         "max": 20
                     }
-                ]
+                ],
+                "enchantWithLevel": 50
             },
             {
                 "type": "golden_leggings",
@@ -2700,7 +2722,8 @@
                         "min": 0,
                         "max": 20
                     }
-                ]
+                ],
+                "enchantWithLevel": 50
             },
             {
                 "type": "golden_chestplate",
@@ -2710,7 +2733,8 @@
                         "min": 0,
                         "max": 20
                     }
-                ]
+                ],
+                "enchantWithLevel": 50
             },
             {
                 "type": "totem_of_undying",
@@ -2743,7 +2767,8 @@
                         "min": 0,
                         "max": 20
                     }
-                ]
+                ],
+                "enchantWithLevel": 50
             },
             {
                 "type": "iron_ingot"
@@ -2896,7 +2921,8 @@
                         "min": 0,
                         "max": 20
                     }
-                ]
+                ],
+                "enchantWithLevel": 50
             },
             {
                 "type": "golden_leggings",
@@ -2906,7 +2932,8 @@
                         "min": 0,
                         "max": 20
                     }
-                ]
+                ],
+                "enchantWithLevel": 50
             },
             {
                 "type": "golden_chestplate",
@@ -2916,7 +2943,8 @@
                         "min": 0,
                         "max": 20
                     }
-                ]
+                ],
+                "enchantWithLevel": 50
             },
             {
                 "type": "totem_of_undying",
@@ -2949,7 +2977,8 @@
                         "min": 0,
                         "max": 20
                     }
-                ]
+                ],
+                "enchantWithLevel": 50
             }
         ],
         "rare": [
@@ -3021,16 +3050,20 @@
                 "type": "experience_bottle"
             },
             {
-                "type": "iron_chestplate"
+                "type": "iron_chestplate",
+                "enchantWithLevel": 16
             },
             {
-                "type": "iron_boots"
+                "type": "iron_boots",
+                "enchantWithLevel": 16
             },
             {
-                "type": "iron_sword"
+                "type": "iron_sword",
+                "enchantWithLevel": 16
             },
             {
-                "type": "iron_shovel"
+                "type": "iron_shovel",
+                "enchantWithLevel": 16
             },
             {
                 "type": "deepslate"
@@ -3090,16 +3123,20 @@
                 }
             },
             {
-                "type": "diamond_chestplate"
+                "type": "diamond_chestplate",
+                "enchantWithLevel": 30
             },
             {
-                "type": "diamond_boots"
+                "type": "diamond_boots",
+                "enchantWithLevel": 30
             },
             {
-                "type": "diamond_sword"
+                "type": "diamond_sword",
+                "enchantWithLevel": 30
             },
             {
-                "type": "diamond_shovel"
+                "type": "diamond_shovel",
+                "enchantWithLevel": 30
             },
             {
                 "type": "nautilus_shell"
@@ -3298,16 +3335,20 @@
                 "type": "experience_bottle"
             },
             {
-                "type": "iron_chestplate"
+                "type": "iron_chestplate",
+                "enchantWithLevel": 30
             },
             {
-                "type": "iron_boots"
+                "type": "iron_boots",
+                "enchantWithLevel": 30
             },
             {
-                "type": "iron_sword"
+                "type": "iron_sword",
+                "enchantWithLevel": 16
             },
             {
-                "type": "iron_shovel"
+                "type": "iron_shovel",
+                "enchantWithLevel": 16
             },
             {
                 "type": "lightning_rod"
@@ -3805,6 +3846,7 @@
                         "slot": "mainhand"
                     }
                 ],
+                "enchantWithLevel": 50,
                 "name": "Refined Iron Axe",
                 "lore": [
                     "  ",
@@ -3841,6 +3883,7 @@
                         "slot": "mainhand"
                     }
                 ],
+                "enchantWithLevel": 50,
                 "name": "Refined Iron Shovel",
                 "lore": [
                     "  ",
@@ -3863,6 +3906,7 @@
                         "slot": "mainhand"
                     }
                 ],
+                "enchantWithLevel": 50,
                 "name": "Refined Iron Hoe",
                 "lore": [
                     "  ",
@@ -3872,7 +3916,8 @@
                 ]
             },
             {
-                "type": "book"
+                "type": "book",
+                "enchantWithLevel": 50
             }
         ],
         "legendary": [
@@ -4029,6 +4074,7 @@
                         "max": 3
                     }
                 ],
+                "enchantWithLevel": 50,
                 "name": "Refined Diamond Axe",
                 "lore": [
                     "  ",
@@ -4069,6 +4115,7 @@
                         "slot": "mainhand"
                     }
                 ],
+                "enchantWithLevel": 50,
                 "name": "Refined Diamond Shovel",
                 "lore": [
                     "  ",
@@ -4095,6 +4142,7 @@
                         "slot": "mainhand"
                     }
                 ],
+                "enchantWithLevel": 50,
                 "name": "Refined Diamond Hoe",
                 "lore": [
                     "  ",
@@ -4104,7 +4152,8 @@
                 ]
             },
             {
-                "type": "book"
+                "type": "book",
+                "enchantWithLevel": 50
             }
         ],
         "rare": [
@@ -4208,7 +4257,8 @@
                 "type": "experience_bottle"
             },
             {
-                "type": "book"
+                "type": "book",
+                "enchantWithLevel": 30
             }
         ]
     },
@@ -4743,6 +4793,7 @@
                         "max": 1
                     }
                 ],
+                "enchantWithLevel": 50,
                 "name": "Forged Netherite Axe",
                 "lore": [
                     "  ",
@@ -5686,16 +5737,20 @@
                 "type": "experience_bottle"
             },
             {
-                "type": "iron_helmet"
+                "type": "iron_helmet",
+                "enchantWithLevel": 16
             },
             {
-                "type": "iron_leggings"
+                "type": "iron_leggings",
+                "enchantWithLevel": 16
             },
             {
-                "type": "iron_axe"
+                "type": "iron_axe",
+                "enchantWithLevel": 16
             },
             {
-                "type": "iron_pickaxe"
+                "type": "iron_pickaxe",
+                "enchantWithLevel": 16
             },
             {
                 "type": "budding_amethyst"
@@ -7091,6 +7146,7 @@
                         "max": 5
                     }
                 ],
+                "enchantWithLevel": 50,
                 "lore": [
                     "  ",
                     "When in Main Hand:",
@@ -7141,16 +7197,20 @@
                 "type": "experience_bottle"
             },
             {
-                "type": "leather_helmet"
+                "type": "leather_helmet",
+                "enchantWithLevel": 30
             },
             {
-                "type": "leather_leggings"
+                "type": "leather_leggings",
+                "enchantWithLevel": 30
             },
             {
-                "type": "stone_axe"
+                "type": "stone_axe",
+                "enchantWithLevel": 30
             },
             {
-                "type": "stone_pickaxe"
+                "type": "stone_pickaxe",
+                "enchantWithLevel": 30
             },
             {
                 "type": "prismarine_shard"
@@ -7253,13 +7313,15 @@
                 "type": "tropical_fish"
             },
             {
-                "type": "fishing_rod"
+                "type": "fishing_rod",
+                "enchantWithLevel": 30
             },
             {
                 "type": "turtle_helmet",
                 "nbt": {
                     "armor": "turt"
-                }
+                },
+                "enchantWithLevel": 30
             },
             {
                 "type": "netherite_ingot"
@@ -7294,7 +7356,8 @@
                 "type": "experience_bottle"
             },
             {
-                "type": "stone_pickaxe"
+                "type": "stone_pickaxe",
+                "enchantWithLevel": 12
             },
             {
                 "type": "goat_horn",
@@ -7587,7 +7650,8 @@
                 "type": "gold_ingot"
             },
             {
-                "type": "iron_pickaxe"
+                "type": "iron_pickaxe",
+                "enchantWithLevel": 20
             },
             {
                 "type": "acacia_sapling"
@@ -8309,7 +8373,8 @@
                 "type": "experience_bottle"
             },
             {
-                "type": "book"
+                "type": "book",
+                "enchantWithLevel": 15
             },
             {
                 "type": "slime_block"
@@ -8586,7 +8651,8 @@
                 "type": "experience_bottle"
             },
             {
-                "type": "book"
+                "type": "book",
+                "enchantWithLevel": 30
             },
             {
                 "type": "leather_boots",

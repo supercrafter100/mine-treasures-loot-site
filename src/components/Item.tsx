@@ -14,7 +14,7 @@ const Item = ({ item }: { item: MT_ITEM }) => {
     const id = (Math.random() + 1).toString(36).substring(2);
 
 
-    const hasModal = item.attributes || item.enchantments || item.nbt;
+    const hasModal = item.attributes || item.enchantments || item.nbt || item.enchantWithLevel || item.unbreakable;
 
     return (
         <div>
