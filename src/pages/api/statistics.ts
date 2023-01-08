@@ -10,7 +10,7 @@ export default async function handler(
         return;
     }
 
-    let results = await pool.query('SELECT * FROM (SELECT downloads, views, date, id FROM stats ORDER BY id DESC LIMIT 30) as stats ORDER BY id ASC').then((res) => res[0]) as Array<any>;
+    let results = await pool.query('SELECT * FROM (SELECT downloads, mrdownloads, views, date, id FROM stats ORDER BY id DESC LIMIT 30) as stats ORDER BY id ASC').then((res) => res[0]) as Array<any>;
     for (const result of results) {
         const d = new Date(result["date"]);
         result["date"] = d.getDate() + "/" + (d.getMonth() + 1) + "/" + d.getFullYear()
