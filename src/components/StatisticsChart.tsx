@@ -21,9 +21,9 @@ export default class extends PureComponent<{ data }> {
                     <YAxis allowDecimals={false} />
                     <Tooltip />
 
-                    <Line type="monotone" dataKey="views" stroke="#ef4444" />
-                    <Line type="monotone" dataKey="downloads" stroke="#3b82f6" />
-                    <Line type="monotone" dataKey="mrdownloads" stroke="#1BD96A" />
+                    <Line type="monotone" dataKey="views" name="Planetminecraft views" stroke="#ef4444" />
+                    <Line type="monotone" dataKey="downloads" name="Planetminecraft downloads" stroke="#3b82f6" />
+                    <Line type="monotone" dataKey="mrdownloads" name="Modrinth downloads" stroke="#1BD96A" />
                 </LineChart>
             </ResponsiveContainer>
         )
