@@ -18,6 +18,22 @@
 @tailwind components;
 @tailwind utilities;
 
+#landing1 {
+    background-image: url('/images/landing-bg.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#landing2 {
+    background-image: url('/images/landing-bg-2.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .ReactCollapse--collapse {
     transition: height 500ms;
