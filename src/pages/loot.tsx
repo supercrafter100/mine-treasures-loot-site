@@ -168,7 +168,7 @@ const IndexPage = () => {
               <Image src={"/items/diamond.png"} width={48} height={48} alt={"Diamond"} className="inline-block"></Image>
               <p className="font-mono text-3xl md:inline-block md:ml-5 align-middle">Rarities</p>
             </header>
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-2 mt-5 max-h-96 scrollbar-thumb-gray-400 scrollbar-thumb-rounded-lg scrollbar-thin">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-2 mt-5 max-h-96 scrollbar-thumb-gray-400 scrollbar-thumb-rounded-lg scrollbar-thin overflow-x-hidden">
               {Object.keys(rarityData).map((ore, idx) => <ChanceSection key={idx} ore={ore} chance={rarityData[ore]} rarityValues={{ common: commonChance, rare: rareChance, epic: epicChance, legendary: legendaryChance }} />)}
             </div>
           </Section>
