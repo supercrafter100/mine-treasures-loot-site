@@ -19,6 +19,7 @@ const home = () => {
             </section>
             <section id="landing2" className="h-[150vh] md:h-[100vh] xl:h-[50vh] px-20 py-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-20">
                 <div className="w-full h-full bg-gray-700 opacity-90">
+
                 </div>
                 <div className="w-full h-full bg-gray-700 opacity-90">
 
