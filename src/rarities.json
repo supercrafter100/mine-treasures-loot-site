@@ -7,20 +7,20 @@
     },
     "diorite": {
         "common": 15,
-        "rare": 9,
-        "epic": 9,
+        "rare": 11,
+        "epic": 11,
         "legendary": 11
     },
     "andesite": {
         "common": 9,
-        "rare": 15,
-        "epic": 9,
+        "rare": 11,
+        "epic": 11,
         "legendary": 11
     },
     "granite": {
         "common": 9,
-        "rare": 9,
-        "epic": 15,
+        "rare": 11,
+        "epic": 11,
         "legendary": 11
     },
     "iron_ore": {

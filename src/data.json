@@ -167,7 +167,11 @@
                             }
                         ]
                     }
-                }
+                },
+                "lore": [
+                    "A deadly firework rocket capable of ",
+                    "eliminating an Iron Golem in 5 hits. "
+                ]
             },
             {
                 "type": "golden_apple"
@@ -182,7 +186,11 @@
                     "BlockStateTag": {
                         "unstable": "true"
                     }
-                }
+                },
+                "lore": [
+                    "Be careful when placing as it ",
+                    "explodes upon being touched. "
+                ]
             }
         ],
         "legendary": [
@@ -333,7 +341,11 @@
                         }
                     ],
                     "CustomPotionColor": 0
-                }
+                },
+                "lore": [
+                    "Does a ton of damage and blinds ",
+                    "the opponents on a direct hit. "
+                ]
             },
             {
                 "type": "firework_rocket",
@@ -544,7 +556,11 @@
                             }
                         ]
                     }
-                }
+                },
+                "lore": [
+                    "A deadly firework rocket capable ",
+                    "of killing an Iron Golem in 2 hits. "
+                ]
             },
             {
                 "type": "orange_shulker_box"
@@ -582,11 +598,6 @@
                     }
                 ],
                 "enchantments": [
-                    {
-                        "type": "sharpness",
-                        "min": 0,
-                        "max": 5
-                    },
                     {
                         "type": "unbreaking",
                         "min": 0,
@@ -644,7 +655,11 @@
                         }
                     ],
                     "CustomPotionColor": 14706980
-                }
+                },
+                "lore": [
+                    "Applies Instant Damage I ",
+                    "and Wither II for 3 seconds. "
+                ]
             },
             {
                 "type": "gold_block"
@@ -693,7 +708,11 @@
             },
             {
                 "type": "chest",
-                "name": "Mineshaft Loot Chest"
+                "name": "Mineshaft Loot Chest",
+                "lore": [
+                    "Holds the Mineshaft ",
+                    "loot table. "
+                ]
             }
         ]
     },
@@ -811,9 +830,9 @@
                 "type": "goat_horn",
                 "nbt": {
                     "instrument": "minecraft:call_goat_horn",
-                    "weapon": "ruined"
+                    "weapon": "g_ruined"
                 },
-                "name": "Ruined Portal Horn",
+                "name": "Giant Ruined Portal Horn",
                 "lore": [
                     "  ",
                     "Calls upon the great builder to instantly ",
@@ -1225,7 +1244,11 @@
                         "Invisible": "1b",
                         "Fixed": "0b"
                     }
-                }
+                },
+                "lore": [
+                    "Item Frame is not  ",
+                    "visible when placed. "
+                ]
             }
         ],
         "epic": [
@@ -1399,7 +1422,11 @@
                         "Invisible": "1b",
                         "Fixed": "0b"
                     }
-                }
+                },
+                "lore": [
+                    "Item Frame is not ",
+                    "visible when used. "
+                ]
             }
         ]
     },
@@ -1526,7 +1553,11 @@
                         "can_summon": "true"
                     }
                 },
-                "name": "Warden Shrieker"
+                "name": "Warden Shrieker",
+                "lore": [
+                    "A Shrieker that can  ",
+                    "spawn the warden. "
+                ]
             },
             {
                 "type": "flint_and_steel",
@@ -1672,7 +1703,11 @@
                         "can_summon": "true"
                     }
                 },
-                "name": "Warden Shrieker"
+                "name": "Warden Shrieker",
+                "lore": [
+                    "A Shrieker that can  ",
+                    "spawn the warden. "
+                ]
             },
             {
                 "type": "flint_and_steel",
@@ -1693,7 +1728,6 @@
                 ],
                 "name": "Soul Flint and Steel",
                 "lore": [
-                    "",
                     "Ability:",
                     "Right Click on sculk-related blocks to",
                     "clear a large area of them in an instant."
@@ -1947,7 +1981,11 @@
                         "can_summon": "true"
                     }
                 },
-                "name": "Warden Shrieker"
+                "name": "Warden Shrieker",
+                "lore": [
+                    "A Shrieker that can  ",
+                    "spawn the warden. "
+                ]
             },
             {
                 "type": "flint_and_steel",
@@ -1956,7 +1994,6 @@
                 },
                 "name": "Soul Flint and Steel",
                 "lore": [
-                    "",
                     "Ability:",
                     "Right Click on sculk-related blocks to",
                     "clear a large area of them in an instant."
@@ -2697,10 +2734,6 @@
                 "type": "enchanted_golden_apple"
             },
             {
-                "type": "chest",
-                "name": "Epic Desert Treasure Loot"
-            },
-            {
                 "type": "golden_carrot"
             },
             {
@@ -2740,6 +2773,7 @@
                 "type": "totem_of_undying",
                 "nbt": {
                     "weapon": "totemassa",
+                    "mt": "weapon",
                     "Enchantments": [
                         {}
                     ]
@@ -2893,7 +2927,11 @@
             },
             {
                 "type": "chest",
-                "name": "Desert Temple Loot"
+                "name": "Desert Temple Loot",
+                "lore": [
+                    "Contains the Desert ",
+                    "Temple loot table. "
+                ]
             },
             {
                 "type": "tinted_glass"
@@ -2950,6 +2988,7 @@
                 "type": "totem_of_undying",
                 "nbt": {
                     "weapon": "totemassa",
+                    "mt": "weapon",
                     "Enchantments": [
                         {}
                     ]
@@ -3156,8 +3195,8 @@
                     " ",
                     "Ability:",
                     "Mining dripstone blocks increases ",
-                    "hit speed by 1% for every 10 000",
-                    "blocks mined. Caps at 250 000."
+                    "hit speed by 1% for every 2000",
+                    "blocks mined. Caps at 50 000."
                 ],
                 "unbreakable": true,
                 "nbt": {
@@ -3167,8 +3206,8 @@
                             "{\"text\":\" \"}",
                             "{\"text\":\"Ability:\",\"color\":\"green\",\"italic\":false}",
                             "{\"text\":\"Mining dripstone blocks increases \",\"color\":\"gray\",\"italic\":false}",
-                            "{\"text\":\"hit speed by 1% for every 10 000\",\"color\":\"gray\",\"italic\":false}",
-                            "{\"text\":\"blocks mined. Caps at 250 000.\",\"color\":\"gray\",\"italic\":false}"
+                            "{\"text\":\"hit speed by 1% for every 2000\",\"color\":\"gray\",\"italic\":false}",
+                            "{\"text\":\"blocks mined. Caps at 50 000.\",\"color\":\"gray\",\"italic\":false}"
                         ],
                         "color": 8016693
                     },
@@ -3453,7 +3492,11 @@
                         "Flight": "126b"
                     },
                     "item": "uflight"
-                }
+                },
+                "lore": [
+                    "The greatest firework rocket for  ",
+                    "traveling, lasts for 1900 blocks. "
+                ]
             },
             {
                 "type": "netherite_ingot"
@@ -3475,7 +3518,7 @@
                 "type": "shulker_box",
                 "nbt": {
                     "BlockEntityTag": {
-                        "LootTable": "minecraft:chests/end_treasure/shulker_shells"
+                        "LootTable": "mt:chests/end_treasure/shulker_shells"
                     }
                 }
             },
@@ -3628,7 +3671,11 @@
                         "Flight": "5b"
                     },
                     "item": "flight"
-                }
+                },
+                "lore": [
+                    "A firework rocket used for  ",
+                    "traveling great distances. "
+                ]
             }
         ],
         "rare": [
@@ -3696,7 +3743,11 @@
                         "Flight": "5b"
                     },
                     "item": "flight"
-                }
+                },
+                "lore": [
+                    "A firework rocket used for  ",
+                    "traveling great distances. "
+                ]
             }
         ]
     },
@@ -3807,7 +3858,11 @@
                     "Enchantments": [
                         {}
                     ]
-                }
+                },
+                "lore": [
+                    "This pie gives Instant Health I  and ",
+                    "Regeneration II for 10 seconds. "
+                ]
             },
             {
                 "type": "experience_bottle"
@@ -3853,6 +3908,35 @@
                     "When in Main Hand:",
                     " 10 Attack Damage",
                     " 1 Attack Speed"
+                ]
+            },
+            {
+                "type": "bee_nest",
+                "nbt": {
+                    "HideFlags": 127,
+                    "BlockEntityTag": {
+                        "Bees": [
+                            {
+                                "EntityData": {
+                                    "id": "minecraft:bee"
+                                }
+                            },
+                            {
+                                "EntityData": {
+                                    "id": "minecraft:bee"
+                                }
+                            },
+                            {
+                                "EntityData": {
+                                    "id": "minecraft:bee"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "name": "Three Bee Nest",
+                "lore": [
+                    "Contains three bees.  "
                 ]
             },
             {
@@ -4008,7 +4092,11 @@
                     "Enchantments": [
                         {}
                     ]
-                }
+                },
+                "lore": [
+                    "This pie gives Instant Health I and ",
+                    "Regeneration II for 10 seconds. "
+                ]
             },
             {
                 "type": "chorus_flower"
@@ -4033,7 +4121,11 @@
                     "Enchantments": [
                         {}
                     ]
-                }
+                },
+                "lore": [
+                    "This bottle gives 500 ",
+                    "experience when consumed. "
+                ]
             },
             {
                 "type": "diamond_axe",
@@ -4161,6 +4253,35 @@
                 "type": "blue_orchid"
             },
             {
+                "type": "bee_nest",
+                "nbt": {
+                    "HideFlags": 127,
+                    "BlockEntityTag": {
+                        "Bees": [
+                            {
+                                "EntityData": {
+                                    "id": "minecraft:bee"
+                                }
+                            },
+                            {
+                                "EntityData": {
+                                    "id": "minecraft:bee"
+                                }
+                            },
+                            {
+                                "EntityData": {
+                                    "id": "minecraft:bee"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "name": "Three Bee Nest",
+                "lore": [
+                    "Contains three bees.  "
+                ]
+            },
+            {
                 "type": "allium"
             },
             {
@@ -4198,7 +4319,11 @@
                     "Enchantments": [
                         {}
                     ]
-                }
+                },
+                "lore": [
+                    "This pie gives Instant Health I and ",
+                    "Regeneration II for 10 seconds. "
+                ]
             },
             {
                 "type": "hanging_roots"
@@ -4439,7 +4564,11 @@
                         }
                     ],
                     "CustomPotionColor": 3231405
-                }
+                },
+                "lore": [
+                    "A deadly arrow, applies Instant Damage II, ",
+                    "Blindness and Wither II for 5 seconds. "
+                ]
             },
             {
                 "type": "diamond_sword",
@@ -4602,7 +4731,11 @@
                         }
                     ],
                     "CustomPotionColor": 3071231
-                }
+                },
+                "lore": [
+                    "An arrow applying Slowness VII and ",
+                    "Mining Fatigue IV for 5 seconds in hit. "
+                ]
             }
         ],
         "epic": [
@@ -4655,7 +4788,11 @@
                         }
                     ],
                     "CustomPotionColor": 3231405
-                }
+                },
+                "lore": [
+                    "A deadly arrow, applies Instant Damage II, ",
+                    "Blindness and Wither II for 5 seconds. "
+                ]
             },
             {
                 "type": "dragon_breath"
@@ -4749,7 +4886,11 @@
                         }
                     ],
                     "CustomPotionColor": 3071231
-                }
+                },
+                "lore": [
+                    "Lingers with Blindess, Slowness VII  ",
+                    "and Mining Fatigue IV for 20 seconds. "
+                ]
             }
         ]
     },
@@ -5103,7 +5244,11 @@
                         }
                     ],
                     "CustomPotionColor": 4915005
-                }
+                },
+                "lore": [
+                    "A deadly arrow, applies Poison II, ",
+                    "Blindness and Slowness IV for 7 seconds. "
+                ]
             }
         ],
         "rare": [
@@ -5120,7 +5265,10 @@
                 "type": "emerald"
             },
             {
-                "type": "dispenser"
+                "type": "dispenser",
+                "lore": [
+                    "A dispenser full of arrows. "
+                ]
             },
             {
                 "type": "experience_bottle"
@@ -5247,7 +5395,11 @@
                         }
                     ],
                     "CustomPotionColor": 4915005
-                }
+                },
+                "lore": [
+                    "A deadly arrow, applies Poison II, ",
+                    "Blindness and Slowness IV for 7 seconds. "
+                ]
             },
             {
                 "type": "chest",
@@ -5356,7 +5508,10 @@
                         ]
                     }
                 },
-                "name": "Three Bee Nest"
+                "name": "Three Bee Nest",
+                "lore": [
+                    "Contains three bees.  "
+                ]
             },
             {
                 "type": "shears",
@@ -5407,7 +5562,11 @@
                         }
                     ],
                     "CustomPotionColor": 1441549
-                }
+                },
+                "lore": [
+                    "A deadly arrow, inflicts Poison III ",
+                    "and Weakness II for 7 seconds.  "
+                ]
             },
             {
                 "type": "tipped_arrow",
@@ -5432,7 +5591,11 @@
                         }
                     ],
                     "CustomPotionColor": 15775514
-                }
+                },
+                "lore": [
+                    "A spooky arrow, inflicts Hunger XXX ",
+                    "and Glowing for 5 seconds. "
+                ]
             },
             {
                 "type": "glow_item_frame",
@@ -5446,7 +5609,11 @@
                         "Fixed": "0b",
                         "block": "invis"
                     }
-                }
+                },
+                "lore": [
+                    "An invisible item frame ",
+                    "which makes the item glow. "
+                ]
             },
             {
                 "type": "chorus_plant"
@@ -5511,7 +5678,11 @@
                     "Enchantments": [
                         {}
                     ]
-                }
+                },
+                "lore": [
+                    "This bottle gives 500 ",
+                    "experience when consumed. "
+                ]
             },
             {
                 "type": "glow_ink_sac"
@@ -5528,7 +5699,11 @@
                         "Fixed": "0b",
                         "block": "invis"
                     }
-                }
+                },
+                "lore": [
+                    "An invisible item frame ",
+                    "which makes the item glow. "
+                ]
             },
             {
                 "type": "enchanted_golden_apple"
@@ -5556,7 +5731,11 @@
                         }
                     ],
                     "CustomPotionColor": 1441549
-                }
+                },
+                "lore": [
+                    "A spooky arrow, inflicts Hunger XXX ",
+                    "and Glowing for 5 seconds. "
+                ]
             },
             {
                 "type": "tipped_arrow",
@@ -5587,7 +5766,11 @@
                         }
                     ],
                     "CustomPotionColor": 5003570
-                }
+                },
+                "lore": [
+                    "This arrow inflicts Hunger CXX for 15 seconds, ",
+                    "Mining Fatigue II and Blindness for 8 seconds. "
+                ]
             },
             {
                 "type": "leather_leggings",
@@ -5703,7 +5886,11 @@
                         }
                     ],
                     "CustomPotionColor": 15775514
-                }
+                },
+                "lore": [
+                    "A spooky arrow, inflicts Hunger XXX ",
+                    "and Glowing for 5 seconds. "
+                ]
             },
             {
                 "type": "tall_grass"
@@ -6524,7 +6711,10 @@
                         "charges": "4"
                     }
                 },
-                "name": "Full Respawn Anchor"
+                "name": "Full Respawn Anchor",
+                "lore": [
+                    "Is already fully charged."
+                ]
             },
             {
                 "type": "glowstone"
@@ -6670,7 +6860,10 @@
                         "charges": "4"
                     }
                 },
-                "name": "Full Respawn Anchor"
+                "name": "Full Respawn Anchor",
+                "lore": [
+                    "Is already fully charged."
+                ]
             },
             {
                 "type": "netherite_ingot"
@@ -7599,7 +7792,6 @@
                     "display": {
                         "Name": "{\"text\":\"Horse Drugs\",\"color\":\"light_purple\",\"italic\":false}"
                     },
-                    "HideFlags": 127,
                     "CustomPotionEffects": [
                         {
                             "Id": "1b",
@@ -8273,7 +8465,10 @@
                         "Fuel": "64b",
                         "block": "old"
                     }
-                }
+                },
+                "lore": [
+                    "Contains ancient lingering potions. "
+                ]
             },
             {
                 "type": "potion",
@@ -8911,6 +9106,7 @@
                 "type": "totem_of_undying",
                 "nbt": {
                     "weapon": "totemdeath",
+                    "mt": "weapon",
                     "Enchantments": [
                         {}
                     ]
