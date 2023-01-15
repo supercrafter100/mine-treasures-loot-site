@@ -5,6 +5,7 @@ import { faTag, faBook, faXmark } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { attributeNames } from '../utils/attribute-names';
 import NBTBlock from './NBTBlock';
+import Tooltip from './Tooltip';
 
 const StatsModal = ({ item, setModal }: { item: MT_ITEM, setModal: Function }) => {
 
@@ -109,10 +110,13 @@ const UnbreakableEnchantment = () => {
 }
 
 const LevelEnchantment = ({ level }) => {
+    const id = (Math.random() + 1).toString(36).substring(2);
+
     return (
         <div className="text-center lg:text-left">
             <Image src="/items/enchanted_book.png" alt="enchanted_book" width={24} height={24} className="inline-block"></Image>
             <p className="text-lg md:text-xl inline-block align-middle pl-3"><b>Level {level} enchantment(s)</b></p>
+            <Tooltip name={id} content={`If you were to put this item in an enchantment table, it would get enchantments worth ${level} levels`} />
         </div>
     )
 }
