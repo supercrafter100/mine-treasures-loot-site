@@ -13,7 +13,7 @@ import Header from '../components/layout/Header';
 
 const index = () => {
 
-    const [statistics, loadedStatistics] = useRequest('/api/statistics');
+    const [statistics] = useRequest('/api/statistics');
     const whySectionRef = useRef();
 
     return (
@@ -28,10 +28,10 @@ const index = () => {
                 <meta property="og:image" content="/images/Mine_Treasure.png" />
             </Head>
             <div className="bg-white py-6 h-screen relative">
-                <div className="px-6 lg:px-24">
+                <div className="lg:px-24">
                     <Header />
                     <main className="flex justify-center content-center w-full h-[70%]">
-                        <div className="pt-10 xl:pt-3 grid xl:grid-cols-2 w-full border-t">
+                        <div className="pt-10 xl:pt-3 grid xl:grid-cols-2 w-full md:border-t">
                             <section className="flex justify-center items-center">
                                 <div className="pl-5">
                                     <h1 className="inline-block font-bold text-4xl">Make mining enjoyable again</h1>
@@ -46,7 +46,7 @@ const index = () => {
                     </main>
                 </div>
                 {/* Read more arrows in the center */}
-                <div className="absolute bottom-5 md:bottom-10 w-full">
+                <div className="absolute bottom-5 md:bottom-10 w-full hidden sm:inline-block">
                     <div className="flex w-full justify-center items-center flex-col cursor-pointer" onClick={() => scrollTo({ id: 'why', ref: whySectionRef, duration: 2000 })}>
                         <p>Read more</p>
                         <div className="box-border w-4 h-4 md:w-8 md:h-8 border border-black border-t-0 border-l-0 rotate-45"></div>
