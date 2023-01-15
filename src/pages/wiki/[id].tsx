@@ -35,7 +35,7 @@ const Wiki = ({ sidebarData }) => {
   return (
     <>
       <Head>
-        <title>Mine Treasure | Wiki</title>
+        <title>Mine Treasure | Wiki | {pageId}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       {markdownData === '{"message":"Not found"}' && <ErrorPage statusCode={404} />}
@@ -91,7 +91,6 @@ const WikiSidebarSection = ({ sidebarSectionData, activePage }) => {
 }
 
 export async function getServerSideProps({ params }) {
-
   return {
     props: {
       sidebarData: sidebar,
