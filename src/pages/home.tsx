@@ -18,17 +18,45 @@ const home = () => {
                 </div>
             </section>
             <section id="landing2" className="h-[150vh] md:h-[100vh] xl:h-[50vh] px-20 py-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-20">
-                <div className="w-full h-full bg-gray-700 opacity-90">
-
+                <div className="w-full h-full p-5 bg-gray-800">
+                    <div className="h-1/4 flex items-center justify-center w-full ">
+                        <h1 className="text-white text-4xl text-center font-bold">Features</h1>
+                    </div>
+                    <div className="h-3/4flex items-center justify-center">
+                        <p className="text-xl text-white text-center max-w-4xl mx-auto">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, consectetur voluptatum consequatur id blanditiis repudiandae ducimus, fuga debitis saepe sit architecto ipsam alias sunt sint voluptas autem. Tempore, atque a!
+                        </p>
+                    </div>
                 </div>
-                <div className="w-full h-full bg-gray-700 opacity-90">
-
+                <div className="w-full h-full p-5 bg-gray-800">
+                    <div className="h-1/4 flex items-center justify-center w-full ">
+                        <h1 className="text-white text-4xl text-center font-bold">Features</h1>
+                    </div>
+                    <div className="h-3/4flex items-center justify-center">
+                        <p className="text-xl text-white text-center max-w-4xl mx-auto">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, consectetur voluptatum consequatur id blanditiis repudiandae ducimus, fuga debitis saepe sit architecto ipsam alias sunt sint voluptas autem. Tempore, atque a!
+                        </p>
+                    </div>
                 </div>
-                <div className="w-full h-full bg-gray-700 opacity-90">
-
+                <div className="w-full h-full p-5 bg-gray-800">
+                    <div className="h-1/4 flex items-center justify-center w-full ">
+                        <h1 className="text-white text-4xl text-center font-bold">Features</h1>
+                    </div>
+                    <div className="h-3/4flex items-center justify-center">
+                        <p className="text-xl text-white text-center max-w-4xl mx-auto">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, consectetur voluptatum consequatur id blanditiis repudiandae ducimus, fuga debitis saepe sit architecto ipsam alias sunt sint voluptas autem. Tempore, atque a!
+                        </p>
+                    </div>
                 </div>
-                <div className="w-full h-full bg-gray-700 opacity-90">
-
+                <div className="w-full h-full p-5 bg-gray-800">
+                    <div className="h-1/4 flex items-center justify-center w-full ">
+                        <h1 className="text-white text-4xl text-center font-bold">Features</h1>
+                    </div>
+                    <div className="h-3/4flex items-center justify-center">
+                        <p className="text-xl text-white text-center max-w-4xl mx-auto">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, consectetur voluptatum consequatur id blanditiis repudiandae ducimus, fuga debitis saepe sit architecto ipsam alias sunt sint voluptas autem. Tempore, atque a!
+                        </p>
+                    </div>
                 </div>
             </section>
             <section id="text-1" className="h-72 bg-gray-800 flex items-center">
