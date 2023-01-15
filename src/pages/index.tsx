@@ -99,12 +99,10 @@ const index = () => {
                     <Review text="I love this pack so much. Mining is one of those grindy things in minecraft I used to hate so much but now it's got such an allure!" username={"ThatwitchyPlayr"} />
                 </div>
 
-                {loadedStatistics && !statistics.error &&
-                    <div className="pt-10 max-w-full xl:max-w-[80%] mx-auto">
-                        <h1 className="text-center text-3xl font-bold mb-5">Our daily statistics</h1>
-                        <StatisticsChart data={statistics} />
-                    </div>
-                }
+                <div className="pt-10 max-w-full xl:max-w-[80%] mx-auto">
+                    <h1 className="text-center text-3xl font-bold mb-5">Our daily statistics</h1>
+                    <StatisticsChart data={statistics ?? []} />
+                </div>
 
                 <h1 className="text-center text-3xl font-bold mt-5">Compatibility</h1>
                 <div className="overflow-x-auto">
