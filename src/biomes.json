@@ -91,5 +91,11 @@
         "snowy plains",
         "ice spikes",
         "frozen river"
+    ],
+    "end_treasure": [
+        "the end"
+    ],
+    "nether_treasure": [
+        "the nether"
     ]
 }
