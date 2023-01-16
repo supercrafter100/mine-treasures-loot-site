@@ -2,21 +2,71 @@
     "badlands_treasure": [
         "badlands",
         "eroded badlands",
-        "wooded badlands",
-        "terralith:snowy badlands",
-        "terralith:bryce canyon",
-        "terralith:painted mountains",
-        "terralith:warped mesa"
-    ],
-    "basalt_treasure": [
-        "basalt deltas"
+        "wooded badlands"
     ],
     "dark_forest_treasure": [
-        "dark forest",
-        "terralith:sakura grove"
+        "dark forest"
     ],
     "deep_dark_treasure": [
         "deep dark"
+    ],
+    "desert_treasure": [
+        "desert"
+    ],
+    "lush_caves_treasure": [
+        "lush caves"
+    ],
+    "jungle_treasure": [
+        "bamboo jungle",
+        "jungle",
+        "sparse jungle"
+    ],
+    "mountain_treasure": [
+        "meadow",
+        "frozen peaks",
+        "jagged peaks",
+        "stony peaks",
+        "snowy slopes"
+    ],
+    "mushroom_treasure": [
+        "mushroom fields"
+    ],
+    "ocean_treasure": [
+        "deep frozen ocean",
+        "deep cold ocean",
+        "deep ocean",
+        "deep lukewarm ocean",
+        "frozen ocean",
+        "ocean",
+        "cold ocean",
+        "lukewarm ocean",
+        "warm ocean"
+    ],
+    "savanna_treasure": [
+        "savanna",
+        "savanna plateau",
+        "windswept savanna"
+    ],
+    "soul_valley_treasure": [
+        "soul sand valley"
+    ],
+    "swamp_treasure": [
+        "swamp",
+        "mangrove swamp"
+    ],
+    "taiga_treasure": [
+        "taiga",
+        "snowy taiga",
+        "old growth pine taiga",
+        "old growth spruce taiga"
+    ],
+    "wind_treasure": [
+        "windswept hills",
+        "windswept forest",
+        "windswept gravelly hills"
+    ],
+    "basalt_treasure": [
+        "basalt deltas"
     ],
     "default_treasure": [
         "birch forest",
@@ -27,139 +77,24 @@
         "beach",
         "river"
     ],
-    "desert_treasure": [
-        "desert",
-        "terralith:desert oasis",
-        "terralith:sandstone valley",
-        "terralith:red oasis",
-        "terralith:desert canyon",
-        "terralith:lush desert",
-        "terralith:ancient sands",
-        "terralith:desert spires"
-    ],
     "dripstone_treasure": [
         "dripstone caves"
     ],
-    "end_treasure": [
-        "end midlands",
-        "end highlands",
-        "end barrens",
-        "small end islands",
-        "the end"
-    ],
     "flower_treasure": [
-        "meadow",
         "flower forest",
         "sunflower plains"
     ],
     "ice_treasure": [
         "snowy beach",
+        "grove",
         "snowy plains",
         "ice spikes",
-        "frozen river",
-        "terralith:frozen cliffs",
-        "terralith:glacial chasm",
-        "terralith:alpha islands winter",
-        "terralith:wintry forest",
-        "terralith:snowy badlands"
+        "frozen river"
     ],
-    "jungle_treasure": [
-        "sparse jungle",
-        "jungle",
-        "bamboo jungle",
-        "terralith:tropical jungle",
-        "terralith:amethyst canyon",
-        "terralith:amethyst rainforest",
-        "terralith:jungle mountains",
-        "terralith:rocky jungle"
-    ],
-    "lush_caves_treasure": [
-        "lush caves"
-    ],
-    "mountain_treasure": [
-        "jagged peaks",
-        "frozen peaks",
-        "stony peaks",
-        "grove",
-        "terralith:blooming plateau",
-        "terralith:stony spires",
-        "snowy slopes",
-        "terralith:volcanic peaks",
-        "terralith:volcanic crater",
-        "terralith:scarlet mountains",
-        "terralith:rocky mountains",
-        "terralith:caldera",
-        "terralith:emerald peaks",
-        "terralith:painted mountains",
-        "terralith:alpine grove"
-    ],
-    "mushroom_treasure": [
-        "mushroom fields"
+    "end_treasure": [
+        "the end"
     ],
     "nether_treasure": [
-        "soul sand valley",
-        "basalt deltas"
-    ],
-    "ocean_treasure": [
-        "deep lukewarm ocean",
-        "deep ocean",
-        "frozen ocean",
-        "deep frozen ocean",
-        "warm ocean",
-        "ocean",
-        "cold ocean",
-        "lukewarm ocean",
-        "deep cold ocean"
-    ],
-    "savanna_treasure": [
-        "windswept savanna",
-        "savanna plateau",
-        "savanna",
-        "terralith:arid highlands",
-        "terralith:fractured savanna",
-        "terralith:savanna slopes",
-        "terralith:savanna badlands",
-        "terralith:brushland",
-        "terralith:ashen savanna"
-    ],
-    "soul_valley_treasure": [
-        "soul sand valley"
-    ],
-    "swamp_treasure": [
-        "swamp",
-        "mangrove swamp",
-        "terralith:ice marsh",
-        "terralith:siberian taiga",
-        "terralith:orchid swamp"
-    ],
-    "taiga_treasure": [
-        "snowy taiga",
-        "old growth pine taiga",
-        "old growth spruce taiga",
-        "taiga",
-        "terralith:birch taiga",
-        "terralith:lush valley",
-        "terralith:shield",
-        "terralith:yellowstone",
-        "terralith:alphine highlands",
-        "terralith:forested highlands",
-        "terralith:caldera",
-        "terralith:cloud forest",
-        "terralith:siberian grove",
-        "terralith:siberian taiga",
-        "terralith:snowy maple forest",
-        "terralith:temperate highlands",
-        "terralith:snowy shield",
-        "terralith:wintry forest",
-        "terralith:wintry lowlands",
-        "terralith:yosemite cliffs",
-        "terralith:yosemite lowlands"
-    ],
-    "wind_treasure": [
-        "windswept gravelly hills",
-        "windswept hills",
-        "windswept forest",
-        "terralith:haze mountain",
-        "terralith:windswept spires"
+        "the nether"
     ]
 }

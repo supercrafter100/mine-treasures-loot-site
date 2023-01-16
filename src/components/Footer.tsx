@@ -7,7 +7,7 @@ const Footer = () => {
             <span className="text-sm text-gray-500 sm:text-center">© {new Date().getFullYear()} <a href="https://supercrafter100.com/" className="hover:underline">Supercrafter100</a>. All Rights Reserved.</span>
             <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500 sm:mt-0">
                 <li>
-                    <a href="https://www.planetminecraft.com/data-pack/mine-treasure/" className="mr-4 hover:underline md:mr-6">Datapack</a>
+                    <a href="https://modrinth.com/datapack/mine-treasure" className="mr-4 hover:underline md:mr-6">Datapack</a>
                 </li>
                 <li>
                     <a href="https://github.com/Frozeh/mine-treasure" className="mr-4 md:mr-6">Pack github</a>
