@@ -47,10 +47,10 @@ const index = () => {
                 </div>
                 {/* Read more arrows in the center */}
                 <div className="absolute bottom-5 md:bottom-10 w-full hidden sm:inline-block">
-                    <div className="flex w-full justify-center items-center flex-col cursor-pointer" onClick={() => scrollTo({ id: 'why', ref: whySectionRef, duration: 2000 })}>
+                    <a className="flex w-full justify-center items-center flex-col cursor-pointer" href="#why">
                         <p>Read more</p>
                         <div className="box-border w-4 h-4 md:w-8 md:h-8 border border-black border-t-0 border-l-0 rotate-45"></div>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div className="bg-gray-100 px-6 lg:px-24 py-12">
