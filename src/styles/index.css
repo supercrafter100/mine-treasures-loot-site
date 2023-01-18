@@ -18,6 +18,22 @@
 @tailwind components;
 @tailwind utilities;
 
+#landing1 {
+    background-image: url('/images/landing-bg.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#landing2 {
+    background-image: url('/images/landing-bg-2.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .ReactCollapse--collapse {
     transition: height 500ms;
@@ -96,6 +112,10 @@ p.hint.error:before {
     animation: rotation 1s linear infinite;
 }
 
+.animate-scroll {
+    animation: scroll 100s linear infinite;
+}
+
 @keyframes rotation {
     0% {
         transform: rotate(0deg);
@@ -103,5 +123,16 @@ p.hint.error:before {
 
     100% {
         transform: rotate(360deg);
+    }
+}
+
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100%));
     }
 }
